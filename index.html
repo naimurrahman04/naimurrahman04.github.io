@@ -7,23 +7,28 @@
 <meta name="description" content="Naimur Rahman — Cybersecurity Engineer specializing in offensive security, red teaming, DFIR, and cloud security. 5+ years experience across AWS, Azure, and Alibaba Cloud.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<canvas id="particles"></canvas>
 <div class="grid-bg"></div>
-<div class="scanline"></div>
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
 
-<nav class="nav">
+<nav class="nav" id="nav">
   <div class="nav-inner">
-    <a href="#top" class="logo"><span class="prompt">$</span> naimur<span class="accent">.sh</span></a>
-    <div class="nav-links">
+    <a href="#top" class="logo"><span class="prompt">&gt;_</span> naimur<span class="accent">.sh</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Arsenal</a>
       <a href="#projects">Projects</a>
       <a href="#certs">Certs</a>
-      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Contact</a>
     </div>
   </div>
 </nav>
@@ -38,21 +43,22 @@
     <p class="hero-sub">Offensive Security · Red Teaming · DFIR · Cloud Security</p>
     <p class="hero-desc">I break systems to make them stronger. 5+ years spanning penetration testing, adversary simulation, digital forensics, and cloud security governance across AWS, Azure, and Alibaba Cloud.</p>
     <div class="hero-cta">
-      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#projects" class="btn btn-primary">View Projects <span class="arr">→</span></a>
       <a href="#contact" class="btn btn-ghost">Get in Touch</a>
     </div>
     <div class="hero-stats">
-      <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Years Experience</span></div>
-      <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Financial Institutions</span></div>
-      <div class="stat"><span class="stat-num">20+</span><span class="stat-label">DFIR Investigations</span></div>
-      <div class="stat"><span class="stat-num">25+</span><span class="stat-label">SIEM Detection Rules</span></div>
+      <div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-suffix">+</span><span class="stat-label">Years Experience</span></div>
+      <div class="stat"><span class="stat-num" data-count="8">0</span><span class="stat-suffix">+</span><span class="stat-label">Financial Institutions</span></div>
+      <div class="stat"><span class="stat-num" data-count="20">0</span><span class="stat-suffix">+</span><span class="stat-label">DFIR Investigations</span></div>
+      <div class="stat"><span class="stat-num" data-count="25">0</span><span class="stat-suffix">+</span><span class="stat-label">SIEM Detection Rules</span></div>
     </div>
   </div>
+  <a href="#about" class="scroll-hint"><span class="mouse"><span class="wheel"></span></span></a>
 </header>
 
 <section id="about" class="section">
   <div class="section-inner">
-    <h2 class="section-title"><span class="hash">#</span> about</h2>
+    <h2 class="section-title"><span class="hash">01.</span> about</h2>
     <div class="about-grid">
       <div class="terminal">
         <div class="terminal-bar"><span class="t-dot r"></span><span class="t-dot y"></span><span class="t-dot g"></span><span class="t-title">naimur@offsec:~</span></div>
@@ -86,7 +92,7 @@
 
 <section id="experience" class="section">
   <div class="section-inner">
-    <h2 class="section-title"><span class="hash">#</span> experience</h2>
+    <h2 class="section-title"><span class="hash">02.</span> experience</h2>
     <div class="timeline">
       <div class="tl-item">
         <div class="tl-marker"></div>
@@ -143,30 +149,36 @@
 
 <section id="skills" class="section">
   <div class="section-inner">
-    <h2 class="section-title"><span class="hash">#</span> arsenal</h2>
+    <h2 class="section-title"><span class="hash">03.</span> arsenal</h2>
     <div class="skills-grid">
       <div class="skill-card">
-        <h3>🛡️ Offensive Security</h3>
+        <div class="skill-icon">🛡️</div>
+        <h3>Offensive Security</h3>
         <p>Burp Suite Pro, Metasploit, Nmap, BloodHound, Sliver, Covenant, Cobalt Strike, Impacket, CrackMapExec, NetExec, Hashcat, John the Ripper, Hydra, SQLmap, Gobuster, FFuF, Nuclei, Semgrep, OWASP ZAP, Wireshark, Nessus, OpenVAS, Nikto, WPScan, Responder, Mimikatz, Evil-WinRM, Chisel, Ligolo-ng</p>
       </div>
       <div class="skill-card">
-        <h3>☁️ Cloud Security &amp; Auditing</h3>
+        <div class="skill-icon">☁️</div>
+        <h3>Cloud Security &amp; Auditing</h3>
         <p>Pacu, ScoutSuite, Prowler, CloudSploit, CloudMapper, AWS (EC2, S3, IAM, GuardDuty, CloudTrail, Config, Security Hub), Azure (Sentinel, Defender, MCAS, Key Vault), Alibaba Cloud Security Center</p>
       </div>
       <div class="skill-card">
-        <h3>🔍 Defensive Security &amp; DFIR</h3>
+        <div class="skill-icon">🔍</div>
+        <h3>Defensive Security &amp; DFIR</h3>
         <p>Microsoft Sentinel, Splunk, Wazuh, CrowdStrike Falcon, Microsoft Defender XDR, Trellix, ELK Stack, OSQuery, Sysmon, Velociraptor, KAPE, Autopsy, Volatility, Any.Run, Joe Sandbox, Cuckoo Sandbox, VirusTotal, FireEye HX, YARA, Sigma</p>
       </div>
       <div class="skill-card">
-        <h3>🌐 Network Security &amp; SASE</h3>
+        <div class="skill-icon">🌐</div>
+        <h3>Network Security &amp; SASE</h3>
         <p>Sangfor SASE, Sangfor CC, pfSense, iptables, WAF (ModSecurity, Cloudflare), VPN (OpenVPN, WireGuard), IDS/IPS (Snort, Suricata), Zeek (Bro)</p>
       </div>
       <div class="skill-card">
-        <h3>💻 Languages &amp; Scripting</h3>
+        <div class="skill-icon">💻</div>
+        <h3>Languages &amp; Scripting</h3>
         <p>Python, Bash, PowerShell, PHP, Java, C, HTML/CSS, JavaScript, Dart, YAML, Kusto Query Language (KQL)</p>
       </div>
       <div class="skill-card">
-        <h3>⚙️ DevSecOps &amp; OSINT</h3>
+        <div class="skill-icon">⚙️</div>
+        <h3>DevSecOps &amp; OSINT</h3>
         <p>Docker, Git, CI/CD Security (GitHub Actions, Jenkins), Jira, Fasoo DRM, API Security Testing, Dark Web Intelligence (Tor, Ahmia, OnionScan), OSINT (theHarvester, SpiderFoot, Maltego, Shodan, Recon-ng)</p>
       </div>
     </div>
@@ -175,44 +187,52 @@
 
 <section id="projects" class="section">
   <div class="section-inner">
-    <h2 class="section-title"><span class="hash">#</span> projects</h2>
+    <h2 class="section-title"><span class="hash">04.</span> projects</h2>
     <div class="projects-grid">
       <a class="project-card" href="https://github.com/naimurrahman04" target="_blank" rel="noopener">
+        <div class="project-top"><span class="project-folder">📁</span><span class="project-link">↗</span></div>
         <h3>DarkWebIntel</h3>
         <p>Dark web crawler &amp; threat intelligence platform with automated IOC extraction.</p>
         <span class="project-stack">Python · Scrapy · Tor · Elasticsearch</span>
       </a>
       <a class="project-card" href="https://github.com/naimurrahman04" target="_blank" rel="noopener">
+        <div class="project-top"><span class="project-folder">📁</span><span class="project-link">↗</span></div>
         <h3>VA-Master-Tool</h3>
         <p>Automated vulnerability assessment framework integrating Nmap, Nuclei, and custom checks with HTML/PDF reporting.</p>
         <span class="project-stack">Python · Django</span>
       </a>
       <a class="project-card" href="https://github.com/naimurrahman04" target="_blank" rel="noopener">
+        <div class="project-top"><span class="project-folder">📁</span><span class="project-link">↗</span></div>
         <h3>Mac-Forensic</h3>
         <p>macOS forensic evidence collection toolkit — unified logs, plist parsing, artifact timeline generation.</p>
         <span class="project-stack">Python</span>
       </a>
       <a class="project-card" href="https://github.com/naimurrahman04" target="_blank" rel="noopener">
+        <div class="project-top"><span class="project-folder">📁</span><span class="project-link">↗</span></div>
         <h3>CI/CD Stealth Fuzzer</h3>
         <p>Security fuzzing tool &amp; custom Nuclei templates for detecting CI/CD pipeline misconfigurations.</p>
         <span class="project-stack">Python · YAML · GitHub Actions</span>
       </a>
       <a class="project-card" href="https://github.com/naimurrahman04" target="_blank" rel="noopener">
+        <div class="project-top"><span class="project-folder">📁</span><span class="project-link">↗</span></div>
         <h3>S3 Operations Tool</h3>
         <p>Automated AWS S3 bucket auditing, permission enumeration, and misconfiguration detection.</p>
         <span class="project-stack">Python · Boto3</span>
       </a>
       <a class="project-card" href="https://github.com/naimurrahman04" target="_blank" rel="noopener">
+        <div class="project-top"><span class="project-folder">📁</span><span class="project-link">↗</span></div>
         <h3>bdctf</h3>
         <p>Capture-The-Flag competition platform with dynamic challenge deployment and real-time scoring.</p>
         <span class="project-stack">Dart · Docker</span>
       </a>
       <a class="project-card" href="https://github.com/naimurrahman04" target="_blank" rel="noopener">
+        <div class="project-top"><span class="project-folder">📁</span><span class="project-link">↗</span></div>
         <h3>Vulnerability Management System</h3>
         <p>Centralized vulnerability tracking, CVSS scoring, and remediation workflow management.</p>
         <span class="project-stack">PHP · JavaScript · MySQL</span>
       </a>
       <a class="project-card" href="https://github.com/naimurrahman04" target="_blank" rel="noopener">
+        <div class="project-top"><span class="project-folder">📁</span><span class="project-link">↗</span></div>
         <h3>NetScan &amp; snmaps</h3>
         <p>Network discovery and Nmap automation suite with service fingerprinting and report generation.</p>
         <span class="project-stack">Shell · Python</span>
@@ -223,21 +243,25 @@
 
 <section id="certs" class="section">
   <div class="section-inner">
-    <h2 class="section-title"><span class="hash">#</span> certifications &amp; education</h2>
+    <h2 class="section-title"><span class="hash">05.</span> certifications &amp; education</h2>
     <div class="certs-grid">
       <div class="cert-card">
+        <div class="cert-icon">📜</div>
         <h3>ISO/IEC 27001 Lead Auditor</h3>
         <p>Sustainable Management System Inc. — Feb 2025</p>
       </div>
       <div class="cert-card">
+        <div class="cert-icon">🎯</div>
         <h3>Certified Ethical Hacker (CEH)</h3>
         <p>EC-Council — Apr 2021</p>
       </div>
       <div class="cert-card">
+        <div class="cert-icon">🛡️</div>
         <h3>Certified Vulnerability Assessor (CVA)</h3>
         <p>Mile2 — Apr 2021</p>
       </div>
       <div class="cert-card edu">
+        <div class="cert-icon">🎓</div>
         <h3>B.Sc. Software Engineering</h3>
         <p>Daffodil International University — 2019–2023 · CGPA 3.59/4.00</p>
       </div>
@@ -257,23 +281,24 @@
 
 <section id="contact" class="section">
   <div class="section-inner">
-    <h2 class="section-title"><span class="hash">#</span> contact</h2>
+    <h2 class="section-title"><span class="hash">06.</span> contact</h2>
+    <p class="contact-intro">Have a security challenge? Let's talk.</p>
     <div class="contact-grid">
       <a class="contact-card" href="mailto:naimurrahman04@gmail.com">
         <span class="contact-icon">✉️</span>
-        <span>naimurrahman04@gmail.com</span>
+        <span class="contact-text"><span class="contact-label">Email</span><span class="contact-value">naimurrahman04@gmail.com</span></span>
       </a>
       <a class="contact-card" href="https://linkedin.com/in/naimur-rahman-417a2a1a8" target="_blank" rel="noopener">
         <span class="contact-icon">💼</span>
-        <span>LinkedIn</span>
+        <span class="contact-text"><span class="contact-label">LinkedIn</span><span class="contact-value">naimur-rahman</span></span>
       </a>
       <a class="contact-card" href="https://github.com/naimurrahman04" target="_blank" rel="noopener">
         <span class="contact-icon">🐙</span>
-        <span>GitHub</span>
+        <span class="contact-text"><span class="contact-label">GitHub</span><span class="contact-value">naimurrahman04</span></span>
       </a>
       <a class="contact-card" href="tel:+639083570715">
         <span class="contact-icon">📱</span>
-        <span>+63 908 357 0715</span>
+        <span class="contact-text"><span class="contact-label">Phone</span><span class="contact-value">+63 908 357 0715</span></span>
       </a>
     </div>
   </div>
