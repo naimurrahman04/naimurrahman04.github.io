@@ -242,11 +242,13 @@ body {
 }
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
 .btn-tools {
-  background: linear-gradient(135deg, var(--accent-2), var(--accent-3));
-  color: #04120c;
-  box-shadow: 0 4px 24px rgba(56,189,248,0.35);
+  background: linear-gradient(135deg, #38bdf8, #a78bfa);
+  color: #ffffff;
+  border: 1px solid rgba(56,189,248,0.6);
+  box-shadow: 0 4px 24px rgba(56,189,248,0.45);
+  font-weight: 700;
 }
-.btn-tools:hover { box-shadow: 0 6px 36px rgba(56,189,248,0.5); transform: translateY(-2px); }
+.btn-tools:hover { box-shadow: 0 6px 36px rgba(56,189,248,0.6); transform: translateY(-2px); }
 .btn-tools:hover .arr { transform: translateX(4px); }
 
 .hero-stats {
