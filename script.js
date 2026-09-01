@@ -37,8 +37,27 @@
     });
   }
 
+  // Scroll reveal with stagger
+  function initReveal() {
+    const targets = document.querySelectorAll('.section-title, .about-text, .tag-cloud, .tl-item, .skill-card, .project-card, .cert-card, .achievements, .training, .languages, .contact-card');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    targets.forEach((el, i) => {
+      el.classList.add('reveal');
+      el.style.transitionDelay = (i % 3) * 0.08 + 's';
+      observer.observe(el);
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     initNav();
     initHamburger();
+    initReveal();
   });
 })();
