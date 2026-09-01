@@ -441,6 +441,38 @@ body {
 .skill-card h3 { font-size: 1.05rem; margin-bottom: 10px; color: var(--text); }
 .skill-card p { color: var(--text-dim); font-size: 0.87rem; }
 
+/* VAPT Tools */
+.vapt-intro { color: var(--text-dim); margin-bottom: 28px; font-size: 1.05rem; }
+.vapt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.vapt-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 26px;
+  backdrop-filter: blur(12px);
+  transition: all 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.vapt-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-2), var(--accent-3));
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.vapt-card:hover { border-color: rgba(56,189,248,0.4); transform: translateY(-4px); }
+.vapt-card:hover::before { opacity: 1; }
+.vapt-icon { font-size: 1.6rem; margin-bottom: 12px; }
+.vapt-card h3 { font-size: 1.05rem; margin-bottom: 10px; color: var(--text); }
+.vapt-card p { color: var(--text-dim); font-size: 0.87rem; }
+
 /* Projects */
 .projects-grid {
   display: grid;
@@ -581,7 +613,7 @@ body {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
-  .skills-grid, .projects-grid { grid-template-columns: repeat(2, 1fr); }
+  .skills-grid, .projects-grid, .vapt-grid { grid-template-columns: repeat(2, 1fr); }
   .certs-grid, .contact-grid { grid-template-columns: repeat(2, 1fr); }
   .lang-grid { grid-template-columns: repeat(2, 1fr); }
   .hero-stats { grid-template-columns: repeat(2, 1fr); }
@@ -620,7 +652,7 @@ body {
   .section-title::after { max-width: 120px; }
 
   .about-grid { grid-template-columns: 1fr; gap: 28px; }
-  .skills-grid, .projects-grid, .certs-grid, .contact-grid, .lang-grid { grid-template-columns: 1fr; }
+  .skills-grid, .projects-grid, .vapt-grid, .certs-grid, .contact-grid, .lang-grid { grid-template-columns: 1fr; }
 
   .tl-head { flex-direction: column; gap: 4px; }
   .tl-date { margin-left: 0; }
