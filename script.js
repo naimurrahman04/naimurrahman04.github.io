@@ -55,21 +55,13 @@
     });
   }
 
-  // Live cybersecurity news
+  // Live cybersecurity news — reads static news.json (updated by GitHub Action)
   function initNews() {
     const grid = document.getElementById('newsGrid');
     if (!grid) return;
 
     const CACHE_KEY = 'newsCache';
-    const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
-
-    const feeds = [
-      { url: 'https://feeds.feedburner.com/TheHackersNews', source: 'The Hacker News' },
-      { url: 'https://www.bleepingcomputer.com/feed/', source: 'BleepingComputer' }
-    ];
-
-    const api = (rss) =>
-      'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rss);
+    const CACHE_TTL = 6 * 60 * 60 * 1000; // 6 hours (matches Action schedule)
 
     function render(items) {
       grid.innerHTML = '';
@@ -119,48 +111,28 @@
     function saveCache(items) {
       try {
         localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), items: items }));
-      } catch (e) { /* storage full or blocked — ignore */ }
+      } catch (e) { /* ignore */ }
     }
 
-    function fetchFeeds() {
-      return Promise.all(feeds.map(f =>
-        fetch(api(f.url))
-          .then(r => {
-            if (!r.ok) throw new Error('HTTP ' + r.status);
-            return r.json();
-          })
-          .then(d => {
-            if (d.status !== 'ok' || !d.items) throw new Error('bad payload');
-            return d.items.slice(0, 5).map(i => ({
-              title: i.title,
-              link: i.link,
-              pubDate: i.pubDate,
-              source: f.source
-            }));
-          })
-          .catch(() => [])
-      ));
-    }
-
-    // Show cached immediately if available (instant paint, no blank screen)
+    // Show cached immediately if available
     const cached = loadCached();
     if (cached) render(cached);
 
-    // Then fetch fresh
-    fetchFeeds().then(results => {
-      const merged = results.flat().sort((a, b) =>
-        new Date(b.pubDate) - new Date(a.pubDate)
-      ).slice(0, 9);
-
-      if (merged.length === 0) {
-        // No fresh data — fall back to cache, else error
+    // Fetch the static news.json (same-origin, no CORS, no rate limits)
+    fetch('news.json', { cache: 'no-store' })
+      .then(r => {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(d => {
+        if (!d.items || !d.items.length) throw new Error('empty');
+        saveCache(d.items);
+        render(d.items);
+      })
+      .catch(() => {
         if (cached) { render(cached); return; }
         showError();
-        return;
-      }
-      saveCache(merged);
-      render(merged);
-    });
+      });
   }
 
   document.addEventListener('DOMContentLoaded', () => {
