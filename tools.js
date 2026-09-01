@@ -277,7 +277,7 @@
     if (!domain) { setOutput('subdomainOutput', '⚠️ Enter a domain first.'); return; }
     setLoading('subdomainOutput', 'Enumerating subdomains for ' + domain);
     try {
-      const res = await fetch('https://api.hackertarget.com/hostsearch/?q=' + encodeURIComponent(domain));
+      const res = await fetch('https://cors.sh/https://api.hackertarget.com/hostsearch/?q=' + encodeURIComponent(domain));
       const text = await res.text();
       if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
       const lines = text.trim().split('\n').filter(Boolean);
@@ -301,7 +301,7 @@
     if (!ip) { setOutput('reverseipOutput', '⚠️ Enter an IP address.'); return; }
     setLoading('reverseipOutput', 'Looking up domains on ' + ip);
     try {
-      const res = await fetch('https://api.hackertarget.com/reverseiplookup/?q=' + encodeURIComponent(ip));
+      const res = await fetch('https://cors.sh/https://api.hackertarget.com/reverseiplookup/?q=' + encodeURIComponent(ip));
       const text = await res.text();
       if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
       const lines = text.trim().split('\n').filter(Boolean);
@@ -323,7 +323,7 @@
     if (!/^https?:\/\//i.test(url)) url = 'https://' + url;
     setLoading('headersOutput', 'Fetching headers for ' + url);
     try {
-      const res = await fetch('https://api.hackertarget.com/httpheaders/?q=' + encodeURIComponent(url));
+      const res = await fetch('https://cors.sh/https://api.hackertarget.com/httpheaders/?q=' + encodeURIComponent(url));
       const text = await res.text();
       if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
       setOutput('headersOutput', text);
@@ -440,7 +440,7 @@
     if (!ip) { setOutput('asnOutput', '⚠️ Enter an IP address.'); return; }
     setLoading('asnOutput', 'Looking up ASN for ' + ip);
     try {
-      const res = await fetch('https://api.hackertarget.com/aslookup/?q=' + encodeURIComponent(ip));
+      const res = await fetch('https://cors.sh/https://api.hackertarget.com/aslookup/?q=' + encodeURIComponent(ip));
       const text = await res.text();
       if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
       // Format: "ip","asn","cidr","org"
@@ -462,7 +462,7 @@
     if (!ip) { setOutput('bannerOutput', '⚠️ Enter an IP address.'); return; }
     setLoading('bannerOutput', 'Grabbing banner for ' + ip);
     try {
-      const res = await fetch('https://api.hackertarget.com/bannerlookup/?q=' + encodeURIComponent(ip));
+      const res = await fetch('https://cors.sh/https://api.hackertarget.com/bannerlookup/?q=' + encodeURIComponent(ip));
       const text = await res.text();
       if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
       try {
@@ -499,7 +499,7 @@
     if (!domain) { setOutput('zonetransferOutput', '⚠️ Enter a domain first.'); return; }
     setLoading('zonetransferOutput', 'Testing AXFR zone transfer for ' + domain);
     try {
-      const res = await fetch('https://api.hackertarget.com/zonetransfer/?q=' + encodeURIComponent(domain));
+      const res = await fetch('https://cors.sh/https://api.hackertarget.com/zonetransfer/?q=' + encodeURIComponent(domain));
       const text = await res.text();
       if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
       setOutput('zonetransferOutput', text);
@@ -514,7 +514,7 @@
     if (!domain) { setOutput('shareddnsOutput', '⚠️ Enter a domain first.'); return; }
     setLoading('shareddnsOutput', 'Finding shared DNS for ' + domain);
     try {
-      const res = await fetch('https://api.hackertarget.com/findshareddns/?q=' + encodeURIComponent(domain));
+      const res = await fetch('https://cors.sh/https://api.hackertarget.com/findshareddns/?q=' + encodeURIComponent(domain));
       const text = await res.text();
       if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
       const lines = text.trim().split('\n').filter(Boolean);
@@ -535,7 +535,7 @@
     if (!domain) { setOutput('dnslookupOutput', '⚠️ Enter a domain first.'); return; }
     setLoading('dnslookupOutput', 'Fetching DNS records for ' + domain);
     try {
-      const res = await fetch('https://api.hackertarget.com/dnslookup/?q=' + encodeURIComponent(domain));
+      const res = await fetch('https://cors.sh/https://api.hackertarget.com/dnslookup/?q=' + encodeURIComponent(domain));
       const text = await res.text();
       if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
       setOutput('dnslookupOutput', text);
@@ -551,7 +551,7 @@
     if (!/^https?:\/\//i.test(url)) url = 'https://' + url;
     setLoading('pagelinksOutput', 'Extracting links from ' + url);
     try {
-      const res = await fetch('https://api.hackertarget.com/pagelinks/?q=' + encodeURIComponent(url));
+      const res = await fetch('https://cors.sh/https://api.hackertarget.com/pagelinks/?q=' + encodeURIComponent(url));
       const text = await res.text();
       if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
       const lines = text.trim().split('\n').filter(Boolean);
