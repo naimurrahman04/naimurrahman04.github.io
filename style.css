@@ -51,6 +51,7 @@ body {
   text-decoration: none;
   letter-spacing: -0.2px;
 }
+.logo-accent { color: var(--accent); }
 .nav-links { display: flex; align-items: center; gap: 32px; }
 .nav-links a {
   color: var(--text-dim);
