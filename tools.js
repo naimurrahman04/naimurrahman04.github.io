@@ -271,6 +271,147 @@
     }
   });
 
+  // ===== Subdomain Enumeration (HackerTarget) =====
+  document.getElementById('subdomainBtn').addEventListener('click', async () => {
+    const domain = cleanDomain(document.getElementById('subdomainInput').value);
+    if (!domain) { setOutput('subdomainOutput', '⚠️ Enter a domain first.'); return; }
+    setLoading('subdomainOutput', 'Enumerating subdomains for ' + domain);
+    try {
+      const res = await fetch('https://api.hackertarget.com/hostsearch/?q=' + encodeURIComponent(domain));
+      const text = await res.text();
+      if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
+      const lines = text.trim().split('\n').filter(Boolean);
+      if (!lines.length) throw new Error('No subdomains found');
+      const out = [];
+      out.push('Found ' + lines.length + ' host(s):');
+      out.push('');
+      lines.forEach(l => {
+        const [host, ip] = l.split(',');
+        out.push('  • ' + host + (ip ? '  →  ' + ip : ''));
+      });
+      setOutput('subdomainOutput', out.join('\n'));
+    } catch (err) {
+      setOutput('subdomainOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== Reverse IP (HackerTarget) =====
+  document.getElementById('reverseipBtn').addEventListener('click', async () => {
+    const ip = document.getElementById('reverseipInput').value.trim();
+    if (!ip) { setOutput('reverseipOutput', '⚠️ Enter an IP address.'); return; }
+    setLoading('reverseipOutput', 'Looking up domains on ' + ip);
+    try {
+      const res = await fetch('https://api.hackertarget.com/reverseiplookup/?q=' + encodeURIComponent(ip));
+      const text = await res.text();
+      if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
+      const lines = text.trim().split('\n').filter(Boolean);
+      if (!lines.length) throw new Error('No domains found on this IP');
+      const out = [];
+      out.push('Found ' + lines.length + ' domain(s) on ' + ip + ':');
+      out.push('');
+      lines.forEach(l => out.push('  • ' + l));
+      setOutput('reverseipOutput', out.join('\n'));
+    } catch (err) {
+      setOutput('reverseipOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== HTTP Headers (HackerTarget) =====
+  document.getElementById('headersBtn').addEventListener('click', async () => {
+    let url = document.getElementById('headersInput').value.trim();
+    if (!url) { setOutput('headersOutput', '⚠️ Enter a URL.'); return; }
+    if (!/^https?:\/\//i.test(url)) url = 'https://' + url;
+    setLoading('headersOutput', 'Fetching headers for ' + url);
+    try {
+      const res = await fetch('https://api.hackertarget.com/httpheaders/?q=' + encodeURIComponent(url));
+      const text = await res.text();
+      if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
+      setOutput('headersOutput', text);
+    } catch (err) {
+      setOutput('headersOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== Wayback History (CDX via cors.sh) =====
+  document.getElementById('waybackBtn').addEventListener('click', async () => {
+    const url = cleanDomain(document.getElementById('waybackInput').value);
+    if (!url) { setOutput('waybackOutput', '⚠️ Enter a URL or domain.'); return; }
+    setLoading('waybackOutput', 'Searching archive for ' + url);
+    try {
+      const target = 'https://web.archive.org/cdx/search/cdx?url=' + encodeURIComponent(url) + '&output=json&limit=50&fl=timestamp,original,statuscode,mimetype';
+      const res = await fetch('https://cors.sh/' + target);
+      if (!res.ok) throw new Error('Archive returned ' + res.status);
+      const data = await res.json();
+      if (!Array.isArray(data) || data.length < 2) throw new Error('No snapshots found');
+      const rows = data.slice(1); // skip header
+      const out = [];
+      out.push('Found ' + rows.length + ' snapshot(s):');
+      out.push('');
+      rows.forEach(r => {
+        const [ts, orig, status, mime] = r;
+        const date = ts ? ts.slice(0, 4) + '-' + ts.slice(4, 6) + '-' + ts.slice(6, 8) : '?';
+        out.push('  ' + date + '  [' + (status || '?') + ']  ' + (mime || '?') + '  ' + (orig || ''));
+      });
+      setOutput('waybackOutput', out.join('\n'));
+    } catch (err) {
+      setOutput('waybackOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== CVE Lookup (CIRCL) =====
+  document.getElementById('cveBtn').addEventListener('click', async () => {
+    let cve = document.getElementById('cveInput').value.trim().toUpperCase();
+    if (!cve) { setOutput('cveOutput', '⚠️ Enter a CVE ID.'); return; }
+    if (!/^CVE-\d{4}-\d+$/.test(cve)) { setOutput('cveOutput', '⚠️ Invalid format. Use CVE-YYYY-NNNN.'); return; }
+    setLoading('cveOutput', 'Looking up ' + cve);
+    try {
+      const res = await fetch('https://cve.circl.lu/api/cve/' + encodeURIComponent(cve));
+      if (!res.ok) throw new Error('CIRCL returned ' + res.status + ' (CVE not found?)');
+      const d = await res.json();
+      const meta = d.cveMetadata || {};
+      const cna = (d.containers && d.containers.cna) || {};
+      const out = [];
+      out.push('CVE:        ' + (meta.cveId || cve));
+      out.push('State:      ' + (meta.state || '—'));
+      out.push('Published:  ' + (meta.datePublished ? meta.datePublished.slice(0, 10) : '—'));
+      out.push('Updated:    ' + (meta.dateUpdated ? meta.dateUpdated.slice(0, 10) : '—'));
+      out.push('');
+      // Description
+      if (cna.descriptions && cna.descriptions[0]) {
+        out.push('DESCRIPTION:');
+        out.push(cna.descriptions[0].value);
+        out.push('');
+      }
+      // CVSS
+      const adp = (d.containers && d.containers.adp) || [];
+      adp.forEach(a => {
+        (a.metrics || []).forEach(m => {
+          if (m.cvssV3_1) {
+            out.push('CVSS v3.1:  ' + m.cvssV3_1.baseScore + ' (' + m.cvssV3_1.baseSeverity + ')');
+            out.push('Vector:     ' + m.cvssV3_1.vectorString);
+            out.push('');
+          }
+        });
+      });
+      // Affected products
+      if (cna.affected && cna.affected.length) {
+        out.push('AFFECTED:');
+        cna.affected.slice(0, 10).forEach(a => {
+          out.push('  • ' + (a.vendor || '?') + ' ' + (a.product || '?'));
+        });
+        out.push('');
+      }
+      // References
+      if (cna.references && cna.references.length) {
+        out.push('REFERENCES (' + cna.references.length + '):');
+        cna.references.slice(0, 8).forEach(r => out.push('  • ' + r.url));
+      }
+      setOutput('cveOutput', out.join('\n'));
+    } catch (err) {
+      setOutput('cveOutput', '❌ ' + err.message);
+    }
+  });
+
   // ===== MD5 (compact, standard implementation) =====
   function md5(str) {
     function rotateLeft(lValue, iShiftBits) { return (lValue << iShiftBits) | (lValue >>> (32 - iShiftBits)); }

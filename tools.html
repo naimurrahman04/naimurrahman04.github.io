@@ -64,6 +64,31 @@
         <span class="nav-text">Password Breach</span>
         <span class="nav-badge">HIBP</span>
       </button>
+      <button class="tool-nav-item" data-tool="subdomain">
+        <span class="nav-icon">🗺️</span>
+        <span class="nav-text">Subdomain Enum</span>
+        <span class="nav-badge">RECON</span>
+      </button>
+      <button class="tool-nav-item" data-tool="reverseip">
+        <span class="nav-icon">🔁</span>
+        <span class="nav-text">Reverse IP</span>
+        <span class="nav-badge">RECON</span>
+      </button>
+      <button class="tool-nav-item" data-tool="headers">
+        <span class="nav-icon">📋</span>
+        <span class="nav-text">HTTP Headers</span>
+        <span class="nav-badge">RECON</span>
+      </button>
+      <button class="tool-nav-item" data-tool="wayback">
+        <span class="nav-icon">🕰️</span>
+        <span class="nav-text">Wayback History</span>
+        <span class="nav-badge">OSINT</span>
+      </button>
+      <button class="tool-nav-item" data-tool="cve">
+        <span class="nav-icon">🐞</span>
+        <span class="nav-text">CVE Lookup</span>
+        <span class="nav-badge">VULN</span>
+      </button>
     </nav>
     <div class="sidebar-footer">
       <a href="index.html" class="back-link">← Back to portfolio</a>
@@ -279,6 +304,101 @@
           <button class="run-btn" id="pwnedBtn">Check</button>
         </div>
         <div class="result-box" id="pwnedOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- Subdomain Enum -->
+      <section class="tool-view" id="view-subdomain">
+        <div class="tool-header">
+          <div class="tool-header-icon">🗺️</div>
+          <div>
+            <h2>Subdomain Enumeration</h2>
+            <p>Discover subdomains for a target domain via passive DNS (HackerTarget).</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>Domain</label>
+            <input type="text" id="subdomainInput" placeholder="example.com" spellcheck="false" />
+          </div>
+          <button class="run-btn" id="subdomainBtn">Enumerate</button>
+        </div>
+        <div class="result-box" id="subdomainOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- Reverse IP -->
+      <section class="tool-view" id="view-reverseip">
+        <div class="tool-header">
+          <div class="tool-header-icon">🔁</div>
+          <div>
+            <h2>Reverse IP Lookup</h2>
+            <p>Find other domains hosted on the same IP address (HackerTarget).</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>IP Address</label>
+            <input type="text" id="reverseipInput" placeholder="104.20.23.154" spellcheck="false" />
+          </div>
+          <button class="run-btn" id="reverseipBtn">Lookup</button>
+        </div>
+        <div class="result-box" id="reverseipOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- HTTP Headers -->
+      <section class="tool-view" id="view-headers">
+        <div class="tool-header">
+          <div class="tool-header-icon">📋</div>
+          <div>
+            <h2>HTTP Header Analysis</h2>
+            <p>Fetch and inspect a target's HTTP response headers for security misconfigurations.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>URL</label>
+            <input type="text" id="headersInput" placeholder="https://example.com" spellcheck="false" />
+          </div>
+          <button class="run-btn" id="headersBtn">Fetch Headers</button>
+        </div>
+        <div class="result-box" id="headersOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- Wayback History -->
+      <section class="tool-view" id="view-wayback">
+        <div class="tool-header">
+          <div class="tool-header-icon">🕰️</div>
+          <div>
+            <h2>Wayback Machine History</h2>
+            <p>List archived snapshots of a URL from the Internet Archive — useful for finding old endpoints and leaked files.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>URL / Domain</label>
+            <input type="text" id="waybackInput" placeholder="example.com" spellcheck="false" />
+          </div>
+          <button class="run-btn" id="waybackBtn">Search Archive</button>
+        </div>
+        <div class="result-box" id="waybackOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- CVE Lookup -->
+      <section class="tool-view" id="view-cve">
+        <div class="tool-header">
+          <div class="tool-header-icon">🐞</div>
+          <div>
+            <h2>CVE Lookup</h2>
+            <p>Look up full details for a CVE — description, CVSS score, affected products, and references.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>CVE ID</label>
+            <input type="text" id="cveInput" placeholder="CVE-2021-44228" spellcheck="false" />
+          </div>
+          <button class="run-btn" id="cveBtn">Lookup</button>
+        </div>
+        <div class="result-box" id="cveOutput"><span class="placeholder">Results will appear here.</span></div>
       </section>
     </div>
   </main>
