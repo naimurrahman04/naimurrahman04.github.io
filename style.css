@@ -473,6 +473,88 @@ body {
 .vapt-card h3 { font-size: 1.05rem; margin-bottom: 10px; color: var(--text); }
 .vapt-card p { color: var(--text-dim); font-size: 0.87rem; }
 
+/* Security Tools (interactive) */
+.tools-shell {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+}
+.tools-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 12px;
+  background: rgba(255,255,255,0.02);
+  border-bottom: 1px solid var(--border);
+}
+.tool-tab {
+  background: none;
+  border: 1px solid transparent;
+  color: var(--text-dim);
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.tool-tab:hover { color: var(--text); background: rgba(255,255,255,0.04); }
+.tool-tab.active {
+  color: var(--accent);
+  border-color: rgba(0,229,160,0.4);
+  background: rgba(0,229,160,0.08);
+}
+.tool-panel { display: none; padding: 24px; }
+.tool-panel.active { display: block; }
+.tool-input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.tool-input-row input[type="text"],
+.tool-input-row select,
+.tool-panel textarea {
+  background: rgba(5,7,13,0.6);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  padding: 11px 14px;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.tool-input-row input[type="text"] { flex: 1; min-width: 200px; }
+.tool-input-row input:focus,
+.tool-input-row select:focus,
+.tool-panel textarea:focus { border-color: var(--accent); }
+.tool-input-row select { cursor: pointer; }
+.tool-panel textarea {
+  width: 100%;
+  min-height: 90px;
+  resize: vertical;
+  margin-bottom: 16px;
+  display: block;
+}
+.tool-output {
+  background: rgba(5,7,13,0.7);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 18px;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  white-space: pre-wrap;
+  word-break: break-word;
+  min-height: 60px;
+  max-height: 400px;
+  overflow-y: auto;
+  line-height: 1.5;
+}
+
 /* Projects */
 .projects-grid {
   display: grid;
