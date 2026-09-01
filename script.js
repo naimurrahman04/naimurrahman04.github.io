@@ -60,6 +60,9 @@
     const grid = document.getElementById('newsGrid');
     if (!grid) return;
 
+    const CACHE_KEY = 'newsCache';
+    const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+
     const feeds = [
       { url: 'https://feeds.feedburner.com/TheHackersNews', source: 'The Hacker News' },
       { url: 'https://www.bleepingcomputer.com/feed/', source: 'BleepingComputer' }
@@ -98,24 +101,64 @@
       });
     }
 
-    Promise.all(feeds.map(f =>
-      fetch(api(f.url))
-        .then(r => r.json())
-        .then(d => (d.items || []).slice(0, 5).map(i => ({
-          title: i.title,
-          link: i.link,
-          pubDate: i.pubDate,
-          source: f.source
-        })))
-        .catch(() => [])
-    )).then(results => {
+    function showError() {
+      grid.innerHTML = '<div class="news-error">Unable to load news right now. Please refresh.</div>';
+    }
+
+    function loadCached() {
+      try {
+        const raw = localStorage.getItem(CACHE_KEY);
+        if (!raw) return null;
+        const data = JSON.parse(raw);
+        if (!data.items || !data.items.length) return null;
+        if (Date.now() - data.ts > CACHE_TTL) return null;
+        return data.items;
+      } catch (e) { return null; }
+    }
+
+    function saveCache(items) {
+      try {
+        localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), items: items }));
+      } catch (e) { /* storage full or blocked — ignore */ }
+    }
+
+    function fetchFeeds() {
+      return Promise.all(feeds.map(f =>
+        fetch(api(f.url))
+          .then(r => {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.json();
+          })
+          .then(d => {
+            if (d.status !== 'ok' || !d.items) throw new Error('bad payload');
+            return d.items.slice(0, 5).map(i => ({
+              title: i.title,
+              link: i.link,
+              pubDate: i.pubDate,
+              source: f.source
+            }));
+          })
+          .catch(() => [])
+      ));
+    }
+
+    // Show cached immediately if available (instant paint, no blank screen)
+    const cached = loadCached();
+    if (cached) render(cached);
+
+    // Then fetch fresh
+    fetchFeeds().then(results => {
       const merged = results.flat().sort((a, b) =>
         new Date(b.pubDate) - new Date(a.pubDate)
       ).slice(0, 9);
+
       if (merged.length === 0) {
-        grid.innerHTML = '<div class="news-error">Unable to load news right now. Please refresh.</div>';
+        // No fresh data — fall back to cache, else error
+        if (cached) { render(cached); return; }
+        showError();
         return;
       }
+      saveCache(merged);
       render(merged);
     });
   }
