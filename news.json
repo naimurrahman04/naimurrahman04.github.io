@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-01T15:56:13Z",
+  "updated": "2026-09-01T20:24:18Z",
   "items": [
+    {
+      "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+      "pubDate": "Tue, 01 Sep 2026 23:23:11 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+      "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+      "pubDate": "Tue, 01 Sep 2026 22:49:24 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
       "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
@@ -20,16 +32,16 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-      "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
-      "pubDate": "Tue, 01 Sep 2026 14:35:30 +0530",
-      "source": "The Hacker News"
+      "title": "Aesto Health says data breach affects over 9.5 million patients",
+      "link": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
+      "pubDate": "Tue, 01 Sep 2026 15:28:17 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-      "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
-      "pubDate": "Tue, 01 Sep 2026 13:56:24 +0530",
-      "source": "The Hacker News"
+      "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+      "pubDate": "Tue, 01 Sep 2026 13:54:22 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
@@ -41,18 +53,6 @@
       "title": "Novocure data breach affects more than 1,400 cancer patients",
       "link": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
       "pubDate": "Tue, 01 Sep 2026 10:28:40 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
-      "link": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
-      "pubDate": "Tue, 01 Sep 2026 10:01:11 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
-      "pubDate": "Tue, 01 Sep 2026 08:38:35 -0400",
       "source": "BleepingComputer"
     }
   ]
