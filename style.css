@@ -61,9 +61,14 @@ body {
 }
 .nav-links a:hover { color: var(--text); }
 .nav-cta {
-  color: var(--accent) !important;
+  color: #fff !important;
+  background: var(--accent);
   font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 980px;
+  transition: background 0.2s;
 }
+.nav-cta:hover { background: var(--accent-hover); color: #fff !important; }
 
 /* Hamburger */
 .hamburger {
@@ -187,6 +192,16 @@ body {
   margin-bottom: 48px;
   text-align: center;
 }
+.section-eyebrow {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
 
 /* Scroll reveal */
 .reveal {
@@ -281,6 +296,11 @@ body {
   border: 1px solid var(--border);
   border-radius: 18px;
   padding: 32px;
+  transition: all 0.25s;
+}
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.08);
 }
 .skill-card h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 12px; letter-spacing: -0.2px; }
 .skill-card p { color: var(--text-dim); font-size: 0.9rem; line-height: 1.6; }
@@ -325,6 +345,11 @@ body {
   border: 1px solid var(--border);
   border-radius: 18px;
   padding: 28px;
+  transition: all 0.25s;
+}
+.cert-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.08);
 }
 .cert-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 8px; letter-spacing: -0.2px; }
 .cert-card p { color: var(--text-dim); font-size: 0.85rem; }
@@ -371,6 +396,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  transition: all 0.25s;
+}
+.lang-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.08);
 }
 .lang-name { font-weight: 600; font-size: 1rem; }
 .lang-level { color: var(--accent); font-size: 0.85rem; }
