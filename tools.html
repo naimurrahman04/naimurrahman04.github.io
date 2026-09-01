@@ -7,7 +7,7 @@
 <meta name="description" content="Professional security tool suite — Whois, DNS, IP geolocation, SSL certificate search, hashing, encoding, and JWT decoding.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="tools.css">
 </head>
 <body>
@@ -15,112 +15,91 @@
   <!-- Sidebar -->
   <aside class="sidebar">
     <a href="index.html" class="brand">
-      <span class="brand-prompt">&gt;_</span> naimur<span class="brand-accent">.sh</span>
+      Naimur<span class="brand-accent"> Rahman</span>
     </a>
     <div class="sidebar-label">TOOLKIT</div>
     <nav class="tool-nav">
       <button class="tool-nav-item active" data-tool="whois">
-        <span class="nav-icon">🌐</span>
         <span class="nav-text">Whois Lookup</span>
         <span class="nav-badge">RDAP</span>
       </button>
       <button class="tool-nav-item" data-tool="dns">
-        <span class="nav-icon">🔎</span>
         <span class="nav-text">DNS Resolver</span>
         <span class="nav-badge">DoH</span>
       </button>
       <button class="tool-nav-item" data-tool="ipgeo">
-        <span class="nav-icon">📍</span>
         <span class="nav-text">IP Geolocation</span>
         <span class="nav-badge">ASN</span>
       </button>
       <button class="tool-nav-item" data-tool="ssl">
-        <span class="nav-icon">🔐</span>
         <span class="nav-text">SSL Cert Search</span>
         <span class="nav-badge">CT</span>
       </button>
       <button class="tool-nav-item" data-tool="hash">
-        <span class="nav-icon">#️⃣</span>
         <span class="nav-text">Hash Generator</span>
         <span class="nav-badge">LOCAL</span>
       </button>
       <button class="tool-nav-item" data-tool="encode">
-        <span class="nav-icon">🔤</span>
         <span class="nav-text">Encode / Decode</span>
         <span class="nav-badge">LOCAL</span>
       </button>
       <button class="tool-nav-item" data-tool="jwt">
-        <span class="nav-icon">🎫</span>
         <span class="nav-text">JWT Decoder</span>
         <span class="nav-badge">LOCAL</span>
       </button>
       <button class="tool-nav-item" data-tool="leak">
-        <span class="nav-icon">🕵️</span>
         <span class="nav-text">Data Leak Search</span>
         <span class="nav-badge">OSINT</span>
       </button>
       <button class="tool-nav-item" data-tool="pwned">
-        <span class="nav-icon">🔓</span>
         <span class="nav-text">Password Breach</span>
         <span class="nav-badge">HIBP</span>
       </button>
       <button class="tool-nav-item" data-tool="subdomain">
-        <span class="nav-icon">🗺️</span>
         <span class="nav-text">Subdomain Enum</span>
         <span class="nav-badge">RECON</span>
       </button>
       <button class="tool-nav-item" data-tool="reverseip">
-        <span class="nav-icon">🔁</span>
         <span class="nav-text">Reverse IP</span>
         <span class="nav-badge">RECON</span>
       </button>
       <button class="tool-nav-item" data-tool="headers">
-        <span class="nav-icon">📋</span>
         <span class="nav-text">HTTP Headers</span>
         <span class="nav-badge">RECON</span>
       </button>
       <button class="tool-nav-item" data-tool="wayback">
-        <span class="nav-icon">🕰️</span>
         <span class="nav-text">Wayback History</span>
         <span class="nav-badge">OSINT</span>
       </button>
       <button class="tool-nav-item" data-tool="cve">
-        <span class="nav-icon">🐞</span>
         <span class="nav-text">CVE Lookup</span>
         <span class="nav-badge">VULN</span>
       </button>
       <button class="tool-nav-item" data-tool="shodan">
-        <span class="nav-icon">🛰️</span>
         <span class="nav-text">Shodan Scan</span>
         <span class="nav-badge">VULN</span>
       </button>
       <button class="tool-nav-item" data-tool="asn">
-        <span class="nav-icon">🌍</span>
         <span class="nav-text">ASN Lookup</span>
         <span class="nav-badge">RECON</span>
       </button>
       <button class="tool-nav-item" data-tool="banner">
-        <span class="nav-icon">🪧</span>
         <span class="nav-text">Banner Grab</span>
         <span class="nav-badge">RECON</span>
       </button>
       <button class="tool-nav-item" data-tool="zonetransfer">
-        <span class="nav-icon">🔄</span>
         <span class="nav-text">Zone Transfer</span>
         <span class="nav-badge">RECON</span>
       </button>
       <button class="tool-nav-item" data-tool="shareddns">
-        <span class="nav-icon">🔗</span>
         <span class="nav-text">Shared DNS</span>
         <span class="nav-badge">RECON</span>
       </button>
       <button class="tool-nav-item" data-tool="dnslookup">
-        <span class="nav-icon">📖</span>
         <span class="nav-text">DNS Records</span>
         <span class="nav-badge">RECON</span>
       </button>
       <button class="tool-nav-item" data-tool="pagelinks">
-        <span class="nav-icon">🔗</span>
         <span class="nav-text">Page Links</span>
         <span class="nav-badge">RECON</span>
       </button>
@@ -148,7 +127,6 @@
       <!-- Whois -->
       <section class="tool-view active" id="view-whois">
         <div class="tool-header">
-          <div class="tool-header-icon">🌐</div>
           <div>
             <h2>Whois Lookup</h2>
             <p>Query domain registration data via RDAP — registrar, status, nameservers, and entities.</p>
@@ -167,7 +145,6 @@
       <!-- DNS -->
       <section class="tool-view" id="view-dns">
         <div class="tool-header">
-          <div class="tool-header-icon">🔎</div>
           <div>
             <h2>DNS Resolver</h2>
             <p>Resolve DNS records over HTTPS (Google DoH) — A, AAAA, CNAME, MX, NS, TXT, SOA, CAA.</p>
@@ -199,7 +176,6 @@
       <!-- IP Geo -->
       <section class="tool-view" id="view-ipgeo">
         <div class="tool-header">
-          <div class="tool-header-icon">📍</div>
           <div>
             <h2>IP Geolocation</h2>
             <p>Locate any IP address — continent, country, city, coordinates, ASN, and ISP.</p>
@@ -218,7 +194,6 @@
       <!-- SSL -->
       <section class="tool-view" id="view-ssl">
         <div class="tool-header">
-          <div class="tool-header-icon">🔐</div>
           <div>
             <h2>SSL Certificate Search</h2>
             <p>Discover subdomains via Certificate Transparency logs (CertSpotter).</p>
@@ -237,7 +212,6 @@
       <!-- Hash -->
       <section class="tool-view" id="view-hash">
         <div class="tool-header">
-          <div class="tool-header-icon">#️⃣</div>
           <div>
             <h2>Hash Generator</h2>
             <p>Generate MD5, SHA-1, SHA-256, and SHA-512 hashes — computed locally in your browser.</p>
@@ -265,7 +239,6 @@
       <!-- Encode -->
       <section class="tool-view" id="view-encode">
         <div class="tool-header">
-          <div class="tool-header-icon">🔤</div>
           <div>
             <h2>Encode / Decode</h2>
             <p>Convert between Base64, URL-encoding, and Hex — computed locally in your browser.</p>
@@ -292,7 +265,6 @@
       <!-- JWT -->
       <section class="tool-view" id="view-jwt">
         <div class="tool-header">
-          <div class="tool-header-icon">🎫</div>
           <div>
             <h2>JWT Decoder</h2>
             <p>Decode a JSON Web Token's header and payload. Signature is not verified.</p>
@@ -306,7 +278,6 @@
       <!-- Data Leak Search -->
       <section class="tool-view" id="view-leak">
         <div class="tool-header">
-          <div class="tool-header-icon">🕵️</div>
           <div>
             <h2>Data Leak Search</h2>
             <p>Search breach databases for exposed credentials and personal data by email, domain, username, or phone number.</p>
@@ -325,7 +296,6 @@
       <!-- Password Breach -->
       <section class="tool-view" id="view-pwned">
         <div class="tool-header">
-          <div class="tool-header-icon">🔓</div>
           <div>
             <h2>Password Breach Check</h2>
             <p>Check if a password has appeared in a known data breach — using k-anonymity, so the full password never leaves your browser.</p>
@@ -344,7 +314,6 @@
       <!-- Subdomain Enum -->
       <section class="tool-view" id="view-subdomain">
         <div class="tool-header">
-          <div class="tool-header-icon">🗺️</div>
           <div>
             <h2>Subdomain Enumeration</h2>
             <p>Discover subdomains for a target domain via passive DNS (HackerTarget).</p>
@@ -363,7 +332,6 @@
       <!-- Reverse IP -->
       <section class="tool-view" id="view-reverseip">
         <div class="tool-header">
-          <div class="tool-header-icon">🔁</div>
           <div>
             <h2>Reverse IP Lookup</h2>
             <p>Find other domains hosted on the same IP address (HackerTarget).</p>
@@ -382,7 +350,6 @@
       <!-- HTTP Headers -->
       <section class="tool-view" id="view-headers">
         <div class="tool-header">
-          <div class="tool-header-icon">📋</div>
           <div>
             <h2>HTTP Header Analysis</h2>
             <p>Fetch and inspect a target's HTTP response headers for security misconfigurations.</p>
@@ -401,7 +368,6 @@
       <!-- Wayback History -->
       <section class="tool-view" id="view-wayback">
         <div class="tool-header">
-          <div class="tool-header-icon">🕰️</div>
           <div>
             <h2>Wayback Machine History</h2>
             <p>List archived snapshots of a URL from the Internet Archive — useful for finding old endpoints and leaked files.</p>
@@ -420,7 +386,6 @@
       <!-- CVE Lookup -->
       <section class="tool-view" id="view-cve">
         <div class="tool-header">
-          <div class="tool-header-icon">🐞</div>
           <div>
             <h2>CVE Lookup</h2>
             <p>Look up full details for a CVE — description, CVSS score, affected products, and references.</p>
@@ -439,7 +404,6 @@
       <!-- Shodan Scan -->
       <section class="tool-view" id="view-shodan">
         <div class="tool-header">
-          <div class="tool-header-icon">🛰️</div>
           <div>
             <h2>Shodan Scan</h2>
             <p>Look up an IP on Shodan InternetDB — open ports, hostnames, CPEs, and known vulnerabilities.</p>
@@ -458,7 +422,6 @@
       <!-- ASN Lookup -->
       <section class="tool-view" id="view-asn">
         <div class="tool-header">
-          <div class="tool-header-icon">🌍</div>
           <div>
             <h2>ASN Lookup</h2>
             <p>Find the Autonomous System Number, network range, and organization for an IP.</p>
@@ -477,7 +440,6 @@
       <!-- Banner Grab -->
       <section class="tool-view" id="view-banner">
         <div class="tool-header">
-          <div class="tool-header-icon">🪧</div>
           <div>
             <h2>Banner Grab</h2>
             <p>Grab service banners and TLS certificate details from an IP — server, title, SANs, redirects.</p>
@@ -496,7 +458,6 @@
       <!-- Zone Transfer -->
       <section class="tool-view" id="view-zonetransfer">
         <div class="tool-header">
-          <div class="tool-header-icon">🔄</div>
           <div>
             <h2>DNS Zone Transfer Test</h2>
             <p>Attempt an AXFR zone transfer against a domain's nameservers — a misconfigured server leaks all DNS records.</p>
@@ -515,7 +476,6 @@
       <!-- Shared DNS -->
       <section class="tool-view" id="view-shareddns">
         <div class="tool-header">
-          <div class="tool-header-icon">🔗</div>
           <div>
             <h2>Shared DNS Lookup</h2>
             <p>Find other domains sharing the same DNS nameservers — useful for mapping related infrastructure.</p>
@@ -534,7 +494,6 @@
       <!-- DNS Records -->
       <section class="tool-view" id="view-dnslookup">
         <div class="tool-header">
-          <div class="tool-header-icon">📖</div>
           <div>
             <h2>DNS Records</h2>
             <p>Full DNS record dump — A, AAAA, MX, NS, TXT, and more for a domain.</p>
@@ -553,7 +512,6 @@
       <!-- Page Links -->
       <section class="tool-view" id="view-pagelinks">
         <div class="tool-header">
-          <div class="tool-header-icon">🔗</div>
           <div>
             <h2>Page Link Extractor</h2>
             <p>Extract all links from a web page — useful for discovering endpoints and hidden paths.</p>
