@@ -54,6 +54,16 @@
         <span class="nav-text">JWT Decoder</span>
         <span class="nav-badge">LOCAL</span>
       </button>
+      <button class="tool-nav-item" data-tool="leak">
+        <span class="nav-icon">🕵️</span>
+        <span class="nav-text">Data Leak Search</span>
+        <span class="nav-badge">OSINT</span>
+      </button>
+      <button class="tool-nav-item" data-tool="pwned">
+        <span class="nav-icon">🔓</span>
+        <span class="nav-text">Password Breach</span>
+        <span class="nav-badge">HIBP</span>
+      </button>
     </nav>
     <div class="sidebar-footer">
       <a href="index.html" class="back-link">← Back to portfolio</a>
@@ -228,9 +238,47 @@
             <p>Decode a JSON Web Token's header and payload. Signature is not verified.</p>
           </div>
         </div>
-        <textarea class="tool-textarea" id="jwtInput" placeholder="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0..." spellcheck="false"></textarea>
+        <textarea class="tool-textarea" id="jwtInput" placeholder="eyJhbG...wIn0..." spellcheck="false"></textarea>
         <button class="run-btn" id="jwtBtn">Decode</button>
         <div class="result-box" id="jwtOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- Data Leak Search -->
+      <section class="tool-view" id="view-leak">
+        <div class="tool-header">
+          <div class="tool-header-icon">🕵️</div>
+          <div>
+            <h2>Data Leak Search</h2>
+            <p>Search breach databases for exposed credentials and personal data by email, domain, username, or phone number.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>Email / Domain / Username / Phone</label>
+            <input type="text" id="leakInput" placeholder="user@example.com · example.com · username · +15551234567" spellcheck="false" />
+          </div>
+          <button class="run-btn" id="leakBtn">Search Leaks</button>
+        </div>
+        <div class="result-box" id="leakOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- Password Breach -->
+      <section class="tool-view" id="view-pwned">
+        <div class="tool-header">
+          <div class="tool-header-icon">🔓</div>
+          <div>
+            <h2>Password Breach Check</h2>
+            <p>Check if a password has appeared in a known data breach — using k-anonymity, so the full password never leaves your browser.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>Password</label>
+            <input type="password" id="pwnedInput" placeholder="enter a password to check" spellcheck="false" />
+          </div>
+          <button class="run-btn" id="pwnedBtn">Check</button>
+        </div>
+        <div class="result-box" id="pwnedOutput"><span class="placeholder">Results will appear here.</span></div>
       </section>
     </div>
   </main>

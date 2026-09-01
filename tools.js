@@ -213,6 +213,64 @@
     }
   });
 
+  // ===== Data Leak Search (LeakCheck via cors.sh) =====
+  document.getElementById('leakBtn').addEventListener('click', async () => {
+    const query = document.getElementById('leakInput').value.trim();
+    if (!query) { setOutput('leakOutput', '⚠️ Enter an email, domain, username, or phone number.'); return; }
+    setLoading('leakOutput', 'Searching breach databases for ' + query);
+    try {
+      const target = 'https://leakcheck.io/api/public?check=' + encodeURIComponent(query);
+      const res = await fetch('https://cors.sh/' + target);
+      if (!res.ok) throw new Error('LeakCheck returned ' + res.status);
+      const d = await res.json();
+      if (!d.success) throw new Error(d.error || 'No results');
+      const lines = [];
+      lines.push('🔍 Query: ' + query);
+      lines.push('📊 Records found: ' + (d.found || 0));
+      lines.push('');
+      if (d.sources && d.sources.length) {
+        lines.push('Breach sources (' + d.sources.length + '):');
+        d.sources.forEach(s => lines.push('  • ' + s.name + (s.date ? ' (' + s.date + ')' : '')));
+      }
+      if (d.fields && d.fields.length) {
+        lines.push('');
+        lines.push('Exposed data types:');
+        lines.push('  ' + d.fields.join(', '));
+      }
+      lines.push('');
+      lines.push('⚠️ This is public breach data. If your info appears here, change affected passwords and enable 2FA.');
+      setOutput('leakOutput', lines.join('\n'));
+    } catch (err) {
+      setOutput('leakOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== Password Breach (HIBP k-anonymity) =====
+  document.getElementById('pwnedBtn').addEventListener('click', async () => {
+    const pwd = document.getElementById('pwnedInput').value;
+    if (!pwd) { setOutput('pwnedOutput', '⚠️ Enter a password to check.'); return; }
+    setLoading('pwnedOutput', 'Checking against HIBP (k-anonymity)');
+    try {
+      // SHA-1 hash, send only first 5 chars (k-anonymity)
+      const buf = await crypto.subtle.digest('SHA-1', new TextEncoder().encode(pwd));
+      const hash = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('').toUpperCase();
+      const prefix = hash.slice(0, 5);
+      const suffix = hash.slice(5);
+      const res = await fetch('https://api.pwnedpasswords.com/range/' + prefix);
+      if (!res.ok) throw new Error('HIBP returned ' + res.status);
+      const text = await res.text();
+      const match = text.split('\n').find(line => line.split(':')[0] === suffix);
+      if (match) {
+        const count = parseInt(match.split(':')[1], 10);
+        setOutput('pwnedOutput', '🔴 PWNED — this password has been seen ' + count.toLocaleString() + ' times in data breaches.\n\nDo not use it. Choose a unique, strong password (or a password manager).');
+      } else {
+        setOutput('pwnedOutput', '🟢 Not found — this password has not appeared in any known breach.\n\n(Still use a unique password per site.)');
+      }
+    } catch (err) {
+      setOutput('pwnedOutput', '❌ ' + err.message);
+    }
+  });
+
   // ===== MD5 (compact, standard implementation) =====
   function md5(str) {
     function rotateLeft(lValue, iShiftBits) { return (lValue << iShiftBits) | (lValue >>> (32 - iShiftBits)); }
