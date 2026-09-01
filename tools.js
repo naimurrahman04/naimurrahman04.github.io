@@ -412,6 +412,160 @@
     }
   });
 
+  // ===== Shodan Scan (InternetDB) =====
+  document.getElementById('shodanBtn').addEventListener('click', async () => {
+    const ip = document.getElementById('shodanInput').value.trim();
+    if (!ip) { setOutput('shodanOutput', '⚠️ Enter an IP address.'); return; }
+    setLoading('shodanOutput', 'Querying Shodan InternetDB for ' + ip);
+    try {
+      const res = await fetch('https://internetdb.shodan.io/' + encodeURIComponent(ip));
+      if (!res.ok) throw new Error('Shodan returned ' + res.status);
+      const d = await res.json();
+      const out = [];
+      out.push('IP:        ' + (d.ip || ip));
+      out.push('Hostnames: ' + (d.hostnames && d.hostnames.length ? d.hostnames.join(', ') : '—'));
+      out.push('Ports:     ' + (d.ports && d.ports.length ? d.ports.join(', ') : '—'));
+      out.push('CPEs:      ' + (d.cpes && d.cpes.length ? d.cpes.join(', ') : '—'));
+      out.push('Tags:      ' + (d.tags && d.tags.length ? d.tags.join(', ') : '—'));
+      out.push('Vulns:     ' + (d.vulns && d.vulns.length ? d.vulns.join(', ') : '—'));
+      setOutput('shodanOutput', out.join('\n'));
+    } catch (err) {
+      setOutput('shodanOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== ASN Lookup (HackerTarget) =====
+  document.getElementById('asnBtn').addEventListener('click', async () => {
+    const ip = document.getElementById('asnInput').value.trim();
+    if (!ip) { setOutput('asnOutput', '⚠️ Enter an IP address.'); return; }
+    setLoading('asnOutput', 'Looking up ASN for ' + ip);
+    try {
+      const res = await fetch('https://api.hackertarget.com/aslookup/?q=' + encodeURIComponent(ip));
+      const text = await res.text();
+      if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
+      // Format: "ip","asn","cidr","org"
+      const parts = text.replace(/"/g, '').split(',');
+      const out = [];
+      out.push('IP:     ' + (parts[0] || ip));
+      out.push('ASN:    AS' + (parts[1] || '—'));
+      out.push('Range:  ' + (parts[2] || '—'));
+      out.push('Org:    ' + (parts[3] || '—'));
+      setOutput('asnOutput', out.join('\n'));
+    } catch (err) {
+      setOutput('asnOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== Banner Grab (HackerTarget) =====
+  document.getElementById('bannerBtn').addEventListener('click', async () => {
+    const ip = document.getElementById('bannerInput').value.trim();
+    if (!ip) { setOutput('bannerOutput', '⚠️ Enter an IP address.'); return; }
+    setLoading('bannerOutput', 'Grabbing banner for ' + ip);
+    try {
+      const res = await fetch('https://api.hackertarget.com/bannerlookup/?q=' + encodeURIComponent(ip));
+      const text = await res.text();
+      if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
+      try {
+        const d = JSON.parse(text);
+        const out = [];
+        out.push('IP: ' + (d.ip || ip));
+        if (d.https) {
+          out.push('');
+          out.push('HTTPS:');
+          out.push('  Title:    ' + (d.https.title || '—'));
+          out.push('  Server:   ' + (d.https.server || '—'));
+          out.push('  CN:       ' + (d.https.cn || '—'));
+          if (d.https.alt_n) out.push('  SANs:     ' + d.https.alt_n.join(', '));
+          if (d.https.redirect_location) out.push('  Redirect: ' + d.https.redirect_location);
+        }
+        if (d.http) {
+          out.push('');
+          out.push('HTTP:');
+          out.push('  Title:    ' + (d.http.title || '—'));
+          out.push('  Server:   ' + (d.http.server || '—'));
+        }
+        setOutput('bannerOutput', out.join('\n'));
+      } catch {
+        setOutput('bannerOutput', text);
+      }
+    } catch (err) {
+      setOutput('bannerOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== Zone Transfer (HackerTarget) =====
+  document.getElementById('zonetransferBtn').addEventListener('click', async () => {
+    const domain = cleanDomain(document.getElementById('zonetransferInput').value);
+    if (!domain) { setOutput('zonetransferOutput', '⚠️ Enter a domain first.'); return; }
+    setLoading('zonetransferOutput', 'Testing AXFR zone transfer for ' + domain);
+    try {
+      const res = await fetch('https://api.hackertarget.com/zonetransfer/?q=' + encodeURIComponent(domain));
+      const text = await res.text();
+      if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
+      setOutput('zonetransferOutput', text);
+    } catch (err) {
+      setOutput('zonetransferOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== Shared DNS (HackerTarget) =====
+  document.getElementById('shareddnsBtn').addEventListener('click', async () => {
+    const domain = cleanDomain(document.getElementById('shareddnsInput').value);
+    if (!domain) { setOutput('shareddnsOutput', '⚠️ Enter a domain first.'); return; }
+    setLoading('shareddnsOutput', 'Finding shared DNS for ' + domain);
+    try {
+      const res = await fetch('https://api.hackertarget.com/findshareddns/?q=' + encodeURIComponent(domain));
+      const text = await res.text();
+      if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
+      const lines = text.trim().split('\n').filter(Boolean);
+      if (!lines.length) throw new Error('No shared domains found');
+      const out = [];
+      out.push('Found ' + lines.length + ' domain(s) sharing DNS:');
+      out.push('');
+      lines.forEach(l => out.push('  • ' + l));
+      setOutput('shareddnsOutput', out.join('\n'));
+    } catch (err) {
+      setOutput('shareddnsOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== DNS Records (HackerTarget) =====
+  document.getElementById('dnslookupBtn').addEventListener('click', async () => {
+    const domain = cleanDomain(document.getElementById('dnslookupInput').value);
+    if (!domain) { setOutput('dnslookupOutput', '⚠️ Enter a domain first.'); return; }
+    setLoading('dnslookupOutput', 'Fetching DNS records for ' + domain);
+    try {
+      const res = await fetch('https://api.hackertarget.com/dnslookup/?q=' + encodeURIComponent(domain));
+      const text = await res.text();
+      if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
+      setOutput('dnslookupOutput', text);
+    } catch (err) {
+      setOutput('dnslookupOutput', '❌ ' + err.message);
+    }
+  });
+
+  // ===== Page Links (HackerTarget) =====
+  document.getElementById('pagelinksBtn').addEventListener('click', async () => {
+    let url = document.getElementById('pagelinksInput').value.trim();
+    if (!url) { setOutput('pagelinksOutput', '⚠️ Enter a URL.'); return; }
+    if (!/^https?:\/\//i.test(url)) url = 'https://' + url;
+    setLoading('pagelinksOutput', 'Extracting links from ' + url);
+    try {
+      const res = await fetch('https://api.hackertarget.com/pagelinks/?q=' + encodeURIComponent(url));
+      const text = await res.text();
+      if (text.startsWith('error') || text.startsWith('API count exceeded')) throw new Error(text);
+      const lines = text.trim().split('\n').filter(Boolean);
+      if (!lines.length) throw new Error('No links found');
+      const out = [];
+      out.push('Found ' + lines.length + ' link(s):');
+      out.push('');
+      lines.forEach(l => out.push('  • ' + l));
+      setOutput('pagelinksOutput', out.join('\n'));
+    } catch (err) {
+      setOutput('pagelinksOutput', '❌ ' + err.message);
+    }
+  });
+
   // ===== MD5 (compact, standard implementation) =====
   function md5(str) {
     function rotateLeft(lValue, iShiftBits) { return (lValue << iShiftBits) | (lValue >>> (32 - iShiftBits)); }
