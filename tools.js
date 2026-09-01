@@ -3,14 +3,14 @@
   'use strict';
 
   // Tab switching
-  const tabs = document.querySelectorAll('.tool-tab');
-  const panels = document.querySelectorAll('.tool-panel');
+  const tabs = document.querySelectorAll('.tool-nav-item');
+  const panels = document.querySelectorAll('.tool-view');
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
       tabs.forEach(t => t.classList.remove('active'));
       panels.forEach(p => p.classList.remove('active'));
       tab.classList.add('active');
-      const panel = document.getElementById('panel-' + tab.dataset.tool);
+      const panel = document.getElementById('view-' + tab.dataset.tool);
       if (panel) panel.classList.add('active');
     });
   });

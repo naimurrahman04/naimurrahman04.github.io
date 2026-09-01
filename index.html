@@ -27,7 +27,7 @@
       <a href="#experience">Experience</a>
       <a href="#skills">Arsenal</a>
       <a href="#vapt">VAPT Tools</a>
-      <a href="#tools">Security Tools</a>
+      <a href="tools.html">Security Tools</a>
       <a href="#projects">Projects</a>
       <a href="#certs">Certs</a>
       <a href="#contact" class="nav-cta">Contact</a>
@@ -259,94 +259,12 @@
 <section id="tools" class="section">
   <div class="section-inner">
     <h2 class="section-title"><span class="hash">05.</span> security tools</h2>
-    <p class="vapt-intro">Live utilities — run them right here in the browser. Whois, DNS, IP geolocation, SSL cert search, hashing, encoding, and JWT decoding. All client-side, no data leaves your browser except the lookup itself.</p>
-    <div class="tools-shell">
-      <div class="tools-tabs">
-        <button class="tool-tab active" data-tool="whois">🌐 Whois</button>
-        <button class="tool-tab" data-tool="dns">🔎 DNS</button>
-        <button class="tool-tab" data-tool="ipgeo">📍 IP Geo</button>
-        <button class="tool-tab" data-tool="ssl">🔐 SSL Certs</button>
-        <button class="tool-tab" data-tool="hash">#️⃣ Hash</button>
-        <button class="tool-tab" data-tool="encode">🔤 Encode</button>
-        <button class="tool-tab" data-tool="jwt">🎫 JWT</button>
-      </div>
-
-      <div class="tool-panel active" id="panel-whois">
-        <div class="tool-input-row">
-          <input type="text" id="whoisInput" placeholder="example.com" />
-          <button class="btn btn-primary" id="whoisBtn">Lookup</button>
-        </div>
-        <div class="tool-output" id="whoisOutput">Enter a domain to query RDAP whois data.</div>
-      </div>
-
-      <div class="tool-panel" id="panel-dns">
-        <div class="tool-input-row">
-          <input type="text" id="dnsInput" placeholder="example.com" />
-          <select id="dnsType">
-            <option value="A">A</option>
-            <option value="AAAA">AAAA</option>
-            <option value="CNAME">CNAME</option>
-            <option value="MX">MX</option>
-            <option value="NS">NS</option>
-            <option value="TXT">TXT</option>
-            <option value="SOA">SOA</option>
-            <option value="CAA">CAA</option>
-          </select>
-          <button class="btn btn-primary" id="dnsBtn">Resolve</button>
-        </div>
-        <div class="tool-output" id="dnsOutput">Enter a domain and record type to resolve DNS.</div>
-      </div>
-
-      <div class="tool-panel" id="panel-ipgeo">
-        <div class="tool-input-row">
-          <input type="text" id="ipgeoInput" placeholder="8.8.8.8 (leave blank for your IP)" />
-          <button class="btn btn-primary" id="ipgeoBtn">Locate</button>
-        </div>
-        <div class="tool-output" id="ipgeoOutput">Enter an IP to geolocate it (ASN, ISP, city, coordinates).</div>
-      </div>
-
-      <div class="tool-panel" id="panel-ssl">
-        <div class="tool-input-row">
-          <input type="text" id="sslInput" placeholder="example.com" />
-          <button class="btn btn-primary" id="sslBtn">Search</button>
-        </div>
-        <div class="tool-output" id="sslOutput">Search crt.sh for SSL certificates and subdomains.</div>
-      </div>
-
-      <div class="tool-panel" id="panel-hash">
-        <div class="tool-input-row">
-          <input type="text" id="hashInput" placeholder="text to hash" />
-          <select id="hashAlgo">
-            <option value="MD5">MD5</option>
-            <option value="SHA-1">SHA-1</option>
-            <option value="SHA-256">SHA-256</option>
-            <option value="SHA-512">SHA-512</option>
-          </select>
-          <button class="btn btn-primary" id="hashBtn">Hash</button>
-        </div>
-        <div class="tool-output" id="hashOutput">Enter text to generate a hash.</div>
-      </div>
-
-      <div class="tool-panel" id="panel-encode">
-        <div class="tool-input-row">
-          <select id="encodeMode">
-            <option value="b64e">Base64 Encode</option>
-            <option value="b64d">Base64 Decode</option>
-            <option value="urle">URL Encode</option>
-            <option value="urld">URL Decode</option>
-            <option value="hexe">Hex Encode</option>
-            <option value="hexd">Hex Decode</option>
-          </select>
-          <button class="btn btn-primary" id="encodeBtn">Convert</button>
-        </div>
-        <textarea id="encodeInput" placeholder="text to convert"></textarea>
-        <div class="tool-output" id="encodeOutput">Enter text and pick a conversion.</div>
-      </div>
-
-      <div class="tool-panel" id="panel-jwt">
-        <textarea id="jwtInput" placeholder="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0..."></textarea>
-        <button class="btn btn-primary" id="jwtBtn">Decode</button>
-        <div class="tool-output" id="jwtOutput">Paste a JWT to decode its header and payload.</div>
+    <div class="tools-cta">
+      <div class="tools-cta-icon">🛠️</div>
+      <div class="tools-cta-body">
+        <h3>Interactive Security Toolkit</h3>
+        <p>Whois, DNS resolution, IP geolocation, SSL certificate search, hashing, encoding, and JWT decoding — a dedicated dashboard for reconnaissance and analysis.</p>
+        <a href="tools.html" class="btn btn-primary">Launch Toolkit <span class="arr">→</span></a>
       </div>
     </div>
   </div>

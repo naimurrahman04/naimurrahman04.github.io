@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security Tools — Naimur Rahman</title>
+<meta name="description" content="Professional security tool suite — Whois, DNS, IP geolocation, SSL certificate search, hashing, encoding, and JWT decoding.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tools.css">
+</head>
+<body>
+<div class="app">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <a href="index.html" class="brand">
+      <span class="brand-prompt">&gt;_</span> naimur<span class="brand-accent">.sh</span>
+    </a>
+    <div class="sidebar-label">TOOLKIT</div>
+    <nav class="tool-nav">
+      <button class="tool-nav-item active" data-tool="whois">
+        <span class="nav-icon">🌐</span>
+        <span class="nav-text">Whois Lookup</span>
+        <span class="nav-badge">RDAP</span>
+      </button>
+      <button class="tool-nav-item" data-tool="dns">
+        <span class="nav-icon">🔎</span>
+        <span class="nav-text">DNS Resolver</span>
+        <span class="nav-badge">DoH</span>
+      </button>
+      <button class="tool-nav-item" data-tool="ipgeo">
+        <span class="nav-icon">📍</span>
+        <span class="nav-text">IP Geolocation</span>
+        <span class="nav-badge">ASN</span>
+      </button>
+      <button class="tool-nav-item" data-tool="ssl">
+        <span class="nav-icon">🔐</span>
+        <span class="nav-text">SSL Cert Search</span>
+        <span class="nav-badge">CT</span>
+      </button>
+      <button class="tool-nav-item" data-tool="hash">
+        <span class="nav-icon">#️⃣</span>
+        <span class="nav-text">Hash Generator</span>
+        <span class="nav-badge">LOCAL</span>
+      </button>
+      <button class="tool-nav-item" data-tool="encode">
+        <span class="nav-icon">🔤</span>
+        <span class="nav-text">Encode / Decode</span>
+        <span class="nav-badge">LOCAL</span>
+      </button>
+      <button class="tool-nav-item" data-tool="jwt">
+        <span class="nav-icon">🎫</span>
+        <span class="nav-text">JWT Decoder</span>
+        <span class="nav-badge">LOCAL</span>
+      </button>
+    </nav>
+    <div class="sidebar-footer">
+      <a href="index.html" class="back-link">← Back to portfolio</a>
+      <div class="sidebar-note">Client-side tools. Lookups hit public APIs; hashing/encoding/JWT never leave your browser.</div>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <header class="topbar">
+      <div class="topbar-title">
+        <h1>Security Tools</h1>
+        <p class="topbar-sub">Reconnaissance &amp; analysis utilities</p>
+      </div>
+      <div class="topbar-status">
+        <span class="status-dot"></span>
+        <span class="status-text">Ready</span>
+      </div>
+    </header>
+
+    <div class="content">
+      <!-- Whois -->
+      <section class="tool-view active" id="view-whois">
+        <div class="tool-header">
+          <div class="tool-header-icon">🌐</div>
+          <div>
+            <h2>Whois Lookup</h2>
+            <p>Query domain registration data via RDAP — registrar, status, nameservers, and entities.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field">
+            <label>Domain</label>
+            <input type="text" id="whoisInput" placeholder="example.com" spellcheck="false" />
+          </div>
+          <button class="run-btn" id="whoisBtn">Run Lookup</button>
+        </div>
+        <div class="result-box" id="whoisOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- DNS -->
+      <section class="tool-view" id="view-dns">
+        <div class="tool-header">
+          <div class="tool-header-icon">🔎</div>
+          <div>
+            <h2>DNS Resolver</h2>
+            <p>Resolve DNS records over HTTPS (Google DoH) — A, AAAA, CNAME, MX, NS, TXT, SOA, CAA.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>Domain</label>
+            <input type="text" id="dnsInput" placeholder="example.com" spellcheck="false" />
+          </div>
+          <div class="field">
+            <label>Record Type</label>
+            <select id="dnsType">
+              <option value="A">A</option>
+              <option value="AAAA">AAAA</option>
+              <option value="CNAME">CNAME</option>
+              <option value="MX">MX</option>
+              <option value="NS">NS</option>
+              <option value="TXT">TXT</option>
+              <option value="SOA">SOA</option>
+              <option value="CAA">CAA</option>
+            </select>
+          </div>
+          <button class="run-btn" id="dnsBtn">Resolve</button>
+        </div>
+        <div class="result-box" id="dnsOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- IP Geo -->
+      <section class="tool-view" id="view-ipgeo">
+        <div class="tool-header">
+          <div class="tool-header-icon">📍</div>
+          <div>
+            <h2>IP Geolocation</h2>
+            <p>Locate any IP address — continent, country, city, coordinates, ASN, and ISP.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>IP Address</label>
+            <input type="text" id="ipgeoInput" placeholder="8.8.8.8 — leave blank for your own IP" spellcheck="false" />
+          </div>
+          <button class="run-btn" id="ipgeoBtn">Locate</button>
+        </div>
+        <div class="result-box" id="ipgeoOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- SSL -->
+      <section class="tool-view" id="view-ssl">
+        <div class="tool-header">
+          <div class="tool-header-icon">🔐</div>
+          <div>
+            <h2>SSL Certificate Search</h2>
+            <p>Discover subdomains via Certificate Transparency logs (CertSpotter).</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>Domain</label>
+            <input type="text" id="sslInput" placeholder="example.com" spellcheck="false" />
+          </div>
+          <button class="run-btn" id="sslBtn">Search</button>
+        </div>
+        <div class="result-box" id="sslOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- Hash -->
+      <section class="tool-view" id="view-hash">
+        <div class="tool-header">
+          <div class="tool-header-icon">#️⃣</div>
+          <div>
+            <h2>Hash Generator</h2>
+            <p>Generate MD5, SHA-1, SHA-256, and SHA-512 hashes — computed locally in your browser.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>Text</label>
+            <input type="text" id="hashInput" placeholder="text to hash" spellcheck="false" />
+          </div>
+          <div class="field">
+            <label>Algorithm</label>
+            <select id="hashAlgo">
+              <option value="MD5">MD5</option>
+              <option value="SHA-1">SHA-1</option>
+              <option value="SHA-256">SHA-256</option>
+              <option value="SHA-512">SHA-512</option>
+            </select>
+          </div>
+          <button class="run-btn" id="hashBtn">Hash</button>
+        </div>
+        <div class="result-box" id="hashOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- Encode -->
+      <section class="tool-view" id="view-encode">
+        <div class="tool-header">
+          <div class="tool-header-icon">🔤</div>
+          <div>
+            <h2>Encode / Decode</h2>
+            <p>Convert between Base64, URL-encoding, and Hex — computed locally in your browser.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field">
+            <label>Mode</label>
+            <select id="encodeMode">
+              <option value="b64e">Base64 Encode</option>
+              <option value="b64d">Base64 Decode</option>
+              <option value="urle">URL Encode</option>
+              <option value="urld">URL Decode</option>
+              <option value="hexe">Hex Encode</option>
+              <option value="hexd">Hex Decode</option>
+            </select>
+          </div>
+          <button class="run-btn" id="encodeBtn">Convert</button>
+        </div>
+        <textarea class="tool-textarea" id="encodeInput" placeholder="text to convert" spellcheck="false"></textarea>
+        <div class="result-box" id="encodeOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- JWT -->
+      <section class="tool-view" id="view-jwt">
+        <div class="tool-header">
+          <div class="tool-header-icon">🎫</div>
+          <div>
+            <h2>JWT Decoder</h2>
+            <p>Decode a JSON Web Token's header and payload. Signature is not verified.</p>
+          </div>
+        </div>
+        <textarea class="tool-textarea" id="jwtInput" placeholder="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0..." spellcheck="false"></textarea>
+        <button class="run-btn" id="jwtBtn">Decode</button>
+        <div class="result-box" id="jwtOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<script src="tools.js"></script>
+</body>
+</html>
