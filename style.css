@@ -406,6 +406,67 @@ body {
 .lang-name { font-weight: 600; font-size: 1rem; }
 .lang-level { color: var(--accent); font-size: 0.85rem; }
 
+/* News */
+.news-intro {
+  text-align: center;
+  color: var(--text-dim);
+  margin-bottom: 40px;
+  font-size: 1.05rem;
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.news-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 28px;
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.25s;
+}
+.news-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.08);
+}
+.news-source {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.news-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.2px;
+}
+.news-date {
+  margin-top: auto;
+  font-size: 0.8rem;
+  color: var(--text-faint);
+}
+.news-loading {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-faint);
+  padding: 40px;
+  font-size: 0.95rem;
+}
+.news-error {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-faint);
+  padding: 40px;
+  font-size: 0.95rem;
+}
+
 /* Contact */
 .contact-intro {
   text-align: center;
@@ -451,6 +512,7 @@ body {
 @media (max-width: 900px) {
   .skills-grid, .projects-grid { grid-template-columns: 1fr; }
   .certs-grid { grid-template-columns: repeat(2, 1fr); }
+  .news-grid { grid-template-columns: repeat(2, 1fr); }
   .contact-grid { grid-template-columns: repeat(2, 1fr); }
   .two-col { grid-template-columns: 1fr; }
   .hero-stats { grid-template-columns: repeat(2, 1fr); }
@@ -486,6 +548,7 @@ body {
   .section { padding: 64px 20px; }
   .section-title { font-size: 1.8rem; }
   .certs-grid, .contact-grid, .lang-grid { grid-template-columns: 1fr; }
+  .news-grid { grid-template-columns: 1fr; }
   .tl-head { flex-direction: column; gap: 4px; }
   .tl-date { margin-left: 0; }
 }

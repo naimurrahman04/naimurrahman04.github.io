@@ -55,9 +55,75 @@
     });
   }
 
+  // Live cybersecurity news
+  function initNews() {
+    const grid = document.getElementById('newsGrid');
+    if (!grid) return;
+
+    const feeds = [
+      { url: 'https://feeds.feedburner.com/TheHackersNews', source: 'The Hacker News' },
+      { url: 'https://www.bleepingcomputer.com/feed/', source: 'BleepingComputer' }
+    ];
+
+    const api = (rss) =>
+      'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rss);
+
+    function render(items) {
+      grid.innerHTML = '';
+      items.forEach(item => {
+        const a = document.createElement('a');
+        a.className = 'news-card';
+        a.href = item.link;
+        a.target = '_blank';
+        a.rel = 'noopener';
+
+        const src = document.createElement('span');
+        src.className = 'news-source';
+        src.textContent = item.source;
+
+        const title = document.createElement('span');
+        title.className = 'news-title';
+        title.textContent = item.title;
+
+        const date = document.createElement('span');
+        date.className = 'news-date';
+        date.textContent = new Date(item.pubDate).toLocaleDateString('en-US', {
+          year: 'numeric', month: 'short', day: 'numeric'
+        });
+
+        a.appendChild(src);
+        a.appendChild(title);
+        a.appendChild(date);
+        grid.appendChild(a);
+      });
+    }
+
+    Promise.all(feeds.map(f =>
+      fetch(api(f.url))
+        .then(r => r.json())
+        .then(d => (d.items || []).slice(0, 5).map(i => ({
+          title: i.title,
+          link: i.link,
+          pubDate: i.pubDate,
+          source: f.source
+        })))
+        .catch(() => [])
+    )).then(results => {
+      const merged = results.flat().sort((a, b) =>
+        new Date(b.pubDate) - new Date(a.pubDate)
+      ).slice(0, 9);
+      if (merged.length === 0) {
+        grid.innerHTML = '<div class="news-error">Unable to load news right now. Please refresh.</div>';
+        return;
+      }
+      render(merged);
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     initNav();
     initHamburger();
     initReveal();
+    initNews();
   });
 })();
