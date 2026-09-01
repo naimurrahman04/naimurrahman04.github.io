@@ -241,90 +241,13 @@ body {
   background: rgba(255,255,255,0.02);
 }
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
-
-/* Hero tools highlight */
-.hero-tools {
-  margin-bottom: 48px;
-  max-width: 720px;
-}
-.hero-tools-link {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
-  text-decoration: none;
-  padding: 16px 20px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, rgba(0,229,160,0.08), rgba(56,189,248,0.08));
-  border: 1px solid rgba(0,229,160,0.3);
-  backdrop-filter: blur(12px);
-  transition: all 0.25s;
-  position: relative;
-  overflow: hidden;
-}
-.hero-tools-link::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, transparent, rgba(0,229,160,0.12), transparent);
-  transform: translateX(-100%);
-  animation: shine 3s infinite;
-}
-@keyframes shine {
-  0% { transform: translateX(-100%); }
-  60%, 100% { transform: translateX(100%); }
-}
-.hero-tools-link:hover {
-  border-color: var(--accent);
-  box-shadow: 0 8px 32px rgba(0,229,160,0.25);
-  transform: translateY(-2px);
-}
-.hero-tools-badge {
-  font-family: var(--mono);
-  font-size: 0.8rem;
-  font-weight: 700;
+.btn-tools {
+  background: linear-gradient(135deg, var(--accent-2), var(--accent-3));
   color: #04120c;
-  background: linear-gradient(135deg, var(--accent), #00c48a);
-  padding: 6px 14px;
-  border-radius: 20px;
-  white-space: nowrap;
-  box-shadow: 0 0 20px rgba(0,229,160,0.5);
-  animation: badgePulse 2s infinite;
+  box-shadow: 0 4px 24px rgba(56,189,248,0.35);
 }
-@keyframes badgePulse {
-  0%, 100% { box-shadow: 0 0 20px rgba(0,229,160,0.5); }
-  50% { box-shadow: 0 0 32px rgba(0,229,160,0.8); }
-}
-.hero-tools-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  flex: 1;
-}
-.tool-chip {
-  font-family: var(--mono);
-  font-size: 0.78rem;
-  color: var(--text);
-  background: rgba(255,255,255,0.04);
-  border: 1px solid var(--border);
-  padding: 5px 12px;
-  border-radius: 6px;
-  transition: all 0.2s;
-  white-space: nowrap;
-}
-.hero-tools-link:hover .tool-chip {
-  border-color: rgba(0,229,160,0.4);
-  background: rgba(0,229,160,0.08);
-}
-.hero-tools-cta {
-  font-family: var(--mono);
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--accent);
-  white-space: nowrap;
-  transition: transform 0.2s;
-}
-.hero-tools-link:hover .hero-tools-cta { transform: translateX(4px); }
+.btn-tools:hover { box-shadow: 0 6px 36px rgba(56,189,248,0.5); transform: translateY(-2px); }
+.btn-tools:hover .arr { transform: translateX(4px); }
 
 .hero-stats {
   display: grid;
