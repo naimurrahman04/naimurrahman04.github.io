@@ -1,58 +1,58 @@
 {
-  "updated": "2026-09-02T10:24:52Z",
+  "updated": "2026-09-02T15:48:52Z",
   "items": [
     {
-      "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-      "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-      "pubDate": "Wed, 02 Sep 2026 14:48:02 +0530",
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "pubDate": "Wed, 02 Sep 2026 19:36:59 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
-      "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
-      "pubDate": "Wed, 02 Sep 2026 14:40:23 +0530",
+      "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+      "link": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+      "pubDate": "Wed, 02 Sep 2026 19:14:16 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
-      "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
-      "pubDate": "Wed, 02 Sep 2026 13:17:13 +0530",
+      "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+      "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+      "pubDate": "Wed, 02 Sep 2026 18:42:45 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
-      "pubDate": "Wed, 02 Sep 2026 12:38:50 +0530",
+      "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+      "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+      "pubDate": "Wed, 02 Sep 2026 17:52:02 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
-      "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
-      "pubDate": "Wed, 02 Sep 2026 12:26:30 +0530",
+      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+      "link": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+      "pubDate": "Wed, 02 Sep 2026 17:00:00 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "US charges Russian for infecting 80,000 freelancers with malware",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
-      "pubDate": "Wed, 02 Sep 2026 05:06:48 -0400",
+      "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
+      "pubDate": "Wed, 02 Sep 2026 11:47:08 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Sality botnet infrastructure dismantled in joint global takedown",
-      "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
-      "pubDate": "Wed, 02 Sep 2026 04:00:43 -0400",
+      "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
+      "pubDate": "Wed, 02 Sep 2026 10:02:12 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-      "pubDate": "Wed, 02 Sep 2026 02:39:29 -0400",
+      "title": "Dropbox accounts breached through Lenovo email verification flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+      "pubDate": "Wed, 02 Sep 2026 08:30:22 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
-      "pubDate": "Tue, 01 Sep 2026 16:53:23 -0400",
+      "title": "Microsoft Defender flags legitimate Google search links as malicious",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+      "pubDate": "Wed, 02 Sep 2026 06:29:39 -0400",
       "source": "BleepingComputer"
     }
   ]
