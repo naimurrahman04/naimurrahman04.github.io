@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T20:24:18Z",
+  "updated": "2026-09-02T02:26:44Z",
   "items": [
     {
       "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
@@ -32,6 +32,12 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
+      "pubDate": "Tue, 01 Sep 2026 16:53:23 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Aesto Health says data breach affects over 9.5 million patients",
       "link": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
       "pubDate": "Tue, 01 Sep 2026 15:28:17 -0400",
@@ -47,12 +53,6 @@
       "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
       "pubDate": "Tue, 01 Sep 2026 10:45:06 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Novocure data breach affects more than 1,400 cancer patients",
-      "link": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
-      "pubDate": "Tue, 01 Sep 2026 10:28:40 -0400",
       "source": "BleepingComputer"
     }
   ]
