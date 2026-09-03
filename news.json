@@ -1,6 +1,30 @@
 {
-  "updated": "2026-09-03T15:38:10Z",
+  "updated": "2026-09-03T20:23:36Z",
   "items": [
+    {
+      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+      "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+      "pubDate": "Thu, 03 Sep 2026 23:32:47 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+      "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+      "pubDate": "Thu, 03 Sep 2026 21:22:07 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+      "link": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+      "pubDate": "Thu, 03 Sep 2026 20:56:47 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+      "link": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+      "pubDate": "Thu, 03 Sep 2026 20:09:05 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
       "link": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
@@ -8,28 +32,16 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
-      "link": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
-      "pubDate": "Thu, 03 Sep 2026 16:13:01 +0530",
-      "source": "The Hacker News"
+      "title": "Coder's registry infrastructure compromised to push malicious modules",
+      "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+      "pubDate": "Thu, 03 Sep 2026 16:04:24 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
-      "link": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
-      "pubDate": "Thu, 03 Sep 2026 16:06:39 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
-      "link": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
-      "pubDate": "Thu, 03 Sep 2026 14:13:17 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
-      "link": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
-      "pubDate": "Thu, 03 Sep 2026 11:56:59 +0530",
-      "source": "The Hacker News"
+      "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
+      "pubDate": "Thu, 03 Sep 2026 14:28:12 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
@@ -41,18 +53,6 @@
       "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
       "pubDate": "Thu, 03 Sep 2026 11:13:29 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Anthropic confirms Claude is down, multiple models affected",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
-      "pubDate": "Thu, 03 Sep 2026 11:02:52 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
-      "pubDate": "Thu, 03 Sep 2026 10:52:20 -0400",
       "source": "BleepingComputer"
     }
   ]
