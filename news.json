@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T20:24:32Z",
+  "updated": "2026-09-03T02:33:41Z",
   "items": [
     {
       "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
@@ -32,6 +32,12 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+      "pubDate": "Wed, 02 Sep 2026 17:00:13 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
       "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
       "pubDate": "Wed, 02 Sep 2026 15:28:46 -0400",
@@ -47,12 +53,6 @@
       "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
       "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
       "pubDate": "Wed, 02 Sep 2026 10:02:12 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Dropbox accounts breached through Lenovo email verification flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
-      "pubDate": "Wed, 02 Sep 2026 08:30:22 -0400",
       "source": "BleepingComputer"
     }
   ]
