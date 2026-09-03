@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security Blog — Naimur Rahman | AI Security, Pentesting &amp; Forensics Writeups</title>
+<meta name="description" content="Technical security writeups by Naimur Rahman — LLM red-teaming, AI-assisted vulnerability scanning, CI/CD config disclosure, macOS forensics, and vulnerability assessment methodology.">
+<meta name="keywords" content="LLM security, prompt injection, AI red teaming, vulnerability scanner, CI/CD security, macOS forensics, penetration testing writeup, security blog, Naimur Rahman">
+<meta name="author" content="Naimur Rahman">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#0a66c2">
+<link rel="canonical" href="https://naimurrahman04.github.io/blog.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Naimur Rahman — Cybersecurity Engineer">
+<meta property="og:title" content="Security Blog — Naimur Rahman">
+<meta property="og:description" content="Technical writeups on LLM security, AI-assisted scanning, CI/CD disclosure, macOS forensics, and vulnerability assessment.">
+<meta property="og:url" content="https://naimurrahman04.github.io/blog.html">
+<meta property="og:image" content="https://naimurrahman04.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Naimur Rahman — Cybersecurity Engineer portfolio">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Security Blog — Naimur Rahman">
+<meta name="twitter:description" content="Technical writeups on LLM security, AI-assisted scanning, CI/CD disclosure, macOS forensics, and vulnerability assessment.">
+<meta name="twitter:image" content="https://naimurrahman04.github.io/og-image.png">
+<meta name="twitter:image:alt" content="Naimur Rahman — Cybersecurity Engineer portfolio">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="blog.css">
+
+<!-- Structured Data: Blog -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Naimur Rahman — Security Blog",
+  "url": "https://naimurrahman04.github.io/blog.html",
+  "author": {
+    "@type": "Person",
+    "name": "Naimur Rahman",
+    "url": "https://naimurrahman04.github.io/"
+  },
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Red-Teaming LLM Applications: A Practical Guide to the OWASP Top 10 for LLM",
+      "url": "https://naimurrahman04.github.io/blog.html#llm-sec",
+      "datePublished": "2026-09-03",
+      "author": {"@type": "Person", "name": "Naimur Rahman"},
+      "keywords": "LLM security, prompt injection, OWASP LLM Top 10, AI red teaming"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Building an AI-Assisted Web Vulnerability Scanner (Without Letting the AI Hallucinate Findings)",
+      "url": "https://naimurrahman04.github.io/blog.html#ai-vapt",
+      "datePublished": "2026-09-03",
+      "author": {"@type": "Person", "name": "Naimur Rahman"},
+      "keywords": "AI security, vulnerability scanner, LLM triage, web security"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Detecting Exposed CI/CD Configuration Files Behind Cloudflare",
+      "url": "https://naimurrahman04.github.io/blog.html#cicd",
+      "datePublished": "2026-09-03",
+      "author": {"@type": "Person", "name": "Naimur Rahman"},
+      "keywords": "CI/CD security, Cloudflare, Nuclei, config disclosure"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "macOS Live Forensics: Collecting Volatile Evidence Before It's Gone",
+      "url": "https://naimurrahman04.github.io/blog.html#mac-forensic",
+      "datePublished": "2026-09-03",
+      "author": {"@type": "Person", "name": "Naimur Rahman"},
+      "keywords": "macOS forensics, DFIR, live response, incident response"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "The Anatomy of a Vulnerability Assessment: Port Scanning, Security Headers, and Clickjacking",
+      "url": "https://naimurrahman04.github.io/blog.html#va-master",
+      "datePublished": "2026-09-03",
+      "author": {"@type": "Person", "name": "Naimur Rahman"},
+      "keywords": "vulnerability assessment, port scanning, security headers, clickjacking"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Naimur<span class="logo-accent"> Rahman</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html#about">About</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="tools.html" class="nav-cta">Security Tools</a>
+    </div>
+  </div>
+</nav>
+
+<header class="blog-hero">
+  <div class="section-inner">
+    <span class="section-eyebrow">Technical Writeups</span>
+    <h1 class="section-title">Security Blog</h1>
+    <p class="blog-intro">Deep dives into AI/LLM security, web application testing, CI/CD hardening, and digital forensics — grounded in real tools and real code.</p>
+  </div>
+</header>
+
+<main class="blog-list">
+  <div class="section-inner">
+
+    <article class="blog-card" id="llm-sec">
+      <div class="blog-meta">
+        <span class="blog-tag">AI Security</span>
+        <span class="blog-date">Sep 3, 2026</span>
+      </div>
+      <h2>Red-Teaming LLM Applications: A Practical Guide to the OWASP Top 10 for LLM</h2>
+      <p>Prompt injection is the #1 risk in the OWASP LLM Top 10 — and you can't sanitize your way out of it. A practical look at direct vs. indirect injection, the evasion arms race, and deterministic detection.</p>
+      <a class="blog-read" href="https://github.com/naimurrahman04/llm-sec" target="_blank" rel="noopener">Read the tool →</a>
+    </article>
+
+    <article class="blog-card" id="ai-vapt">
+      <div class="blog-meta">
+        <span class="blog-tag">AI Security</span>
+        <span class="blog-date">Sep 3, 2026</span>
+      </div>
+      <h2>Building an AI-Assisted Web Vulnerability Scanner (Without Letting the AI Hallucinate Findings)</h2>
+      <p>The core principle: AI should triage, not detect. How deterministic checks find vulnerabilities and the LLM only explains them — so the scanner can't hallucinate a false positive.</p>
+      <a class="blog-read" href="https://github.com/naimurrahman04/ai-vapt" target="_blank" rel="noopener">Read the tool →</a>
+    </article>
+
+    <article class="blog-card" id="cicd">
+      <div class="blog-meta">
+        <span class="blog-tag">Web Security</span>
+        <span class="blog-date">Sep 3, 2026</span>
+      </div>
+      <h2>Detecting Exposed CI/CD Configuration Files Behind Cloudflare</h2>
+      <p>A single leaked <code>.env</code> or <code>.git/config</code> can hand an attacker your secrets. How to detect them with content-based matching that tells a real leak from a WAF challenge page.</p>
+      <a class="blog-read" href="https://github.com/naimurrahman04/cicd-config-disclosure" target="_blank" rel="noopener">Read the tool →</a>
+    </article>
+
+    <article class="blog-card" id="mac-forensic">
+      <div class="blog-meta">
+        <span class="blog-tag">DFIR</span>
+        <span class="blog-date">Sep 3, 2026</span>
+      </div>
+      <h2>macOS Live Forensics: Collecting Volatile Evidence Before It's Gone</h2>
+      <p>Volatile evidence — processes, network connections, login history — vanishes on reboot. What to collect first, and how to automate it with a non-destructive live-response script.</p>
+      <a class="blog-read" href="https://github.com/naimurrahman04/mac-forensic" target="_blank" rel="noopener">Read the tool →</a>
+    </article>
+
+    <article class="blog-card" id="va-master">
+      <div class="blog-meta">
+        <span class="blog-tag">Methodology</span>
+        <span class="blog-date">Sep 3, 2026</span>
+      </div>
+      <h2>The Anatomy of a Vulnerability Assessment: Port Scanning, Security Headers, and Clickjacking</h2>
+      <p>A vulnerability assessment is a sequence of checks that build on each other. How port scanning, header analysis, clickjacking testing, and directory brute-forcing chain into a complete picture.</p>
+      <a class="blog-read" href="https://github.com/naimurrahman04/VA-Master-tool" target="_blank" rel="noopener">Read the tool →</a>
+    </article>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <p>© 2026 Naimur Rahman · Cybersecurity Engineer</p>
+</footer>
+
+<script src="script.js?v=2"></script>
+</body>
+</html>
