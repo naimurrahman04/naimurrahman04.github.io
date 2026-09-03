@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detecting Exposed CI/CD Configuration Files Behind Cloudflare — Naimur Rahman</title>
+<meta name="description" content="A single leaked .env or .git/config can hand an attacker your secrets. How to detect them with content-based matching that tells a real leak from a WAF challenge page.">
+<meta name="author" content="Naimur Rahman">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#0a66c2">
+<link rel="canonical" href="https://naimurrahman04.github.io/blog/cicd-config-disclosure.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Naimur Rahman — Cybersecurity Engineer">
+<meta property="og:title" content="Detecting Exposed CI/CD Configuration Files Behind Cloudflare">
+<meta property="og:description" content="A single leaked .env or .git/config can hand an attacker your secrets. How to detect them with content-based matching that tells a real leak from a WAF challenge page.">
+<meta property="og:url" content="https://naimurrahman04.github.io/blog/cicd-config-disclosure.html">
+<meta property="og:image" content="https://naimurrahman04.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Detecting Exposed CI/CD Configuration Files Behind Cloudflare">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-09-03">
+<meta property="article:author" content="Naimur Rahman">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Detecting Exposed CI/CD Configuration Files Behind Cloudflare">
+<meta name="twitter:description" content="A single leaked .env or .git/config can hand an attacker your secrets. How to detect them with content-based matching that tells a real leak from a WAF challenge page.">
+<meta name="twitter:image" content="https://naimurrahman04.github.io/og-image.png">
+<meta name="twitter:image:alt" content="Detecting Exposed CI/CD Configuration Files Behind Cloudflare">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../blog.css">
+
+<!-- Structured Data: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Detecting Exposed CI/CD Configuration Files Behind Cloudflare",
+  "description": "A single leaked .env or .git/config can hand an attacker your secrets. How to detect them with content-based matching that tells a real leak from a WAF challenge page.",
+  "url": "https://naimurrahman04.github.io/blog/cicd-config-disclosure.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-03",
+  "author": {"@type": "Person", "name": "Naimur Rahman", "url": "https://naimurrahman04.github.io/"},
+  "publisher": {"@type": "Person", "name": "Naimur Rahman"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://naimurrahman04.github.io/blog/cicd-config-disclosure.html"},
+  "keywords": "Web Security, CI/CD, Cloudflare"
+}
+</script>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">Naimur<span class="logo-accent"> Rahman</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../blog.html" class="active">Blog</a>
+      <a href="../tools.html" class="nav-cta">Security Tools</a>
+    </div>
+  </div>
+</nav>
+
+<article class="post">
+  <div class="section-inner">
+    <a class="post-back" href="../blog.html">← Back to all posts</a>
+    <div class="blog-meta">
+      <span class="blog-tag">Web Security</span><span class="blog-tag">CI/CD</span><span class="blog-tag">Cloudflare</span>
+      <span class="blog-date">2026-09-03</span>
+    </div>
+    <h1 class="post-title">Detecting Exposed CI/CD Configuration Files Behind Cloudflare</h1>
+    <a class="blog-project" href="https://github.com/naimurrahman04/cicd-config-disclosure" target="_blank" rel="noopener">View the tool: cicd-config-disclosure →</a>
+    <div class="post-body">
+<h1>Detecting Exposed CI/CD Configuration Files Behind Cloudflare</h1>
+<p><em>By Naimur Rahman — Cybersecurity Engineer</em></p>
+<p>One of the most common — and most damaging — misconfigurations I find in bug bounty and pentest engagements is <strong>exposed CI/CD configuration files</strong>. A single leaked <code>.git</code> directory or <code>.env</code> file can hand an attacker your source code, secrets, and deployment pipeline in one request.</p>
+<p>The catch: many of these targets sit behind Cloudflare, which complicates detection. This post covers the technique and the Nuclei template I built to automate it.</p>
+<hr />
+<h2>Why CI/CD config files are gold</h2>
+<p>These files are the keys to the kingdom:</p>
+<table>
+<thead>
+<tr>
+  <th>File</th>
+  <th>What it leaks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><code>.git/config</code></td>
+  <td>Repository URL, remote credentials, internal hostnames</td>
+</tr>
+<tr>
+  <td><code>.env</code></td>
+  <td>Database passwords, API keys, secret tokens</td>
+</tr>
+<tr>
+  <td><code>Jenkinsfile</code></td>
+  <td>Build pipeline, deployment targets, embedded credentials</td>
+</tr>
+<tr>
+  <td><code>Dockerfile</code></td>
+  <td>Base images, build args (often secrets), internal registries</td>
+</tr>
+<tr>
+  <td><code>.gitlab-ci.yml</code></td>
+  <td>CI variables, deploy keys, runner config</td>
+</tr>
+<tr>
+  <td><code>config.php.bak</code> / <code>wp-config.php.bak</code></td>
+  <td>Database credentials in plaintext</td>
+</tr>
+</tbody>
+</table>
+<p>A single exposed <code>.env</code> is often a <strong>critical</strong> finding — it can contain production database credentials, third-party API keys, and signing secrets.</p>
+<hr />
+<h2>The Cloudflare complication</h2>
+<p>Cloudflare sits in front of many targets and does two things that break naive scanning:</p>
+<ol>
+<li><strong>It caches and normalizes responses</strong> — a <code>404</code> from the origin may be served as a cached <code>200</code> or vice versa.</li>
+<li><strong>It blocks obvious scanner signatures</strong> — default User-Agents, rapid request patterns, and known tool fingerprints get challenged (403/503) or served a JS challenge.</li>
+</ol>
+<p>So a scanner that just fires <code>GET /.env</code> and checks for <code>200</code> will produce both false positives (Cloudflare's challenge page returns 200) and false negatives (the real file is hidden behind a challenge).</p>
+<hr />
+<h2>The technique</h2>
+<p>The reliable approach has three parts:</p>
+<ol>
+<li><p><strong>Fingerprint the response, not just the status code.</strong> A real <code>.env</code> returns <code>KEY=VALUE</code> pairs. A Cloudflare challenge returns HTML with <code>cf-chl-</code> markers. Distinguish them by <em>content</em>, not status.</p>
+</li>
+<li><p><strong>Use a clean, browser-like fingerprint.</strong> A realistic User-Agent and normal request pacing avoids tripping Cloudflare's bot detection.</p>
+</li>
+<li><p><strong>Probe a focused list of high-value paths</strong> rather than a huge wordlist — CI/CD files are specific, not random.</p>
+</li>
+</ol>
+<hr />
+<h2>The Nuclei template</h2>
+<p>I packaged this into a Nuclei template — <a href="https://github.com/naimurrahman04/cicd-config-disclosure"><code>cicd-config-disclosure</code></a> — that encodes the content-based detection. It probes <strong>26 high-value paths</strong> across every major CI/CD platform:</p>
+<ul>
+<li><strong>Secrets/env:</strong> <code>.env</code>, <code>.env.local</code>, <code>.env.production</code>, <code>.env.dev</code></li>
+<li><strong>Git:</strong> <code>.git/config</code>, <code>.gitignore</code></li>
+<li><strong>Jenkins:</strong> <code>Jenkinsfile</code></li>
+<li><strong>GitHub Actions:</strong> <code>.github/workflows/main.yml</code>, <code>.github/workflows/deploy.yml</code></li>
+<li><strong>GitLab:</strong> <code>.gitlab-ci.yml</code></li>
+<li><strong>Bitbucket:</strong> <code>bitbucket-pipelines.yml</code></li>
+<li><strong>CircleCI:</strong> <code>.circleci/config.yml</code></li>
+<li><strong>Travis:</strong> <code>.travis.yml</code></li>
+<li><strong>Drone:</strong> <code>.drone.yml</code></li>
+<li><strong>Azure:</strong> <code>azure-pipelines.yml</code></li>
+<li><strong>Docker:</strong> <code>Dockerfile</code></li>
+<li><strong>Others:</strong> <code>buildspec.yml</code>, <code>.npmrc</code>, <code>.yarnrc</code>, <code>codefresh.yml</code>, <code>werf.yaml</code>, <code>.tekton/pipeline.yaml</code>, and more</li>
+</ul>
+<p>The key matcher logic distinguishes a genuine leak from a challenge page using <strong>three matchers</strong> (OR'd):</p>
+<ol>
+<li><strong>CI/CD identifiers</strong> — body contains <code>pipeline</code>, <code>stages</code>, <code>jobs</code>, <code>workflow</code>, <code>FROM</code>, <code>steps:</code>, <code>script:</code>, <code>deploy:</code> etc.</li>
+<li><strong>Secret patterns</strong> — regex for <code>api_key=</code>, <code>secret=</code>, <code>token=</code>, <code>password=</code>, <code>client_secret=</code> followed by a value</li>
+<li><strong>Status 200</strong> — the file actually returned</li>
+</ol>
+<p>It also ships a <strong>browser-like User-Agent</strong> (<code>Mozilla/5.0 ... Chrome/137.0</code>) to avoid tripping Cloudflare's bot detection, and an <strong>extractor</strong> that pulls the leaked contents into the report.</p>
+<h3>Usage</h3>
+<pre><code class="language-bash">nuclei -t cicd-config-disclosure.yaml -l targets.txt
+</code></pre>
+<hr />
+<h2>What I've found with it</h2>
+<p>In real engagements, this template has surfaced:</p>
+<ul>
+<li><code>.env</code> files with production database credentials</li>
+<li><code>.git/config</code> exposing internal GitLab hostnames and deploy tokens</li>
+<li><code>Dockerfile</code> with hardcoded build-time secrets</li>
+<li>Backup files (<code>config.php.bak</code>) with plaintext DB passwords</li>
+</ul>
+<p>Each of these is a <strong>critical</strong> finding on its own — and they're almost always trivially exploitable once found.</p>
+<hr />
+<h2>The honest takeaway</h2>
+<p>Exposed CI/CD config files are a <em>high-frequency, high-impact</em> bug class that's easy to miss if you're only checking status codes. The fix is content-based detection that can tell a real leak from a WAF challenge page — and a focused list of the files that actually matter.</p>
+<p><strong>Try it:</strong> <a href="https://github.com/naimurrahman04/cicd-config-disclosure"><code>github.com/naimurrahman04/cicd-config-disclosure</code></a></p>
+<hr />
+<p><em>For authorized testing only. Only test systems you own or have explicit written permission to assess.</em></p>
+
+    </div>
+    <a class="post-back" href="../blog.html">← Back to all posts</a>
+  </div>
+</article>
+
+<footer class="footer">
+  <p>© 2026 Naimur Rahman · Cybersecurity Engineer</p>
+</footer>
+
+<script src="../script.js?v=2"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Building an AI-Assisted Web Vulnerability Scanner (Without Letting the AI Hallucinate Findings) — Naimur Rahman</title>
+<meta name="description" content="AI should triage, not detect. How deterministic checks find vulnerabilities and the LLM only explains them — so the scanner can't hallucinate a false positive.">
+<meta name="author" content="Naimur Rahman">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#0a66c2">
+<link rel="canonical" href="https://naimurrahman04.github.io/blog/ai-vapt-scanner.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Naimur Rahman — Cybersecurity Engineer">
+<meta property="og:title" content="Building an AI-Assisted Web Vulnerability Scanner (Without Letting the AI Hallucinate Findings)">
+<meta property="og:description" content="AI should triage, not detect. How deterministic checks find vulnerabilities and the LLM only explains them — so the scanner can't hallucinate a false positive.">
+<meta property="og:url" content="https://naimurrahman04.github.io/blog/ai-vapt-scanner.html">
+<meta property="og:image" content="https://naimurrahman04.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Building an AI-Assisted Web Vulnerability Scanner (Without Letting the AI Hallucinate Findings)">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-09-03">
+<meta property="article:author" content="Naimur Rahman">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Building an AI-Assisted Web Vulnerability Scanner (Without Letting the AI Hallucinate Findings)">
+<meta name="twitter:description" content="AI should triage, not detect. How deterministic checks find vulnerabilities and the LLM only explains them — so the scanner can't hallucinate a false positive.">
+<meta name="twitter:image" content="https://naimurrahman04.github.io/og-image.png">
+<meta name="twitter:image:alt" content="Building an AI-Assisted Web Vulnerability Scanner (Without Letting the AI Hallucinate Findings)">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../blog.css">
+
+<!-- Structured Data: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Building an AI-Assisted Web Vulnerability Scanner (Without Letting the AI Hallucinate Findings)",
+  "description": "AI should triage, not detect. How deterministic checks find vulnerabilities and the LLM only explains them — so the scanner can't hallucinate a false positive.",
+  "url": "https://naimurrahman04.github.io/blog/ai-vapt-scanner.html",
+  "datePublished": "2026-09-03",
+  "dateModified": "2026-09-03",
+  "author": {"@type": "Person", "name": "Naimur Rahman", "url": "https://naimurrahman04.github.io/"},
+  "publisher": {"@type": "Person", "name": "Naimur Rahman"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://naimurrahman04.github.io/blog/ai-vapt-scanner.html"},
+  "keywords": "AI Security, Web Security, Python"
+}
+</script>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">Naimur<span class="logo-accent"> Rahman</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../blog.html" class="active">Blog</a>
+      <a href="../tools.html" class="nav-cta">Security Tools</a>
+    </div>
+  </div>
+</nav>
+
+<article class="post">
+  <div class="section-inner">
+    <a class="post-back" href="../blog.html">← Back to all posts</a>
+    <div class="blog-meta">
+      <span class="blog-tag">AI Security</span><span class="blog-tag">Web Security</span><span class="blog-tag">Python</span>
+      <span class="blog-date">2026-09-03</span>
+    </div>
+    <h1 class="post-title">Building an AI-Assisted Web Vulnerability Scanner (Without Letting the AI Hallucinate Findings)</h1>
+    <a class="blog-project" href="https://github.com/naimurrahman04/ai-vapt" target="_blank" rel="noopener">View the tool: ai-vapt →</a>
+    <div class="post-body">
+<h1>Building an AI-Assisted Web Vulnerability Scanner (Without Letting the AI Hallucinate Findings)</h1>
+<p><em>By Naimur Rahman — Cybersecurity Engineer</em></p>
+<p>&quot;AI-powered vulnerability scanner&quot; is a phrase that gets thrown around a lot, and most of the time it means one of two things: a wrapper around an existing tool with a chatbot bolted on, or a demo that produces confident-sounding but <em>wrong</em> results.</p>
+<p>I wanted to build something honest. The result is <a href="https://github.com/naimurrahman04/ai-vapt"><code>ai-vapt</code></a> — a web scanner where <strong>deterministic checks do the finding, and the LLM only does the explaining.</strong></p>
+<p>This post explains the architecture and the design decisions behind it.</p>
+<hr />
+<h2>The core principle: AI should triage, not detect</h2>
+<p>The biggest mistake in AI security tooling is letting the LLM <em>decide</em> whether something is a vulnerability. LLMs hallucinate. They'll confidently tell you a reflected XSS exists when it doesn't, or miss a real one because the evidence didn't fit their training patterns.</p>
+<p><code>ai-vapt</code> inverts this:</p>
+<pre><code>┌─────────────┐     ┌──────────────┐     ┌─────────────┐
+│  Crawler    │ ──▶ │ Deterministic │ ──▶ │  LLM Triage │
+│  (discover) │     │   Checks      │     │  (optional)  │
+└─────────────┘     └──────────────┘     └─────────────┘
+</code></pre>
+<ol>
+<li><strong>Crawler</strong> discovers pages, forms, links, and query parameters</li>
+<li><strong>Deterministic checks</strong> find vulnerabilities with hard rules — no AI involved</li>
+<li><strong>LLM triage</strong> (optional) confirms true positives, explains impact, suggests remediation</li>
+</ol>
+<p>The scanner works <em>fully</em> without an LLM. The LLM layer is a value-add, not a dependency.</p>
+<hr />
+<h2>The deterministic checks</h2>
+<p>These are pure functions that inspect a response and return a finding (or nothing). They can't hallucinate because they're just <code>if</code> statements:</p>
+<h3>1. Security headers</h3>
+<pre><code class="language-python">SECURITY_HEADERS = {
+    &quot;X-Frame-Options&quot;: &quot;Clickjacking protection missing&quot;,
+    &quot;Content-Security-Policy&quot;: &quot;CSP missing&quot;,
+    &quot;Strict-Transport-Security&quot;: &quot;HSTS missing&quot;,
+    # ...
+}
+</code></pre>
+<p>Missing header → finding. Present → no finding. Zero ambiguity.</p>
+<h3>2. Sensitive file exposure</h3>
+<p>Probes common paths and flags any that return <code>200</code>:</p>
+<pre><code class="language-python">SENSITIVE_PATHS = [
+    &quot;/.git/config&quot;, &quot;/.env&quot;, &quot;/.aws/credentials&quot;,
+    &quot;/backup.zip&quot;, &quot;/backup.sql&quot;, &quot;/phpinfo.php&quot;,
+    &quot;/wp-config.php.bak&quot;, &quot;/config.php.bak&quot;,
+]
+</code></pre>
+<h3>3. Reflected XSS</h3>
+<p>Injects a payload into each query parameter and checks if it's reflected <em>unencoded</em> in the response:</p>
+<pre><code class="language-python">XSS_PAYLOAD = &quot;&lt;script&gt;alert('ai-vapt')&lt;/script&gt;&quot;
+# ... if XSS_PAYLOAD in r.text: finding
+</code></pre>
+<h3>4. Server info disclosure</h3>
+<p>Flags <code>Server</code> and <code>X-Powered-By</code> headers that leak software/version.</p>
+<p>Every finding carries a <strong>category, severity, title, detail, URL, and evidence</strong> — so it's copy-pasteable into a pentest report.</p>
+<hr />
+<h2>The LLM triage layer (the &quot;AI&quot; part, done right)</h2>
+<p>When you <em>do</em> configure an LLM, it doesn't scan — it <em>triages</em>. For each finding, it's asked to return structured JSON:</p>
+<pre><code class="language-json">{
+  &quot;is_true_positive&quot;: true,
+  &quot;impact&quot;: &quot;An attacker can...&quot;,
+  &quot;remediation&quot;: &quot;Add the header...&quot;
+}
+</code></pre>
+<p>The prompt is explicit about the output shape, and the code does best-effort JSON extraction with a regex — so even a slightly-off LLM response degrades gracefully to <code>None</code> rather than crashing.</p>
+<pre><code class="language-python">m = re.search(r&quot;\{.*\}&quot;, text, re.DOTALL)
+if m:
+    return json.loads(m.group(0))
+return None
+</code></pre>
+<p><strong>Key design choice:</strong> the LLM's verdict is <em>advisory</em>. The deterministic finding is always reported regardless. The LLM can add context, but it can't <em>suppress</em> a real finding or <em>invent</em> a fake one.</p>
+<hr />
+<h2>Why this architecture matters</h2>
+<ol>
+<li><strong>No false confidence.</strong> The scanner never claims a vuln exists unless a deterministic check fired.</li>
+<li><strong>Works offline.</strong> No API key? No problem — you still get full findings with severity.</li>
+<li><strong>Auditable.</strong> Every finding has evidence you can verify by hand.</li>
+<li><strong>LLM-agnostic.</strong> Any OpenAI-compatible endpoint works (Ollama, vLLM, LM Studio, OpenAI, Azure).</li>
+</ol>
+<hr />
+<h2>Usage</h2>
+<pre><code class="language-bash">pip install -e .
+ai-vapt --url https://target.com --crawl
+# optional LLM triage:
+ai-vapt --url https://target.com --llm http://localhost:11434/v1 --model llama3
+</code></pre>
+<hr />
+<h2>The honest takeaway</h2>
+<p>&quot;AI security&quot; doesn't mean replacing deterministic logic with a model — it means using the model where it's actually good (explaining, summarizing, triaging) and keeping the <em>detection</em> deterministic and auditable. That's the difference between a tool you can trust in a real engagement and a demo.</p>
+<p><strong>Try it:</strong> <a href="https://github.com/naimurrahman04/ai-vapt"><code>github.com/naimurrahman04/ai-vapt</code></a></p>
+<hr />
+<p><em>Part of a series on AI security. Previous: <a href="https://github.com/naimurrahman04/llm-sec">Red-Teaming LLM Applications</a>.</em></p>
+
+    </div>
+    <a class="post-back" href="../blog.html">← Back to all posts</a>
+  </div>
+</article>
+
+<footer class="footer">
+  <p>© 2026 Naimur Rahman · Cybersecurity Engineer</p>
+</footer>
+
+<script src="../script.js?v=2"></script>
+</body>
+</html>
