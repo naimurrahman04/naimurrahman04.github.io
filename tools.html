@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Security Tools — Naimur Rahman | Free Online Cybersecurity Utilities</title>
-<meta name="description" content="Free online security tools by Naimur Rahman — Whois lookup, DNS resolver, IP geolocation, SSL certificate search, subdomain enumeration, CVE lookup, hash generator, JWT decoder, and more. Client-side, no signup required.">
-<meta name="keywords" content="whois lookup, dns resolver, ip geolocation, ssl certificate search, subdomain enumeration, cve lookup, hash generator, jwt decoder, security tools, penetration testing tools, osint tools">
+<meta name="description" content="Free online security tools by Naimur Rahman — Whois lookup, DNS resolver, IP geolocation, SSL certificate search, subdomain enumeration, CVE lookup, hash generator, JWT decoder, prompt injection payloads, secret detector, and LLM risk assessment. Client-side, no signup required.">
+<meta name="keywords" content="whois lookup, dns resolver, ip geolocation, ssl certificate search, subdomain enumeration, cve lookup, hash generator, jwt decoder, prompt injection, llm security, secret detector, ai security, security tools, penetration testing tools, osint tools">
 <meta name="author" content="Naimur Rahman">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="theme-color" content="#0a66c2">
@@ -149,6 +149,19 @@
       <button class="tool-nav-item" data-tool="pagelinks">
         <span class="nav-text">Page Links</span>
         <span class="nav-badge">RECON</span>
+      </button>
+      <div class="sidebar-label">AI / LLM SECURITY</div>
+      <button class="tool-nav-item" data-tool="promptinject">
+        <span class="nav-text">Prompt Injection</span>
+        <span class="nav-badge">AI</span>
+      </button>
+      <button class="tool-nav-item" data-tool="secretdetect">
+        <span class="nav-text">Secret Detector</span>
+        <span class="nav-badge">AI</span>
+      </button>
+      <button class="tool-nav-item" data-tool="llmrisk">
+        <span class="nav-text">LLM Risk Assessor</span>
+        <span class="nav-badge">AI</span>
       </button>
     </nav>
     <div class="sidebar-footer">
@@ -572,6 +585,59 @@
           <button class="run-btn" id="pagelinksBtn">Extract</button>
         </div>
         <div class="result-box" id="pagelinksOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- Prompt Injection -->
+      <section class="tool-view" id="view-promptinject">
+        <div class="tool-header">
+          <div>
+            <h2>Prompt Injection Payload Generator</h2>
+            <p>Generate OWASP LLM01 prompt-injection payloads — direct override, indirect injection, encoding evasion, and more. Copy-paste into any LLM to test its guardrails.</p>
+          </div>
+        </div>
+        <div class="tool-form">
+          <div class="field grow">
+            <label>Technique</label>
+            <select id="promptinjectType">
+              <option value="direct">Direct override (DAN)</option>
+              <option value="role">Role confusion (developer mode)</option>
+              <option value="indirect">Indirect injection (poisoned data)</option>
+              <option value="split">Payload splitting</option>
+              <option value="translate">Translation evasion</option>
+              <option value="encode">Base64 encoding evasion</option>
+              <option value="jailbreak">Jailbreak persona</option>
+              <option value="token">Token smuggling</option>
+            </select>
+          </div>
+          <button class="run-btn" id="promptinjectBtn">Generate</button>
+        </div>
+        <div class="result-box" id="promptinjectOutput"><span class="placeholder">Select a technique and click Generate.</span></div>
+      </section>
+
+      <!-- Secret Detector -->
+      <section class="tool-view" id="view-secretdetect">
+        <div class="tool-header">
+          <div>
+            <h2>Secret &amp; Key Detector</h2>
+            <p>Scan text for leaked secrets — API keys, tokens, private keys, passwords — using the same regex patterns as llm-sec. Runs entirely in your browser.</p>
+          </div>
+        </div>
+        <textarea class="tool-textarea" id="secretdetectInput" placeholder="Paste logs, config files, or LLM output to scan for leaked secrets…" spellcheck="false"></textarea>
+        <button class="run-btn" id="secretdetectBtn">Scan</button>
+        <div class="result-box" id="secretdetectOutput"><span class="placeholder">Results will appear here.</span></div>
+      </section>
+
+      <!-- LLM Risk Assessor -->
+      <section class="tool-view" id="view-llmrisk">
+        <div class="tool-header">
+          <div>
+            <h2>LLM Risk Assessor</h2>
+            <p>Interactive OWASP Top 10 for LLM checklist — tick the risks that apply to your LLM app and get a prioritized risk profile.</p>
+          </div>
+        </div>
+        <div class="llm-risk-list" id="llmriskList"></div>
+        <button class="run-btn" id="llmriskBtn">Assess Risk</button>
+        <div class="result-box" id="llmriskOutput"><span class="placeholder">Tick the risks that apply, then click Assess Risk.</span></div>
       </section>
     </div>
   </main>
