@@ -1,6 +1,12 @@
 {
-  "updated": "2026-09-04T10:23:00Z",
+  "updated": "2026-09-04T15:36:43Z",
   "items": [
+    {
+      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+      "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "pubDate": "Fri, 04 Sep 2026 20:21:13 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
       "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
@@ -26,33 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
-      "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
-      "pubDate": "Thu, 03 Sep 2026 23:32:47 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "French hospital fined \u20ac500,000 after breach exposes data of 727,000",
-      "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
-      "pubDate": "Thu, 03 Sep 2026 18:01:37 -0400",
+      "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+      "pubDate": "Fri, 04 Sep 2026 11:25:59 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Coder's registry infrastructure compromised to push malicious modules",
-      "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
-      "pubDate": "Thu, 03 Sep 2026 16:04:24 -0400",
+      "title": "Microsoft says some users can\u2019t open the Teams desktop client",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+      "pubDate": "Fri, 04 Sep 2026 10:30:15 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-      "pubDate": "Thu, 03 Sep 2026 14:28:12 -0400",
+      "title": "39 New Methods That Compromise Passkey Authentication",
+      "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+      "pubDate": "Fri, 04 Sep 2026 10:01:11 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
-      "pubDate": "Thu, 03 Sep 2026 11:22:33 -0400",
+      "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+      "pubDate": "Fri, 04 Sep 2026 09:22:01 -0400",
       "source": "BleepingComputer"
     }
   ]
