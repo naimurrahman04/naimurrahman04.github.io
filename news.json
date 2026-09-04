@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-04T15:36:43Z",
+  "updated": "2026-09-04T20:09:36Z",
   "items": [
+    {
+      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+      "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+      "pubDate": "Fri, 04 Sep 2026 21:27:15 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+      "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+      "pubDate": "Fri, 04 Sep 2026 20:50:19 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
       "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
@@ -20,16 +32,10 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-      "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-      "pubDate": "Fri, 04 Sep 2026 12:48:47 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
-      "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
-      "pubDate": "Fri, 04 Sep 2026 12:17:52 +0530",
-      "source": "The Hacker News"
+      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+      "link": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+      "pubDate": "Fri, 04 Sep 2026 12:56:45 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
@@ -47,12 +53,6 @@
       "title": "39 New Methods That Compromise Passkey Authentication",
       "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
       "pubDate": "Fri, 04 Sep 2026 10:01:11 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
-      "pubDate": "Fri, 04 Sep 2026 09:22:01 -0400",
       "source": "BleepingComputer"
     }
   ]
