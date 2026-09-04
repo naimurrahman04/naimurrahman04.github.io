@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T20:23:36Z",
+  "updated": "2026-09-04T02:30:06Z",
   "items": [
     {
       "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
@@ -32,6 +32,12 @@
       "source": "The Hacker News"
     },
     {
+      "title": "French hospital fined \u20ac500,000 after breach exposes data of 727,000",
+      "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+      "pubDate": "Thu, 03 Sep 2026 18:01:37 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Coder's registry infrastructure compromised to push malicious modules",
       "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
       "pubDate": "Thu, 03 Sep 2026 16:04:24 -0400",
@@ -47,12 +53,6 @@
       "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
       "pubDate": "Thu, 03 Sep 2026 11:22:33 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
-      "pubDate": "Thu, 03 Sep 2026 11:13:29 -0400",
       "source": "BleepingComputer"
     }
   ]
