@@ -1,6 +1,24 @@
 {
-  "updated": "2026-09-05T14:24:27Z",
+  "updated": "2026-09-05T19:48:30Z",
   "items": [
+    {
+      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+      "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+      "pubDate": "Sat, 05 Sep 2026 22:22:33 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+      "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+      "pubDate": "Sat, 05 Sep 2026 21:35:08 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "link": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "pubDate": "Sat, 05 Sep 2026 19:47:02 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
       "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
@@ -14,28 +32,16 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+      "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+      "pubDate": "Sat, 05 Sep 2026 10:29:13 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
       "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
       "pubDate": "Sat, 05 Sep 2026 07:11:50 -0400",
       "source": "BleepingComputer"
-    },
-    {
-      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
-      "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
-      "pubDate": "Fri, 04 Sep 2026 21:27:15 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-      "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-      "pubDate": "Fri, 04 Sep 2026 20:50:19 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-      "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-      "pubDate": "Fri, 04 Sep 2026 20:21:13 +0530",
-      "source": "The Hacker News"
     },
     {
       "title": "IDScan sued over alleged data breach affecting 153 million drivers",
@@ -47,12 +53,6 @@
       "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
       "pubDate": "Fri, 04 Sep 2026 11:25:59 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft says some users can\u2019t open the Teams desktop client",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
-      "pubDate": "Fri, 04 Sep 2026 10:30:15 -0400",
       "source": "BleepingComputer"
     }
   ]
