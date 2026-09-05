@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T09:50:13Z",
+  "updated": "2026-09-05T14:24:27Z",
   "items": [
     {
       "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
@@ -12,6 +12,12 @@
       "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
       "pubDate": "Sat, 05 Sep 2026 13:01:53 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+      "pubDate": "Sat, 05 Sep 2026 07:11:50 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
@@ -47,12 +53,6 @@
       "title": "Microsoft says some users can\u2019t open the Teams desktop client",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
       "pubDate": "Fri, 04 Sep 2026 10:30:15 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "39 New Methods That Compromise Passkey Authentication",
-      "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
-      "pubDate": "Fri, 04 Sep 2026 10:01:11 -0400",
       "source": "BleepingComputer"
     }
   ]
