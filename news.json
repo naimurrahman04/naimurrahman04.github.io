@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T10:06:32Z",
+  "updated": "2026-09-06T14:47:01Z",
   "items": [
     {
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
@@ -18,6 +18,12 @@
       "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
       "pubDate": "Sun, 06 Sep 2026 01:44:47 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Attackers conceal phishing lures using invisible Unicode characters",
+      "link": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+      "pubDate": "Sun, 06 Sep 2026 10:23:46 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
@@ -47,12 +53,6 @@
       "title": "IDScan sued over alleged data breach affecting 153 million drivers",
       "link": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
       "pubDate": "Fri, 04 Sep 2026 12:56:45 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
-      "pubDate": "Fri, 04 Sep 2026 11:25:59 -0400",
       "source": "BleepingComputer"
     }
   ]
