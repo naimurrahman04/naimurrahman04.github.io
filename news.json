@@ -1,6 +1,42 @@
 {
-  "updated": "2026-09-07T02:24:34Z",
+  "updated": "2026-09-07T11:21:42Z",
   "items": [
+    {
+      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+      "link": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+      "pubDate": "Mon, 07 Sep 2026 14:01:12 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+      "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+      "pubDate": "Mon, 07 Sep 2026 13:23:04 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "ChatGPT can now connect to your personal apps to mimic writing style",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
+      "pubDate": "Mon, 07 Sep 2026 06:36:37 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+      "pubDate": "Mon, 07 Sep 2026 06:32:40 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "ConnectWise warns of new ScreenConnect flaw without patch",
+      "link": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+      "pubDate": "Mon, 07 Sep 2026 06:06:38 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "N-able patches max severity N-central flaw amid ongoing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+      "pubDate": "Mon, 07 Sep 2026 02:17:41 -0400",
+      "source": "BleepingComputer"
+    },
     {
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
       "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
@@ -18,42 +54,6 @@
       "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
       "pubDate": "Sun, 06 Sep 2026 01:44:47 +0530",
       "source": "The Hacker News"
-    },
-    {
-      "title": "ChatGPT Astra is now rolling out to $20 Plus subscription",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
-      "pubDate": "Sun, 06 Sep 2026 21:15:43 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Attackers conceal phishing lures using invisible Unicode characters",
-      "link": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
-      "pubDate": "Sun, 06 Sep 2026 10:23:46 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-      "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-      "pubDate": "Sat, 05 Sep 2026 22:22:33 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
-      "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
-      "pubDate": "Sat, 05 Sep 2026 21:35:08 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
-      "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
-      "pubDate": "Sat, 05 Sep 2026 10:29:13 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
-      "pubDate": "Sat, 05 Sep 2026 07:11:50 -0400",
-      "source": "BleepingComputer"
     }
   ]
 }
