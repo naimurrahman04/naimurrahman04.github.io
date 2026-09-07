@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T19:52:26Z",
+  "updated": "2026-09-07T02:24:34Z",
   "items": [
     {
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
@@ -18,6 +18,12 @@
       "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
       "pubDate": "Sun, 06 Sep 2026 01:44:47 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "ChatGPT Astra is now rolling out to $20 Plus subscription",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+      "pubDate": "Sun, 06 Sep 2026 21:15:43 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Attackers conceal phishing lures using invisible Unicode characters",
@@ -47,12 +53,6 @@
       "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
       "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
       "pubDate": "Sat, 05 Sep 2026 07:11:50 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
-      "link": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
-      "pubDate": "Fri, 04 Sep 2026 12:56:45 -0400",
       "source": "BleepingComputer"
     }
   ]
