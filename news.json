@@ -1,59 +1,59 @@
 {
-  "updated": "2026-09-07T11:21:42Z",
+  "updated": "2026-09-07T17:03:51Z",
   "items": [
     {
-      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
-      "link": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
-      "pubDate": "Mon, 07 Sep 2026 14:01:12 +0530",
+      "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+      "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+      "pubDate": "Mon, 07 Sep 2026 21:21:56 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
-      "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
-      "pubDate": "Mon, 07 Sep 2026 13:23:04 +0530",
+      "title": "\u26a1 Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+      "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+      "pubDate": "Mon, 07 Sep 2026 20:06:07 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "ChatGPT can now connect to your personal apps to mimic writing style",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
-      "pubDate": "Mon, 07 Sep 2026 06:36:37 -0400",
+      "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+      "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+      "pubDate": "Mon, 07 Sep 2026 17:15:00 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+      "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+      "pubDate": "Mon, 07 Sep 2026 17:06:39 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE \u2014 Public Exploit Released",
+      "link": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+      "pubDate": "Mon, 07 Sep 2026 16:50:14 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+      "link": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+      "pubDate": "Mon, 07 Sep 2026 12:50:29 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
-      "pubDate": "Mon, 07 Sep 2026 06:32:40 -0400",
+      "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
+      "link": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+      "pubDate": "Mon, 07 Sep 2026 11:39:51 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "ConnectWise warns of new ScreenConnect flaw without patch",
-      "link": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
-      "pubDate": "Mon, 07 Sep 2026 06:06:38 -0400",
+      "title": "Mathspace discloses data breach affecting over 1 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+      "pubDate": "Mon, 07 Sep 2026 09:05:11 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "N-able patches max severity N-central flaw amid ongoing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
-      "pubDate": "Mon, 07 Sep 2026 02:17:41 -0400",
+      "title": "Trezor data breach impact now reaches 81,000 customers",
+      "link": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+      "pubDate": "Mon, 07 Sep 2026 08:16:32 -0400",
       "source": "BleepingComputer"
-    },
-    {
-      "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
-      "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
-      "pubDate": "Sun, 06 Sep 2026 15:02:38 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
-      "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-      "pubDate": "Sun, 06 Sep 2026 14:04:20 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-      "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-      "pubDate": "Sun, 06 Sep 2026 01:44:47 +0530",
-      "source": "The Hacker News"
     }
   ]
 }
