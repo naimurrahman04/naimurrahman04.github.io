@@ -1,58 +1,58 @@
 {
-  "updated": "2026-09-08T10:26:30Z",
+  "updated": "2026-09-08T15:50:28Z",
   "items": [
     {
-      "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-      "link": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
-      "pubDate": "Tue, 08 Sep 2026 14:43:47 +0530",
+      "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
+      "link": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
+      "pubDate": "Tue, 08 Sep 2026 20:24:30 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-      "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
-      "pubDate": "Tue, 08 Sep 2026 14:13:51 +0530",
+      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+      "link": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+      "pubDate": "Tue, 08 Sep 2026 19:49:17 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Grindr to Pay \u00a326 Million to Settle U.K. Claims Over HIV Status Data Sharing",
-      "link": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
-      "pubDate": "Tue, 08 Sep 2026 12:30:43 +0530",
+      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+      "pubDate": "Tue, 08 Sep 2026 19:18:16 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
-      "link": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
-      "pubDate": "Tue, 08 Sep 2026 03:35:50 -0400",
+      "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
+      "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
+      "pubDate": "Tue, 08 Sep 2026 17:24:29 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "What It Took to Reach 1 Billion Build Manifests",
+      "link": "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
+      "pubDate": "Tue, 08 Sep 2026 17:19:02 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/",
+      "pubDate": "Tue, 08 Sep 2026 11:22:33 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-      "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
-      "pubDate": "Mon, 07 Sep 2026 23:42:09 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
-      "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-      "pubDate": "Mon, 07 Sep 2026 21:21:56 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
-      "link": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
-      "pubDate": "Mon, 07 Sep 2026 12:50:29 -0400",
+      "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
+      "pubDate": "Tue, 08 Sep 2026 10:55:20 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
-      "link": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
-      "pubDate": "Mon, 07 Sep 2026 11:39:51 -0400",
+      "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+      "pubDate": "Tue, 08 Sep 2026 10:40:32 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Mathspace discloses data breach affecting over 1 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
-      "pubDate": "Mon, 07 Sep 2026 09:05:11 -0400",
+      "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
+      "link": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+      "pubDate": "Tue, 08 Sep 2026 09:34:47 -0400",
       "source": "BleepingComputer"
     }
   ]
