@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-09T15:46:15Z",
+  "updated": "2026-09-09T20:17:48Z",
   "items": [
+    {
+      "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+      "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+      "pubDate": "Wed, 09 Sep 2026 23:56:05 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+      "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+      "pubDate": "Wed, 09 Sep 2026 22:04:05 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
       "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
@@ -20,16 +32,10 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
-      "link": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
-      "pubDate": "Wed, 09 Sep 2026 16:13:04 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-      "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
-      "pubDate": "Wed, 09 Sep 2026 15:02:26 +0530",
-      "source": "The Hacker News"
+      "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
+      "link": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
+      "pubDate": "Wed, 09 Sep 2026 12:48:33 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
@@ -47,12 +53,6 @@
       "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
       "link": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
       "pubDate": "Wed, 09 Sep 2026 06:11:29 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Man gets 15 years for extorting women with AI-generated porn videos",
-      "link": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
-      "pubDate": "Wed, 09 Sep 2026 04:44:22 -0400",
       "source": "BleepingComputer"
     }
   ]
