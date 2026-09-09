@@ -1,58 +1,58 @@
 {
-  "updated": "2026-09-09T02:38:12Z",
+  "updated": "2026-09-09T10:36:40Z",
   "items": [
     {
-      "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
-      "link": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
-      "pubDate": "Tue, 08 Sep 2026 21:50:23 +0530",
+      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+      "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+      "pubDate": "Wed, 09 Sep 2026 14:41:03 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
-      "link": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
-      "pubDate": "Tue, 08 Sep 2026 20:24:30 +0530",
+      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+      "pubDate": "Wed, 09 Sep 2026 13:49:32 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
-      "link": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
-      "pubDate": "Tue, 08 Sep 2026 19:49:17 +0530",
+      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+      "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+      "pubDate": "Wed, 09 Sep 2026 13:06:49 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
-      "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
-      "pubDate": "Tue, 08 Sep 2026 19:18:16 +0530",
+      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+      "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+      "pubDate": "Wed, 09 Sep 2026 12:17:27 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
-      "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
-      "pubDate": "Tue, 08 Sep 2026 17:24:29 +0530",
+      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+      "pubDate": "Wed, 09 Sep 2026 11:55:45 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
-      "pubDate": "Tue, 08 Sep 2026 21:16:27 -0400",
+      "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
+      "pubDate": "Wed, 09 Sep 2026 06:11:29 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
-      "link": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
-      "pubDate": "Tue, 08 Sep 2026 16:35:14 -0400",
+      "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+      "link": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+      "pubDate": "Wed, 09 Sep 2026 04:44:22 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
-      "link": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
-      "pubDate": "Tue, 08 Sep 2026 16:24:16 -0400",
+      "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+      "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+      "pubDate": "Wed, 09 Sep 2026 03:30:15 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
-      "pubDate": "Tue, 08 Sep 2026 16:08:55 -0400",
+      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+      "pubDate": "Wed, 09 Sep 2026 02:25:48 -0400",
       "source": "BleepingComputer"
     }
   ]
