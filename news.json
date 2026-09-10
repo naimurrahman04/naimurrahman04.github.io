@@ -1,6 +1,12 @@
 {
-  "updated": "2026-09-10T15:41:23Z",
+  "updated": "2026-09-10T20:19:53Z",
   "items": [
+    {
+      "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+      "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+      "pubDate": "Thu, 10 Sep 2026 23:17:38 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
       "link": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
@@ -26,33 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-      "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-      "pubDate": "Thu, 10 Sep 2026 16:06:46 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "IDScan confirms breach tied to 153 million stolen driver\u2019s licenses",
-      "link": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
-      "pubDate": "Thu, 10 Sep 2026 10:55:33 -0400",
+      "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
+      "link": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+      "pubDate": "Thu, 10 Sep 2026 15:15:07 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
-      "pubDate": "Thu, 10 Sep 2026 10:11:34 -0400",
+      "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+      "pubDate": "Thu, 10 Sep 2026 15:07:33 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
-      "link": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
-      "pubDate": "Thu, 10 Sep 2026 10:00:10 -0400",
+      "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+      "link": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+      "pubDate": "Thu, 10 Sep 2026 11:55:56 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft says September updates fix mouse settings reset issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
-      "pubDate": "Thu, 10 Sep 2026 07:14:28 -0400",
+      "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+      "pubDate": "Thu, 10 Sep 2026 11:43:58 -0400",
       "source": "BleepingComputer"
     }
   ]
