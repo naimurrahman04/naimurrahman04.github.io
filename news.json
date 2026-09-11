@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-11T15:42:41Z",
+  "updated": "2026-09-11T20:20:12Z",
   "items": [
+    {
+      "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+      "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+      "pubDate": "Fri, 11 Sep 2026 22:00:18 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+      "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+      "pubDate": "Fri, 11 Sep 2026 21:45:29 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
       "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
@@ -20,39 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-      "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
-      "pubDate": "Fri, 11 Sep 2026 13:01:05 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-      "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-      "pubDate": "Fri, 11 Sep 2026 12:44:09 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-      "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-      "pubDate": "Fri, 11 Sep 2026 10:01:11 -0400",
+      "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+      "pubDate": "Fri, 11 Sep 2026 16:19:09 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "GitLab urges users to patch max severity path traversal flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
-      "pubDate": "Fri, 11 Sep 2026 07:15:22 -0400",
+      "title": "Florida confirms DMV database breached via stolen police account",
+      "link": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+      "pubDate": "Fri, 11 Sep 2026 15:00:29 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-      "pubDate": "Fri, 11 Sep 2026 05:39:37 -0400",
+      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "pubDate": "Fri, 11 Sep 2026 13:26:50 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
-      "link": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
-      "pubDate": "Fri, 11 Sep 2026 03:55:15 -0400",
+      "title": "Artifactory flaws chained in attacks deploying backdoor malware",
+      "link": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+      "pubDate": "Fri, 11 Sep 2026 12:29:44 -0400",
       "source": "BleepingComputer"
     }
   ]
