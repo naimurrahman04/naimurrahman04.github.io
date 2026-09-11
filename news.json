@@ -1,6 +1,24 @@
 {
-  "updated": "2026-09-11T10:26:40Z",
+  "updated": "2026-09-11T15:42:41Z",
   "items": [
+    {
+      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+      "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+      "pubDate": "Fri, 11 Sep 2026 19:59:47 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+      "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+      "pubDate": "Fri, 11 Sep 2026 19:40:20 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+      "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+      "pubDate": "Fri, 11 Sep 2026 17:00:00 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
       "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
@@ -14,16 +32,16 @@
       "source": "The Hacker News"
     },
     {
-      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
-      "link": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
-      "pubDate": "Fri, 11 Sep 2026 12:16:18 +0530",
-      "source": "The Hacker News"
+      "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+      "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+      "pubDate": "Fri, 11 Sep 2026 10:01:11 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-      "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-      "pubDate": "Fri, 11 Sep 2026 11:49:59 +0530",
-      "source": "The Hacker News"
+      "title": "GitLab urges users to patch max severity path traversal flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
+      "pubDate": "Fri, 11 Sep 2026 07:15:22 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
@@ -35,24 +53,6 @@
       "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
       "link": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
       "pubDate": "Fri, 11 Sep 2026 03:55:15 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Conti ransomware gang member sentenced to 4 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
-      "pubDate": "Fri, 11 Sep 2026 02:48:37 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
-      "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
-      "pubDate": "Thu, 10 Sep 2026 23:17:38 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "New Android malware encrypts files, steals data, and harasses victims",
-      "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
-      "pubDate": "Thu, 10 Sep 2026 17:40:43 -0400",
       "source": "BleepingComputer"
     }
   ]
