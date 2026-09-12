@@ -1,36 +1,6 @@
 {
-  "updated": "2026-09-11T20:20:12Z",
+  "updated": "2026-09-12T02:42:45Z",
   "items": [
-    {
-      "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-      "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-      "pubDate": "Fri, 11 Sep 2026 22:00:18 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-      "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-      "pubDate": "Fri, 11 Sep 2026 21:45:29 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-      "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-      "pubDate": "Fri, 11 Sep 2026 19:59:47 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-      "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-      "pubDate": "Fri, 11 Sep 2026 19:40:20 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-      "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
-      "pubDate": "Fri, 11 Sep 2026 17:00:00 +0530",
-      "source": "The Hacker News"
-    },
     {
       "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
@@ -53,6 +23,12 @@
       "title": "Artifactory flaws chained in attacks deploying backdoor malware",
       "link": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
       "pubDate": "Fri, 11 Sep 2026 12:29:44 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+      "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+      "pubDate": "Fri, 11 Sep 2026 10:01:11 -0400",
       "source": "BleepingComputer"
     }
   ]
