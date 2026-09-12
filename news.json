@@ -1,11 +1,23 @@
 {
-  "updated": "2026-09-12T09:55:41Z",
+  "updated": "2026-09-12T14:50:45Z",
   "items": [
+    {
+      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+      "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+      "pubDate": "Sat, 12 Sep 2026 15:54:44 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
       "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
       "pubDate": "Sat, 12 Sep 2026 14:37:56 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+      "link": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+      "pubDate": "Sat, 12 Sep 2026 10:14:32 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
@@ -26,12 +38,6 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-      "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-      "pubDate": "Fri, 11 Sep 2026 19:40:20 +0530",
-      "source": "The Hacker News"
-    },
-    {
       "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
       "pubDate": "Fri, 11 Sep 2026 16:19:09 -0400",
@@ -47,12 +53,6 @@
       "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
       "link": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
       "pubDate": "Fri, 11 Sep 2026 13:26:50 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Artifactory flaws chained in attacks deploying backdoor malware",
-      "link": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
-      "pubDate": "Fri, 11 Sep 2026 12:29:44 -0400",
       "source": "BleepingComputer"
     }
   ]
