@@ -1,11 +1,17 @@
 {
-  "updated": "2026-09-13T10:56:42Z",
+  "updated": "2026-09-13T15:28:20Z",
   "items": [
     {
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
       "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
       "pubDate": "Sun, 13 Sep 2026 15:41:48 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+      "pubDate": "Sun, 13 Sep 2026 10:26:32 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
@@ -47,12 +53,6 @@
       "title": "Florida confirms DMV database breached via stolen police account",
       "link": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
       "pubDate": "Fri, 11 Sep 2026 15:00:29 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-      "pubDate": "Fri, 11 Sep 2026 13:26:50 -0400",
       "source": "BleepingComputer"
     }
   ]
