@@ -1,6 +1,12 @@
 {
-  "updated": "2026-09-12T14:50:45Z",
+  "updated": "2026-09-13T02:40:36Z",
   "items": [
+    {
+      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+      "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+      "pubDate": "Sat, 12 Sep 2026 21:24:45 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
       "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
@@ -29,12 +35,6 @@
       "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
       "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
       "pubDate": "Fri, 11 Sep 2026 21:45:29 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-      "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-      "pubDate": "Fri, 11 Sep 2026 19:59:47 +0530",
       "source": "The Hacker News"
     },
     {
