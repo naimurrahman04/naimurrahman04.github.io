@@ -1,11 +1,35 @@
 {
-  "updated": "2026-09-16T02:54:27Z",
+  "updated": "2026-09-16T10:41:05Z",
   "items": [
+    {
+      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "pubDate": "Wed, 16 Sep 2026 11:18:28 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+      "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+      "pubDate": "Wed, 16 Sep 2026 10:48:06 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
       "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
       "pubDate": "Wed, 16 Sep 2026 00:24:14 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Windows Server 2022 reaches end of mainstream support next month",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/",
+      "pubDate": "Wed, 16 Sep 2026 05:10:20 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Google fixes actively exploited Android zero-day on Pixel devices",
+      "link": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+      "pubDate": "Wed, 16 Sep 2026 03:00:19 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
@@ -20,18 +44,6 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-      "link": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-      "pubDate": "Tue, 15 Sep 2026 17:22:28 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-      "link": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
-      "pubDate": "Tue, 15 Sep 2026 16:56:36 +0530",
-      "source": "The Hacker News"
-    },
-    {
       "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
       "link": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
       "pubDate": "Tue, 15 Sep 2026 17:37:35 -0400",
@@ -41,18 +53,6 @@
       "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
       "link": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
       "pubDate": "Tue, 15 Sep 2026 16:34:15 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
-      "pubDate": "Tue, 15 Sep 2026 12:40:14 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "BambooToken malware controls Windows and Linux systems via MQTT",
-      "link": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
-      "pubDate": "Tue, 15 Sep 2026 11:00:00 -0400",
       "source": "BleepingComputer"
     }
   ]
