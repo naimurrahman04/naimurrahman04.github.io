@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T20:45:48Z",
+  "updated": "2026-09-17T02:58:03Z",
   "items": [
     {
       "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
@@ -32,6 +32,12 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Anthropic wants Claude to analyze your bank account and financial data",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
+      "pubDate": "Wed, 16 Sep 2026 20:35:48 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Windows 11 KB5124008 update breaks domain trust for some users",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
       "pubDate": "Wed, 16 Sep 2026 16:39:29 -0400",
@@ -47,12 +53,6 @@
       "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
       "link": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
       "pubDate": "Wed, 16 Sep 2026 14:50:53 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Spain's data agency gets first report of AI-powered data breach",
-      "link": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
-      "pubDate": "Wed, 16 Sep 2026 13:26:41 -0400",
       "source": "BleepingComputer"
     }
   ]
