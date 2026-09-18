@@ -1,34 +1,46 @@
 {
-  "updated": "2026-09-18T02:44:53Z",
+  "updated": "2026-09-18T10:24:35Z",
   "items": [
     {
-      "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-      "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-      "pubDate": "Thu, 17 Sep 2026 18:00:00 +0530",
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "pubDate": "Fri, 18 Sep 2026 14:48:03 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-      "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-      "pubDate": "Thu, 17 Sep 2026 17:20:00 +0530",
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "pubDate": "Fri, 18 Sep 2026 11:47:25 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
-      "link": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
-      "pubDate": "Thu, 17 Sep 2026 16:20:53 +0530",
+      "title": "New Check Point flaw lets hackers execute code with root privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+      "pubDate": "Fri, 18 Sep 2026 05:34:33 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+      "pubDate": "Fri, 18 Sep 2026 03:35:31 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+      "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+      "pubDate": "Thu, 17 Sep 2026 23:38:28 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-      "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-      "pubDate": "Thu, 17 Sep 2026 15:35:45 +0530",
+      "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+      "link": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+      "pubDate": "Thu, 17 Sep 2026 23:02:22 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-      "link": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
-      "pubDate": "Thu, 17 Sep 2026 15:23:38 +0530",
+      "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+      "link": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+      "pubDate": "Thu, 17 Sep 2026 21:07:56 +0530",
       "source": "The Hacker News"
     },
     {
@@ -41,18 +53,6 @@
       "title": "OpenAI details more cases of AI agents taking unauthorized actions",
       "link": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
       "pubDate": "Thu, 17 Sep 2026 14:55:12 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-      "link": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
-      "pubDate": "Thu, 17 Sep 2026 13:11:34 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
-      "link": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
-      "pubDate": "Thu, 17 Sep 2026 10:01:11 -0400",
       "source": "BleepingComputer"
     }
   ]
