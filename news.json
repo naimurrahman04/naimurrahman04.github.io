@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-18T15:39:11Z",
+  "updated": "2026-09-18T20:17:03Z",
   "items": [
+    {
+      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+      "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "pubDate": "Fri, 18 Sep 2026 22:26:19 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+      "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+      "pubDate": "Fri, 18 Sep 2026 20:54:16 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
       "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
@@ -20,16 +32,10 @@
       "source": "The Hacker News"
     },
     {
-      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-      "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-      "pubDate": "Fri, 18 Sep 2026 16:10:06 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-      "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-      "pubDate": "Fri, 18 Sep 2026 14:48:03 +0530",
-      "source": "The Hacker News"
+      "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+      "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+      "pubDate": "Fri, 18 Sep 2026 12:00:38 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
@@ -47,12 +53,6 @@
       "title": "Microsoft Teams will let admins block custom file extensions",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
       "pubDate": "Fri, 18 Sep 2026 09:58:40 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Webinar: Which Google Workspace security controls actually matter?",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
-      "pubDate": "Fri, 18 Sep 2026 09:10:19 -0400",
       "source": "BleepingComputer"
     }
   ]
