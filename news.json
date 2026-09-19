@@ -1,6 +1,12 @@
 {
-  "updated": "2026-09-19T15:11:47Z",
+  "updated": "2026-09-19T19:54:41Z",
   "items": [
+    {
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "pubDate": "Sun, 20 Sep 2026 00:06:53 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
       "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
@@ -11,12 +17,6 @@
       "title": "Identity Visibility in 2026: The Foundation of Identity Security",
       "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
       "pubDate": "Sat, 19 Sep 2026 18:58:41 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-      "pubDate": "Sat, 19 Sep 2026 18:58:35 +0530",
       "source": "The Hacker News"
     },
     {
@@ -50,8 +50,8 @@
       "source": "BleepingComputer"
     },
     {
-      "title": "Calling viral AI actress Tilly Norwood? Agree to a face scan first",
-      "link": "https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/",
+      "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
+      "link": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
       "pubDate": "Sat, 19 Sep 2026 07:38:20 -0400",
       "source": "BleepingComputer"
     }
