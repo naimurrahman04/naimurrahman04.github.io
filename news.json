@@ -1,6 +1,12 @@
 {
-  "updated": "2026-09-18T20:17:03Z",
+  "updated": "2026-09-19T02:43:50Z",
   "items": [
+    {
+      "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+      "link": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+      "pubDate": "Fri, 18 Sep 2026 23:32:24 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
       "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
@@ -23,12 +29,6 @@
       "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
       "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
       "pubDate": "Fri, 18 Sep 2026 16:31:16 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-      "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-      "pubDate": "Fri, 18 Sep 2026 16:31:01 +0530",
       "source": "The Hacker News"
     },
     {
