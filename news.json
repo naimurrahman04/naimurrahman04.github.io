@@ -1,34 +1,34 @@
 {
-  "updated": "2026-09-19T02:43:50Z",
+  "updated": "2026-09-19T10:09:32Z",
   "items": [
+    {
+      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+      "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+      "pubDate": "Sat, 19 Sep 2026 13:48:54 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "pubDate": "Sat, 19 Sep 2026 13:21:34 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+      "link": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+      "pubDate": "Sat, 19 Sep 2026 12:44:54 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+      "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+      "pubDate": "Sat, 19 Sep 2026 11:54:10 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
       "link": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
       "pubDate": "Fri, 18 Sep 2026 23:32:24 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-      "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-      "pubDate": "Fri, 18 Sep 2026 22:26:19 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-      "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-      "pubDate": "Fri, 18 Sep 2026 20:54:16 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-      "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "pubDate": "Fri, 18 Sep 2026 18:17:04 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-      "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-      "pubDate": "Fri, 18 Sep 2026 16:31:16 +0530",
       "source": "The Hacker News"
     },
     {
