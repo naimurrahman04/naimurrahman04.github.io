@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-21T11:44:47Z",
+  "updated": "2026-09-21T17:40:44Z",
   "items": [
+    {
+      "title": "\u26a1 Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+      "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+      "pubDate": "Mon, 21 Sep 2026 19:54:13 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+      "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+      "pubDate": "Mon, 21 Sep 2026 19:45:40 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
       "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
@@ -14,45 +26,33 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-      "pubDate": "Sun, 20 Sep 2026 00:06:53 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Malicious npm packages evade install-script defenses at runtime",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-      "pubDate": "Sun, 20 Sep 2026 10:11:21 -0400",
+      "title": "Google fined \u20ac403 million over location data privacy violations",
+      "link": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+      "pubDate": "Mon, 21 Sep 2026 11:41:22 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
-      "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
-      "pubDate": "Sun, 20 Sep 2026 08:00:00 -0400",
+      "title": "Microsoft fixes broken Excel copy and paste for all Office users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
+      "pubDate": "Mon, 21 Sep 2026 10:42:37 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-      "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-      "pubDate": "Sat, 19 Sep 2026 18:58:48 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-      "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-      "pubDate": "Sat, 19 Sep 2026 18:58:41 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
-      "link": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
-      "pubDate": "Sat, 19 Sep 2026 10:56:31 -0400",
+      "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+      "link": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+      "pubDate": "Mon, 21 Sep 2026 10:02:12 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
-      "link": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
-      "pubDate": "Sat, 19 Sep 2026 10:05:15 -0400",
+      "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+      "pubDate": "Mon, 21 Sep 2026 09:16:20 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Microsoft: September updates break File History backup feature",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+      "pubDate": "Mon, 21 Sep 2026 07:45:54 -0400",
       "source": "BleepingComputer"
     }
   ]
