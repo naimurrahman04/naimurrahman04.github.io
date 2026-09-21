@@ -1,6 +1,18 @@
 {
-  "updated": "2026-09-21T02:53:11Z",
+  "updated": "2026-09-21T11:44:47Z",
   "items": [
+    {
+      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+      "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+      "pubDate": "Mon, 21 Sep 2026 14:09:38 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+      "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+      "pubDate": "Mon, 21 Sep 2026 11:36:44 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
       "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
@@ -29,18 +41,6 @@
       "title": "Identity Visibility in 2026: The Foundation of Identity Security",
       "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
       "pubDate": "Sat, 19 Sep 2026 18:58:41 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
-      "pubDate": "Sat, 19 Sep 2026 15:01:17 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
-      "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-      "pubDate": "Sat, 19 Sep 2026 13:48:54 +0530",
       "source": "The Hacker News"
     },
     {
