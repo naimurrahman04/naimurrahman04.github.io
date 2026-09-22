@@ -1,58 +1,58 @@
 {
-  "updated": "2026-09-22T16:06:31Z",
+  "updated": "2026-09-22T20:45:55Z",
   "items": [
     {
-      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
-      "link": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
-      "pubDate": "Tue, 22 Sep 2026 18:00:00 +0530",
+      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+      "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+      "pubDate": "Tue, 22 Sep 2026 23:59:39 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
-      "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
-      "pubDate": "Tue, 22 Sep 2026 17:59:00 +0530",
+      "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+      "link": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+      "pubDate": "Tue, 22 Sep 2026 23:33:10 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
-      "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
-      "pubDate": "Tue, 22 Sep 2026 17:15:00 +0530",
+      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+      "link": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+      "pubDate": "Tue, 22 Sep 2026 23:28:15 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
-      "link": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
-      "pubDate": "Tue, 22 Sep 2026 17:08:40 +0530",
+      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+      "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+      "pubDate": "Tue, 22 Sep 2026 22:33:31 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-      "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
-      "pubDate": "Tue, 22 Sep 2026 16:47:41 +0530",
+      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+      "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+      "pubDate": "Tue, 22 Sep 2026 22:11:12 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
-      "pubDate": "Tue, 22 Sep 2026 11:00:00 -0400",
+      "title": "Chinese hackers exploit multiple technologies to steal govt data",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
+      "pubDate": "Tue, 22 Sep 2026 16:35:24 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
-      "pubDate": "Tue, 22 Sep 2026 08:57:07 -0400",
+      "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+      "pubDate": "Tue, 22 Sep 2026 15:13:29 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-      "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
-      "pubDate": "Tue, 22 Sep 2026 08:48:06 -0400",
+      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
+      "link": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
+      "pubDate": "Tue, 22 Sep 2026 14:04:39 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
-      "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
-      "pubDate": "Tue, 22 Sep 2026 05:55:11 -0400",
+      "title": "Reducing shadow IT visibility gaps with Wazuh",
+      "link": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
+      "pubDate": "Tue, 22 Sep 2026 13:17:41 -0400",
       "source": "BleepingComputer"
     }
   ]
