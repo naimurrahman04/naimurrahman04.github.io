@@ -1,35 +1,47 @@
 {
-  "updated": "2026-09-22T02:53:46Z",
+  "updated": "2026-09-22T10:47:47Z",
   "items": [
     {
-      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-      "link": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-      "pubDate": "Mon, 21 Sep 2026 23:01:01 +0530",
+      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+      "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+      "pubDate": "Tue, 22 Sep 2026 15:08:18 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-      "link": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
-      "pubDate": "Mon, 21 Sep 2026 22:49:00 +0530",
+      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+      "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "pubDate": "Tue, 22 Sep 2026 13:22:03 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Google Fined \u20ac403 Million Over GDPR Violations Tied to Location Data",
-      "link": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
-      "pubDate": "Mon, 21 Sep 2026 22:27:31 +0530",
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "pubDate": "Tue, 22 Sep 2026 12:03:57 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "\u26a1 Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-      "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-      "pubDate": "Mon, 21 Sep 2026 19:54:13 +0530",
+      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "pubDate": "Tue, 22 Sep 2026 11:33:14 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-      "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-      "pubDate": "Mon, 21 Sep 2026 19:45:40 +0530",
+      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "pubDate": "Tue, 22 Sep 2026 11:01:59 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+      "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+      "pubDate": "Tue, 22 Sep 2026 05:55:11 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+      "pubDate": "Tue, 22 Sep 2026 04:53:09 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
@@ -41,18 +53,6 @@
       "title": "CISA alerts of active exploitation of three Linux kernel flaws",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
       "pubDate": "Mon, 21 Sep 2026 16:12:17 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
-      "pubDate": "Mon, 21 Sep 2026 14:23:11 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft to retire Microsoft 365 Companion apps in December",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
-      "pubDate": "Mon, 21 Sep 2026 13:54:49 -0400",
       "source": "BleepingComputer"
     }
   ]
