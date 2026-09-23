@@ -1,6 +1,24 @@
 {
-  "updated": "2026-09-23T15:56:27Z",
+  "updated": "2026-09-23T20:57:38Z",
   "items": [
+    {
+      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "pubDate": "Wed, 23 Sep 2026 23:36:30 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "pubDate": "Wed, 23 Sep 2026 22:23:10 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+      "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "pubDate": "Wed, 23 Sep 2026 21:36:41 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
       "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
@@ -14,45 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
-      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
-      "pubDate": "Wed, 23 Sep 2026 17:46:00 +0530",
-      "source": "The Hacker News"
+      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+      "pubDate": "Wed, 23 Sep 2026 15:53:54 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
-      "link": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
-      "pubDate": "Wed, 23 Sep 2026 17:17:19 +0530",
-      "source": "The Hacker News"
+      "title": "Hackers start exploiting critical WordPress flaw for code execution",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+      "pubDate": "Wed, 23 Sep 2026 14:31:22 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
-      "link": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
-      "pubDate": "Wed, 23 Sep 2026 17:17:13 +0530",
-      "source": "The Hacker News"
+      "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+      "pubDate": "Wed, 23 Sep 2026 12:20:54 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "InfraTrust report warns network management systems under attack",
       "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
       "pubDate": "Wed, 23 Sep 2026 10:35:26 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
-      "link": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
-      "pubDate": "Wed, 23 Sep 2026 10:01:11 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
-      "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
-      "pubDate": "Wed, 23 Sep 2026 08:29:53 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft: September Windows updates break Always On VPN connections",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
-      "pubDate": "Wed, 23 Sep 2026 07:18:13 -0400",
       "source": "BleepingComputer"
     }
   ]
