@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T20:45:55Z",
+  "updated": "2026-09-23T02:54:00Z",
   "items": [
     {
       "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
@@ -32,7 +32,19 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Chinese hackers exploit multiple technologies to steal govt data",
+      "title": "Rogue external MFA providers can steal passwords during logins",
+      "link": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+      "pubDate": "Tue, 22 Sep 2026 17:45:45 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Sweden fines Milj\u00f6data $183,000 over breach affecting 2.2 million",
+      "link": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
+      "pubDate": "Tue, 22 Sep 2026 17:40:37 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
       "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
       "pubDate": "Tue, 22 Sep 2026 16:35:24 -0400",
       "source": "BleepingComputer"
@@ -41,18 +53,6 @@
       "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
       "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
       "pubDate": "Tue, 22 Sep 2026 15:13:29 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-      "link": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
-      "pubDate": "Tue, 22 Sep 2026 14:04:39 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Reducing shadow IT visibility gaps with Wazuh",
-      "link": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
-      "pubDate": "Tue, 22 Sep 2026 13:17:41 -0400",
       "source": "BleepingComputer"
     }
   ]
