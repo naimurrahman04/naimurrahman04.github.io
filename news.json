@@ -1,6 +1,42 @@
 {
-  "updated": "2026-09-24T02:44:10Z",
+  "updated": "2026-09-24T10:56:34Z",
   "items": [
+    {
+      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+      "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+      "pubDate": "Thu, 24 Sep 2026 12:37:25 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+      "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+      "pubDate": "Thu, 24 Sep 2026 12:02:03 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+      "pubDate": "Thu, 24 Sep 2026 11:06:18 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
+      "pubDate": "Thu, 24 Sep 2026 06:42:37 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
+      "pubDate": "Thu, 24 Sep 2026 05:38:53 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Microsoft fixes bug that broke Windows File History backup feature",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
+      "pubDate": "Thu, 24 Sep 2026 04:14:47 -0400",
+      "source": "BleepingComputer"
+    },
     {
       "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
       "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
@@ -14,45 +50,9 @@
       "source": "The Hacker News"
     },
     {
-      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-      "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-      "pubDate": "Wed, 23 Sep 2026 21:36:41 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
-      "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
-      "pubDate": "Wed, 23 Sep 2026 19:47:58 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
-      "link": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-      "pubDate": "Wed, 23 Sep 2026 19:22:46 +0530",
-      "source": "The Hacker News"
-    },
-    {
       "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
       "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
       "pubDate": "Wed, 23 Sep 2026 18:46:01 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "New RemControl Android banking malware targets users in Europe and Canada",
-      "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
-      "pubDate": "Wed, 23 Sep 2026 17:25:13 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
-      "pubDate": "Wed, 23 Sep 2026 15:53:54 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Hackers start exploiting critical WordPress flaw for code execution",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-      "pubDate": "Wed, 23 Sep 2026 14:31:22 -0400",
       "source": "BleepingComputer"
     }
   ]
