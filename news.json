@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T20:57:38Z",
+  "updated": "2026-09-24T02:44:10Z",
   "items": [
     {
       "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
@@ -32,6 +32,18 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+      "pubDate": "Wed, 23 Sep 2026 18:46:01 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "New RemControl Android banking malware targets users in Europe and Canada",
+      "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+      "pubDate": "Wed, 23 Sep 2026 17:25:13 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
       "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
       "pubDate": "Wed, 23 Sep 2026 15:53:54 -0400",
@@ -41,18 +53,6 @@
       "title": "Hackers start exploiting critical WordPress flaw for code execution",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
       "pubDate": "Wed, 23 Sep 2026 14:31:22 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
-      "pubDate": "Wed, 23 Sep 2026 12:20:54 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "InfraTrust report warns network management systems under attack",
-      "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
-      "pubDate": "Wed, 23 Sep 2026 10:35:26 -0400",
       "source": "BleepingComputer"
     }
   ]
