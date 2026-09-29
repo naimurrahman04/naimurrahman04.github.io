@@ -1,6 +1,30 @@
 {
-  "updated": "2026-09-29T03:45:51Z",
+  "updated": "2026-09-29T11:58:03Z",
   "items": [
+    {
+      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+      "link": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+      "pubDate": "Tue, 29 Sep 2026 14:05:10 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+      "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+      "pubDate": "Tue, 29 Sep 2026 11:38:25 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+      "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+      "pubDate": "Tue, 29 Sep 2026 10:42:32 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+      "link": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+      "pubDate": "Tue, 29 Sep 2026 10:15:20 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
       "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
@@ -8,51 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-      "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-      "pubDate": "Tue, 29 Sep 2026 00:05:42 +0530",
-      "source": "The Hacker News"
+      "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
+      "link": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
+      "pubDate": "Tue, 29 Sep 2026 07:41:53 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "IAM for AI agents: A Practical Enterprise Framework",
-      "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
-      "pubDate": "Mon, 28 Sep 2026 23:50:38 +0530",
-      "source": "The Hacker News"
+      "title": "Kiteworks patches critical flaw, brings customer systems online",
+      "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+      "pubDate": "Tue, 29 Sep 2026 05:04:06 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-      "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-      "pubDate": "Mon, 28 Sep 2026 23:12:18 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-      "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-      "pubDate": "Mon, 28 Sep 2026 23:08:33 +0530",
-      "source": "The Hacker News"
+      "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+      "pubDate": "Tue, 29 Sep 2026 03:33:12 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Japan's Keio confirms ransomware attack disrupted business systems",
       "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
       "pubDate": "Mon, 28 Sep 2026 16:56:47 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Times Car confirms data breach affecting 6.6 million user accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
-      "pubDate": "Mon, 28 Sep 2026 16:31:16 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
-      "link": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
-      "pubDate": "Mon, 28 Sep 2026 15:49:10 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
-      "link": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
-      "pubDate": "Mon, 28 Sep 2026 14:50:59 -0400",
       "source": "BleepingComputer"
     }
   ]
