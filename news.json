@@ -1,6 +1,24 @@
 {
-  "updated": "2026-09-30T11:46:14Z",
+  "updated": "2026-09-30T17:26:33Z",
   "items": [
+    {
+      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+      "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "pubDate": "Wed, 30 Sep 2026 20:54:54 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "pubDate": "Wed, 30 Sep 2026 20:30:15 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+      "link": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+      "pubDate": "Wed, 30 Sep 2026 17:28:00 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
       "link": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
@@ -14,45 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
-      "pubDate": "Wed, 30 Sep 2026 13:54:35 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
-      "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
-      "pubDate": "Wed, 30 Sep 2026 13:39:28 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-      "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
-      "pubDate": "Wed, 30 Sep 2026 11:00:30 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Bitget hacked via zero-day in third-party security products",
-      "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
-      "pubDate": "Wed, 30 Sep 2026 07:11:46 -0400",
+      "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+      "pubDate": "Wed, 30 Sep 2026 11:49:29 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft is rolling out Linux container support to WSL",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
-      "pubDate": "Tue, 29 Sep 2026 20:40:57 -0400",
+      "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+      "pubDate": "Wed, 30 Sep 2026 10:46:40 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Signal adds encypted local backup support to iOS, desktop apps",
-      "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
-      "pubDate": "Tue, 29 Sep 2026 17:30:08 -0400",
+      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+      "link": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+      "pubDate": "Wed, 30 Sep 2026 10:01:11 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
-      "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
-      "pubDate": "Tue, 29 Sep 2026 16:59:39 -0400",
+      "title": "Microsoft to block Entra ID script injection attacks starting October",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+      "pubDate": "Wed, 30 Sep 2026 09:37:15 -0400",
       "source": "BleepingComputer"
     }
   ]
