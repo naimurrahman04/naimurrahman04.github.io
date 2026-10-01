@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-01T12:15:25Z",
+  "updated": "2026-10-01T22:14:20Z",
   "items": [
+    {
+      "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+      "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+      "pubDate": "Thu, 01 Oct 2026 22:25:57 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+      "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+      "pubDate": "Thu, 01 Oct 2026 22:15:38 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+      "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+      "pubDate": "Thu, 01 Oct 2026 20:07:35 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+      "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
+      "pubDate": "Thu, 01 Oct 2026 17:15:00 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
       "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
@@ -8,51 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-      "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-      "pubDate": "Thu, 01 Oct 2026 16:03:16 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-      "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
-      "pubDate": "Thu, 01 Oct 2026 13:19:36 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-      "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-      "pubDate": "Thu, 01 Oct 2026 11:24:41 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-      "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-      "pubDate": "Thu, 01 Oct 2026 10:51:10 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Microsoft enables Windows settings backup by default for orgs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
-      "pubDate": "Thu, 01 Oct 2026 07:14:28 -0400",
+      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
+      "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+      "pubDate": "Thu, 01 Oct 2026 16:52:50 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Hackers stole Pentagon personnel records of over 3 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
-      "pubDate": "Thu, 01 Oct 2026 05:44:28 -0400",
+      "title": "Microsoft says threat actors are ahead in the early AI race",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+      "pubDate": "Thu, 01 Oct 2026 15:32:47 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Metamask discloses security incident affecting its infrastructure",
-      "link": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
-      "pubDate": "Thu, 01 Oct 2026 03:33:57 -0400",
+      "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+      "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+      "pubDate": "Thu, 01 Oct 2026 10:25:14 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Russian state hackers use new RedFlick technique to push malware",
-      "link": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
-      "pubDate": "Wed, 30 Sep 2026 16:34:01 -0400",
+      "title": "The Day-One Hole in Zero Trust Architecture",
+      "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
+      "pubDate": "Thu, 01 Oct 2026 10:01:11 -0400",
       "source": "BleepingComputer"
     }
   ]
