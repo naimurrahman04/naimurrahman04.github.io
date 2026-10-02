@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-02T03:38:53Z",
+  "updated": "2026-10-02T11:44:24Z",
   "items": [
+    {
+      "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
+      "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
+      "pubDate": "Fri, 02 Oct 2026 17:00:00 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+      "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+      "pubDate": "Fri, 02 Oct 2026 13:31:30 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+      "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+      "pubDate": "Fri, 02 Oct 2026 11:19:50 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Microsoft\u2019s X account hacked in crypto pump-and-dump scheme",
+      "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+      "pubDate": "Fri, 02 Oct 2026 05:29:56 -0400",
+      "source": "BleepingComputer"
+    },
     {
       "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
       "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
@@ -11,24 +35,6 @@
       "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
       "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
       "pubDate": "Thu, 01 Oct 2026 22:15:38 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-      "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
-      "pubDate": "Thu, 01 Oct 2026 20:07:35 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
-      "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
-      "pubDate": "Thu, 01 Oct 2026 17:15:00 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
-      "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
-      "pubDate": "Thu, 01 Oct 2026 16:12:36 +0530",
       "source": "The Hacker News"
     },
     {
@@ -47,12 +53,6 @@
       "title": "Microsoft says threat actors are ahead in the early AI race",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
       "pubDate": "Thu, 01 Oct 2026 15:32:47 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
-      "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
-      "pubDate": "Thu, 01 Oct 2026 10:25:14 -0400",
       "source": "BleepingComputer"
     }
   ]
