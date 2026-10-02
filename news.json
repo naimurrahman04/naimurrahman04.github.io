@@ -1,6 +1,12 @@
 {
-  "updated": "2026-10-02T11:44:24Z",
+  "updated": "2026-10-02T17:16:14Z",
   "items": [
+    {
+      "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
+      "link": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+      "pubDate": "Fri, 02 Oct 2026 17:53:15 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
       "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
@@ -20,39 +26,33 @@
       "source": "The Hacker News"
     },
     {
+      "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+      "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+      "pubDate": "Fri, 02 Oct 2026 12:20:05 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
+      "pubDate": "Fri, 02 Oct 2026 11:20:53 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
+      "link": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
+      "pubDate": "Fri, 02 Oct 2026 10:00:10 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
+      "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+      "pubDate": "Fri, 02 Oct 2026 08:37:40 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Microsoft\u2019s X account hacked in crypto pump-and-dump scheme",
       "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
       "pubDate": "Fri, 02 Oct 2026 05:29:56 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-      "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
-      "pubDate": "Thu, 01 Oct 2026 22:25:57 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
-      "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
-      "pubDate": "Thu, 01 Oct 2026 22:15:38 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
-      "pubDate": "Thu, 01 Oct 2026 18:42:49 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
-      "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
-      "pubDate": "Thu, 01 Oct 2026 16:52:50 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft says threat actors are ahead in the early AI race",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
-      "pubDate": "Thu, 01 Oct 2026 15:32:47 -0400",
       "source": "BleepingComputer"
     }
   ]
