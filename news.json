@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-03T10:57:46Z",
+  "updated": "2026-10-03T15:34:28Z",
   "items": [
+    {
+      "title": "MI5 Says China\u2019s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+      "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+      "pubDate": "Sat, 03 Oct 2026 20:08:46 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+      "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+      "pubDate": "Sat, 03 Oct 2026 20:06:33 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "The State of Cybersecurity in 2026:\u00a0Key Segments, Insights, and Innovations",
+      "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+      "pubDate": "Sat, 03 Oct 2026 16:30:00 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Danish university DTU breach exposes data of up to 200,000 people",
+      "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+      "pubDate": "Sat, 03 Oct 2026 10:35:20 -0400",
+      "source": "BleepingComputer"
+    },
     {
       "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
       "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
@@ -11,24 +35,6 @@
       "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
       "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
       "pubDate": "Fri, 02 Oct 2026 23:03:16 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
-      "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-      "pubDate": "Fri, 02 Oct 2026 22:32:12 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
-      "link": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
-      "pubDate": "Fri, 02 Oct 2026 17:53:15 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
-      "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
-      "pubDate": "Fri, 02 Oct 2026 17:00:00 +0530",
       "source": "The Hacker News"
     },
     {
@@ -47,12 +53,6 @@
       "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
       "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
       "pubDate": "Fri, 02 Oct 2026 12:20:05 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
-      "pubDate": "Fri, 02 Oct 2026 11:20:53 -0400",
       "source": "BleepingComputer"
     }
   ]
