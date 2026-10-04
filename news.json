@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-04T03:50:51Z",
+  "updated": "2026-10-04T11:40:02Z",
   "items": [
+    {
+      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+      "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+      "pubDate": "Sun, 04 Oct 2026 12:52:05 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "link": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "pubDate": "Sun, 04 Oct 2026 12:50:32 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Anthropic asks Claude users to share voice data for AI model training",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+      "pubDate": "Sun, 04 Oct 2026 06:53:21 -0400",
+      "source": "BleepingComputer"
+    },
     {
       "title": "MI5 Says China\u2019s MSS Funded Research Involving 100+ U.K.-Linked Academics",
       "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
@@ -35,24 +53,6 @@
       "title": "Danish university DTU breach exposes data of up to 200,000 people",
       "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
       "pubDate": "Sat, 03 Oct 2026 10:35:20 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
-      "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
-      "pubDate": "Fri, 02 Oct 2026 23:03:31 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
-      "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
-      "pubDate": "Fri, 02 Oct 2026 23:03:16 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Frontline Education breach exposes school district employee data",
-      "link": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
-      "pubDate": "Fri, 02 Oct 2026 15:01:40 -0400",
       "source": "BleepingComputer"
     }
   ]
