@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceFlow | AI-Powered Neural Text-to-Speech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --bg: #f8fafc;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --white: #ffffff;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .logo {
+            font-weight: 800;
+            font-size: 24px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn-download {
+            background: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        .btn-download:hover { background: var(--primary-dark); }
+
+        .hero {
+            text-align: center;
+            padding: 100px 10%;
+            background: radial-gradient(circle at top, #eff6ff 0%, #f8fafc 100%);
+        }
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            letter-spacing: -0.04em;
+            color: #0f172a;
+        }
+        .hero p {
+            font-size: 20px;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 80px 10%;
+        }
+        .feature-card {
+            background: white;
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid #e2e8f0;
+            transition: 0.3s;
+            text-align: center;
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
+        }
+        .feature-card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #0f172a;
+        }
+        .feature-card p { color: var(--text-muted); }
+
+        .pricing {
+            text-align: center;
+            padding: 80px 10%;
+            background: white;
+        }
+        .price-card {
+            display: inline-block;
+            padding: 40px;
+            border: 2px solid var(--primary);
+            border-radius: 24px;
+            max-width: 400px;
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.1);
+        }
+        .price-tag {
+            font-size: 48px;
+            font-weight: 800;
+            margin: 20px 0;
+        }
+        .price-tag span { font-size: 20px; color: var(--text-muted); }
+
+        .footer {
+            padding: 60px 10%;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+        }
+        .footer p { opacity: 0.7; margin-bottom: 20px; }
+        .support-email {
+            color: #60a5fa;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><span>V</span> VoiceFlow</div>
+        <a href="#" class="btn-download">Install Extension</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Read the Web with <br><span style="color: var(--primary);">Natural AI Voices</span></h1>
+        <p>Stop reading and start listening. VoiceFlow transforms any webpage into a professional audiobook with neural-grade human voices.</p>
+        <a href="#" class="btn-download" style="padding: 15px 30px; font-size: 18px;">Get it for Free (100 Days)</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>Neural Human Voices</h3>
+            <p>No more robotic sounds. We use advanced AI models to provide natural-sounding narration.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Word-by-Word Tracking</h3>
+            <p>Follow along visually with our real-time highlight system that tracks every word spoken.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Pro Productivity</h3>
+            <p>Use Alt+S to trigger reading instantly. Perfect for students, researchers, and accessibility.</p>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <h2>Simple Pricing</h2>
+        <div class="price-card">
+            <h3>Pro Plan</h3>
+            <div class="price-tag">$2 <span>/ month</span></div>
+            <p>Unlimited Neural Voices<br>Lifetime Word Tracking<br>Premium Support</p>
+            <a href="#" class="btn-download" style="display: block; margin-top: 20px;">Upgrade Now</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 VoiceFlow AI. All rights reserved.</p>
+        <p>Need help? Contact support at:<br>
+        <a href="mailto:naimurrahman04@gmail.com" class="support-email">naimurrahman04@gmail.com</a></p>
+    </footer>
+</body>
+</html>
