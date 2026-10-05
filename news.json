@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T20:46:17Z",
+  "updated": "2026-10-05T03:35:38Z",
   "items": [
     {
       "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
@@ -12,6 +12,12 @@
       "link": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
       "pubDate": "Sun, 04 Oct 2026 12:50:32 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+      "pubDate": "Sun, 04 Oct 2026 17:58:01 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Anthropic asks Claude users to share voice data for AI model training",
@@ -47,12 +53,6 @@
       "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
       "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
       "pubDate": "Sat, 03 Oct 2026 15:09:38 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Danish university DTU breach exposes data of up to 200,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
-      "pubDate": "Sat, 03 Oct 2026 10:35:20 -0400",
       "source": "BleepingComputer"
     }
   ]
