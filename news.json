@@ -1,6 +1,18 @@
 {
-  "updated": "2026-10-05T13:20:39Z",
+  "updated": "2026-10-05T23:36:00Z",
   "items": [
+    {
+      "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+      "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+      "pubDate": "Mon, 05 Oct 2026 21:51:52 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "\u26a1 Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+      "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+      "pubDate": "Mon, 05 Oct 2026 19:50:43 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
       "link": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
@@ -20,39 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
-      "link": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
-      "pubDate": "Mon, 05 Oct 2026 13:39:23 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-      "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-      "pubDate": "Mon, 05 Oct 2026 12:10:19 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Alleged dev of Ploutus ATM malware appears in US court after arrest",
-      "link": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/",
-      "pubDate": "Mon, 05 Oct 2026 09:01:45 -0400",
+      "title": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
+      "pubDate": "Mon, 05 Oct 2026 18:46:33 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "OpenAI will show visual ads in ChatGPT while you generate images",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
-      "pubDate": "Mon, 05 Oct 2026 06:28:45 -0400",
+      "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+      "pubDate": "Mon, 05 Oct 2026 16:20:05 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft: Windows KB5124010 update crashes some games and apps",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5124010-update-crashes-some-games-and-apps/",
-      "pubDate": "Mon, 05 Oct 2026 05:37:56 -0400",
+      "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
+      "link": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
+      "pubDate": "Mon, 05 Oct 2026 13:19:53 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Google halts open-source bug bounty program amid AI spam surge",
-      "link": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/",
-      "pubDate": "Mon, 05 Oct 2026 04:27:46 -0400",
+      "title": "Denmark population registry data breach affects 8.8 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+      "pubDate": "Mon, 05 Oct 2026 11:21:10 -0400",
       "source": "BleepingComputer"
     }
   ]
