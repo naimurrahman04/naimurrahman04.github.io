@@ -1,6 +1,18 @@
 {
-  "updated": "2026-10-06T12:36:12Z",
+  "updated": "2026-10-06T22:10:02Z",
   "items": [
+    {
+      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+      "pubDate": "Wed, 07 Oct 2026 00:08:55 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+      "link": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+      "pubDate": "Tue, 06 Oct 2026 23:54:25 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
       "link": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
@@ -20,39 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
-      "link": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
-      "pubDate": "Tue, 06 Oct 2026 14:51:47 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-      "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-      "pubDate": "Tue, 06 Oct 2026 12:28:56 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
-      "link": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
-      "pubDate": "Tue, 06 Oct 2026 07:31:48 -0400",
+      "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+      "pubDate": "Tue, 06 Oct 2026 17:00:27 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Nikkei discloses breaches of employees\u2019 Microsoft, Google email accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
-      "pubDate": "Tue, 06 Oct 2026 05:25:50 -0400",
+      "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
+      "pubDate": "Tue, 06 Oct 2026 15:21:53 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Engineer sentenced for locking over 3,000 devices on employer network",
-      "link": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
-      "pubDate": "Tue, 06 Oct 2026 04:19:24 -0400",
+      "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+      "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+      "pubDate": "Tue, 06 Oct 2026 13:34:59 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
-      "pubDate": "Mon, 05 Oct 2026 18:46:33 -0400",
+      "title": "ASOS confirms data breach after \u201cHACKED\u201d in-app notifications",
+      "link": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+      "pubDate": "Tue, 06 Oct 2026 12:33:54 -0400",
       "source": "BleepingComputer"
     }
   ]
