@@ -1,58 +1,58 @@
 {
-  "updated": "2026-10-09T12:26:24Z",
+  "updated": "2026-10-09T22:07:45Z",
   "items": [
     {
-      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
-      "link": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-      "pubDate": "Fri, 09 Oct 2026 17:00:00 +0530",
+      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "pubDate": "Sat, 10 Oct 2026 00:44:28 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
-      "link": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
-      "pubDate": "Fri, 09 Oct 2026 14:33:24 +0530",
+      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+      "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+      "pubDate": "Fri, 09 Oct 2026 23:15:26 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
-      "link": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
-      "pubDate": "Fri, 09 Oct 2026 13:56:17 +0530",
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "pubDate": "Fri, 09 Oct 2026 21:59:55 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-      "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
-      "pubDate": "Fri, 09 Oct 2026 13:41:33 +0530",
+      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+      "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+      "pubDate": "Fri, 09 Oct 2026 18:52:53 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
-      "link": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
-      "pubDate": "Fri, 09 Oct 2026 12:09:29 +0530",
+      "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+      "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+      "pubDate": "Fri, 09 Oct 2026 18:29:22 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Man admits to running network of 15,000 money mules for cybercriminals",
-      "link": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
-      "pubDate": "Fri, 09 Oct 2026 07:14:28 -0400",
+      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+      "pubDate": "Fri, 09 Oct 2026 16:31:37 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft: Outdated Windows devices will stop receiving security updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
-      "pubDate": "Fri, 09 Oct 2026 06:12:24 -0400",
+      "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+      "link": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+      "pubDate": "Fri, 09 Oct 2026 13:17:23 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
-      "link": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
-      "pubDate": "Fri, 09 Oct 2026 04:27:42 -0400",
+      "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+      "pubDate": "Fri, 09 Oct 2026 13:02:29 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
-      "pubDate": "Fri, 09 Oct 2026 01:41:04 -0400",
+      "title": "Germany arrests alleged core Qilin ransomware member after extradition",
+      "link": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+      "pubDate": "Fri, 09 Oct 2026 11:38:56 -0400",
       "source": "BleepingComputer"
     }
   ]
