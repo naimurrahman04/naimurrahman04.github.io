@@ -1,6 +1,18 @@
 {
-  "updated": "2026-10-10T03:53:40Z",
+  "updated": "2026-10-10T11:45:09Z",
   "items": [
+    {
+      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "pubDate": "Sat, 10 Oct 2026 16:30:00 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "pubDate": "Sat, 10 Oct 2026 14:48:45 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
       "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
@@ -17,18 +29,6 @@
       "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
       "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
       "pubDate": "Fri, 09 Oct 2026 21:59:55 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-      "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
-      "pubDate": "Fri, 09 Oct 2026 18:52:53 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
-      "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-      "pubDate": "Fri, 09 Oct 2026 18:29:22 +0530",
       "source": "The Hacker News"
     },
     {
