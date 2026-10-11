@@ -1,11 +1,17 @@
 {
-  "updated": "2026-10-11T11:57:35Z",
+  "updated": "2026-10-11T17:26:51Z",
   "items": [
     {
       "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
       "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
       "pubDate": "Sun, 11 Oct 2026 09:54:34 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "pubDate": "Sun, 11 Oct 2026 10:23:46 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
@@ -48,12 +54,6 @@
       "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
       "pubDate": "Fri, 09 Oct 2026 23:15:26 +0530",
       "source": "The Hacker News"
-    },
-    {
-      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-      "pubDate": "Fri, 09 Oct 2026 16:31:37 -0400",
-      "source": "BleepingComputer"
     }
   ]
 }
