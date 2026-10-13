@@ -1,6 +1,12 @@
 {
-  "updated": "2026-10-12T14:10:27Z",
+  "updated": "2026-10-13T00:02:26Z",
   "items": [
+    {
+      "title": "\u26a1 Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+      "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+      "pubDate": "Mon, 12 Oct 2026 20:46:26 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
       "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
@@ -26,33 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-      "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-      "pubDate": "Mon, 12 Oct 2026 12:56:12 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
-      "pubDate": "Mon, 12 Oct 2026 10:00:10 -0400",
+      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+      "link": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "pubDate": "Mon, 12 Oct 2026 16:13:52 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
-      "pubDate": "Mon, 12 Oct 2026 09:51:07 -0400",
+      "title": "Yandex confirms service outage as users lose access to cloud files",
+      "link": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "pubDate": "Mon, 12 Oct 2026 15:23:01 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "GitLab warns of max severity code execution vulnerability",
-      "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-      "pubDate": "Mon, 12 Oct 2026 09:09:09 -0400",
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "link": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "pubDate": "Mon, 12 Oct 2026 14:51:59 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
-      "pubDate": "Mon, 12 Oct 2026 07:58:33 -0400",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "link": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "pubDate": "Mon, 12 Oct 2026 12:27:23 -0400",
       "source": "BleepingComputer"
     }
   ]
