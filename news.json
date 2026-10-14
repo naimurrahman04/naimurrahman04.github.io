@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T22:11:48Z",
+  "updated": "2026-10-14T03:09:09Z",
   "items": [
     {
       "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
@@ -32,6 +32,12 @@
       "source": "The Hacker News"
     },
     {
+      "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+      "pubDate": "Tue, 13 Oct 2026 18:33:02 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
       "link": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
       "pubDate": "Tue, 13 Oct 2026 17:33:26 -0400",
@@ -47,12 +53,6 @@
       "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
       "pubDate": "Tue, 13 Oct 2026 15:56:09 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft releases Windows 10 KB5126657 extended security update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
-      "pubDate": "Tue, 13 Oct 2026 15:47:30 -0400",
       "source": "BleepingComputer"
     }
   ]
