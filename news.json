@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-15T02:48:22Z",
+  "updated": "2026-10-15T10:43:14Z",
   "items": [
+    {
+      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+      "link": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "pubDate": "Thu, 15 Oct 2026 14:15:10 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+      "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+      "pubDate": "Thu, 15 Oct 2026 12:37:05 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+      "pubDate": "Thu, 15 Oct 2026 12:13:08 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+      "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "pubDate": "Thu, 15 Oct 2026 11:47:58 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
       "link": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
@@ -8,28 +32,16 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora\u2019s Built-in CODE App",
-      "link": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
-      "pubDate": "Wed, 14 Oct 2026 23:08:31 +0530",
-      "source": "The Hacker News"
+      "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+      "pubDate": "Thu, 15 Oct 2026 05:10:20 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
-      "link": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
-      "pubDate": "Wed, 14 Oct 2026 22:39:15 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-      "link": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-      "pubDate": "Wed, 14 Oct 2026 22:04:31 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-      "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-      "pubDate": "Wed, 14 Oct 2026 18:00:42 +0530",
-      "source": "The Hacker News"
+      "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
+      "link": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+      "pubDate": "Thu, 15 Oct 2026 04:06:47 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
@@ -41,18 +53,6 @@
       "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
       "pubDate": "Wed, 14 Oct 2026 15:41:43 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
-      "link": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
-      "pubDate": "Wed, 14 Oct 2026 13:46:50 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
-      "pubDate": "Wed, 14 Oct 2026 13:29:14 -0400",
       "source": "BleepingComputer"
     }
   ]
