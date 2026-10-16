@@ -1,6 +1,18 @@
 {
-  "updated": "2026-10-16T10:30:36Z",
+  "updated": "2026-10-16T15:56:00Z",
   "items": [
+    {
+      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+      "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+      "pubDate": "Fri, 16 Oct 2026 19:33:04 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "AI Decision Models and Their Impact on AI SOC Platforms",
+      "link": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+      "pubDate": "Fri, 16 Oct 2026 17:00:00 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
       "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
@@ -20,16 +32,16 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-      "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-      "pubDate": "Fri, 16 Oct 2026 01:54:36 +0530",
-      "source": "The Hacker News"
+      "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+      "link": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+      "pubDate": "Fri, 16 Oct 2026 09:50:59 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-      "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-      "pubDate": "Fri, 16 Oct 2026 00:19:33 +0530",
-      "source": "The Hacker News"
+      "title": "Burger King Japan data breach exposes 11 million customer records",
+      "link": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+      "pubDate": "Fri, 16 Oct 2026 08:01:29 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Microsoft: October Windows update may break Smart App Control",
@@ -41,18 +53,6 @@
       "title": "BAE Systems cyberattack disrupts US federal court operations",
       "link": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
       "pubDate": "Fri, 16 Oct 2026 03:37:35 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "BeyondTrust patches zero-day exploited in attacks since August",
-      "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-      "pubDate": "Fri, 16 Oct 2026 02:18:08 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-      "pubDate": "Thu, 15 Oct 2026 16:25:04 -0400",
       "source": "BleepingComputer"
     }
   ]
