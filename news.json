@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-16T15:56:00Z",
+  "updated": "2026-10-16T20:23:37Z",
   "items": [
+    {
+      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+      "pubDate": "Fri, 16 Oct 2026 23:18:45 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+      "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+      "pubDate": "Fri, 16 Oct 2026 22:13:39 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+      "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+      "pubDate": "Fri, 16 Oct 2026 21:46:44 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
       "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
@@ -14,22 +32,16 @@
       "source": "The Hacker News"
     },
     {
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-      "pubDate": "Fri, 16 Oct 2026 12:25:55 +0530",
-      "source": "The Hacker News"
+      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "pubDate": "Fri, 16 Oct 2026 16:00:59 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-      "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-      "pubDate": "Fri, 16 Oct 2026 12:23:09 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-      "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-      "pubDate": "Fri, 16 Oct 2026 10:29:36 +0530",
-      "source": "The Hacker News"
+      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+      "pubDate": "Fri, 16 Oct 2026 13:20:03 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
@@ -41,18 +53,6 @@
       "title": "Burger King Japan data breach exposes 11 million customer records",
       "link": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
       "pubDate": "Fri, 16 Oct 2026 08:01:29 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft: October Windows update may break Smart App Control",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
-      "pubDate": "Fri, 16 Oct 2026 04:44:22 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "BAE Systems cyberattack disrupts US federal court operations",
-      "link": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
-      "pubDate": "Fri, 16 Oct 2026 03:37:35 -0400",
       "source": "BleepingComputer"
     }
   ]
