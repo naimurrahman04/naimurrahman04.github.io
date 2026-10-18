@@ -1,6 +1,12 @@
 {
-  "updated": "2026-10-18T02:38:23Z",
+  "updated": "2026-10-18T10:13:45Z",
   "items": [
+    {
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "pubDate": "Sun, 18 Oct 2026 13:53:02 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
       "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
@@ -35,12 +41,6 @@
       "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
       "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
       "pubDate": "Fri, 16 Oct 2026 22:13:39 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-      "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-      "pubDate": "Fri, 16 Oct 2026 21:46:44 +0530",
       "source": "The Hacker News"
     },
     {
