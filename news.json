@@ -1,11 +1,17 @@
 {
-  "updated": "2026-10-18T10:13:45Z",
+  "updated": "2026-10-18T15:14:19Z",
   "items": [
     {
       "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
       "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
       "pubDate": "Sun, 18 Oct 2026 13:53:02 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+      "pubDate": "Sun, 18 Oct 2026 10:23:16 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
@@ -47,12 +53,6 @@
       "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
       "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
       "pubDate": "Fri, 16 Oct 2026 16:00:59 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
-      "pubDate": "Fri, 16 Oct 2026 13:20:03 -0400",
       "source": "BleepingComputer"
     }
   ]
