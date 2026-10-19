@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-19T11:51:26Z",
+  "updated": "2026-10-19T18:10:59Z",
   "items": [
+    {
+      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+      "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+      "pubDate": "Mon, 19 Oct 2026 21:58:47 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "\u26a1 Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+      "link": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+      "pubDate": "Mon, 19 Oct 2026 19:44:07 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+      "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "pubDate": "Mon, 19 Oct 2026 18:35:45 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+      "link": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+      "pubDate": "Mon, 19 Oct 2026 17:20:00 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
       "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
@@ -8,51 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-      "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-      "pubDate": "Mon, 19 Oct 2026 11:59:44 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-      "pubDate": "Mon, 19 Oct 2026 11:37:08 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-      "pubDate": "Mon, 19 Oct 2026 04:58:41 -0400",
+      "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+      "pubDate": "Mon, 19 Oct 2026 13:27:15 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-      "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-      "pubDate": "Sun, 18 Oct 2026 13:53:02 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-      "pubDate": "Sun, 18 Oct 2026 10:23:16 -0400",
+      "title": "Microsoft fixes game, app crashes caused by recent Windows update",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+      "pubDate": "Mon, 19 Oct 2026 10:55:23 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-      "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-      "pubDate": "Sat, 17 Oct 2026 16:41:56 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-      "pubDate": "Sat, 17 Oct 2026 11:18:51 -0400",
+      "title": "Inside the Underground Market for Know Your Client Services",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+      "pubDate": "Mon, 19 Oct 2026 10:00:10 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-      "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-      "pubDate": "Sat, 17 Oct 2026 10:32:48 -0400",
+      "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "pubDate": "Mon, 19 Oct 2026 09:49:24 -0400",
       "source": "BleepingComputer"
     }
   ]
