@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-19T02:51:37Z",
+  "updated": "2026-10-19T11:51:26Z",
   "items": [
+    {
+      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+      "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+      "pubDate": "Mon, 19 Oct 2026 15:36:40 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+      "pubDate": "Mon, 19 Oct 2026 11:59:44 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+      "pubDate": "Mon, 19 Oct 2026 11:37:08 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+      "pubDate": "Mon, 19 Oct 2026 04:58:41 -0400",
+      "source": "BleepingComputer"
+    },
     {
       "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
       "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
@@ -20,12 +44,6 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-      "pubDate": "Sat, 17 Oct 2026 11:46:46 +0530",
-      "source": "The Hacker News"
-    },
-    {
       "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
       "pubDate": "Sat, 17 Oct 2026 11:18:51 -0400",
@@ -35,24 +53,6 @@
       "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
       "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
       "pubDate": "Sat, 17 Oct 2026 10:32:48 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-      "pubDate": "Fri, 16 Oct 2026 23:18:45 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
-      "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-      "pubDate": "Fri, 16 Oct 2026 22:13:39 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
-      "pubDate": "Fri, 16 Oct 2026 16:00:59 -0400",
       "source": "BleepingComputer"
     }
   ]
