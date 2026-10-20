@@ -1,6 +1,12 @@
 {
-  "updated": "2026-10-19T18:10:59Z",
+  "updated": "2026-10-20T03:01:35Z",
   "items": [
+    {
+      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+      "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "pubDate": "Mon, 19 Oct 2026 23:02:13 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
       "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
@@ -26,33 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "pubDate": "Mon, 19 Oct 2026 15:36:40 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "OpenCode hack exposes API keys amid AI distillation attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
-      "pubDate": "Mon, 19 Oct 2026 13:27:15 -0400",
+      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+      "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+      "pubDate": "Mon, 19 Oct 2026 17:49:48 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft fixes game, app crashes caused by recent Windows update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
-      "pubDate": "Mon, 19 Oct 2026 10:55:23 -0400",
+      "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+      "link": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+      "pubDate": "Mon, 19 Oct 2026 17:24:51 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Inside the Underground Market for Know Your Client Services",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
-      "pubDate": "Mon, 19 Oct 2026 10:00:10 -0400",
+      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+      "pubDate": "Mon, 19 Oct 2026 15:40:58 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-      "link": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-      "pubDate": "Mon, 19 Oct 2026 09:49:24 -0400",
+      "title": "Bullhorn takes staffing platform offline to contain cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+      "pubDate": "Mon, 19 Oct 2026 14:51:13 -0400",
       "source": "BleepingComputer"
     }
   ]
