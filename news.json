@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-21T16:27:27Z",
+  "updated": "2026-10-21T21:07:24Z",
   "items": [
+    {
+      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+      "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+      "pubDate": "Thu, 22 Oct 2026 00:27:34 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "pubDate": "Wed, 21 Oct 2026 23:31:57 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+      "link": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "pubDate": "Wed, 21 Oct 2026 22:03:47 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
       "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
@@ -14,22 +32,16 @@
       "source": "The Hacker News"
     },
     {
-      "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-      "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-      "pubDate": "Wed, 21 Oct 2026 17:35:00 +0530",
-      "source": "The Hacker News"
+      "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+      "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+      "pubDate": "Wed, 21 Oct 2026 16:31:48 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-      "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
-      "pubDate": "Wed, 21 Oct 2026 17:23:34 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-      "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-      "pubDate": "Wed, 21 Oct 2026 16:06:53 +0530",
-      "source": "The Hacker News"
+      "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+      "pubDate": "Wed, 21 Oct 2026 14:34:42 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "OpenAI agents disabled safety monitoring, one lied about it",
@@ -41,18 +53,6 @@
       "title": "PHP ships emergency patches for critical PHP2Shell flaws",
       "link": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
       "pubDate": "Wed, 21 Oct 2026 10:07:05 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
-      "link": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
-      "pubDate": "Wed, 21 Oct 2026 10:00:10 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
-      "pubDate": "Wed, 21 Oct 2026 08:20:34 -0400",
       "source": "BleepingComputer"
     }
   ]
