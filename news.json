@@ -1,58 +1,58 @@
 {
-  "updated": "2026-10-21T11:00:19Z",
+  "updated": "2026-10-21T16:27:27Z",
   "items": [
     {
-      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-      "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-      "pubDate": "Wed, 21 Oct 2026 14:35:17 +0530",
+      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+      "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "pubDate": "Wed, 21 Oct 2026 19:30:00 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-      "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
-      "pubDate": "Wed, 21 Oct 2026 14:31:12 +0530",
+      "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+      "link": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+      "pubDate": "Wed, 21 Oct 2026 18:45:09 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-      "link": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-      "pubDate": "Wed, 21 Oct 2026 13:34:17 +0530",
+      "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+      "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+      "pubDate": "Wed, 21 Oct 2026 17:35:00 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-      "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-      "pubDate": "Wed, 21 Oct 2026 13:14:22 +0530",
+      "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+      "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+      "pubDate": "Wed, 21 Oct 2026 17:23:34 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-      "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-      "pubDate": "Wed, 21 Oct 2026 12:56:49 +0530",
+      "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+      "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+      "pubDate": "Wed, 21 Oct 2026 16:06:53 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Microsoft says October updates didn\u2019t actually fix VPN issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
-      "pubDate": "Wed, 21 Oct 2026 06:14:53 -0400",
+      "title": "OpenAI agents disabled safety monitoring, one lied about it",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+      "pubDate": "Wed, 21 Oct 2026 12:26:53 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
-      "pubDate": "Wed, 21 Oct 2026 04:36:24 -0400",
+      "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+      "pubDate": "Wed, 21 Oct 2026 10:07:05 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
-      "pubDate": "Tue, 20 Oct 2026 21:01:50 -0400",
+      "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+      "link": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+      "pubDate": "Wed, 21 Oct 2026 10:00:10 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
-      "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
-      "pubDate": "Tue, 20 Oct 2026 20:46:42 -0400",
+      "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+      "pubDate": "Wed, 21 Oct 2026 08:20:34 -0400",
       "source": "BleepingComputer"
     }
   ]
