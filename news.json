@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T21:08:21Z",
+  "updated": "2026-10-21T02:56:27Z",
   "items": [
     {
       "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
@@ -32,6 +32,18 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+      "pubDate": "Tue, 20 Oct 2026 21:01:50 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+      "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+      "pubDate": "Tue, 20 Oct 2026 20:46:42 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
       "link": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
       "pubDate": "Tue, 20 Oct 2026 16:56:43 -0400",
@@ -41,18 +53,6 @@
       "title": "Zeabur shutting down after second security breach in two months",
       "link": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
       "pubDate": "Tue, 20 Oct 2026 15:33:02 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
-      "pubDate": "Tue, 20 Oct 2026 14:11:03 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "DHS bans DeepSeek products across US federal civilian agencies",
-      "link": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
-      "pubDate": "Tue, 20 Oct 2026 10:19:05 -0400",
       "source": "BleepingComputer"
     }
   ]
