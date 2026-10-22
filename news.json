@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T21:07:24Z",
+  "updated": "2026-10-22T02:55:06Z",
   "items": [
     {
       "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
@@ -32,6 +32,18 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+      "link": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+      "pubDate": "Wed, 21 Oct 2026 18:16:26 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+      "link": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+      "pubDate": "Wed, 21 Oct 2026 17:43:27 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
       "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
       "pubDate": "Wed, 21 Oct 2026 16:31:48 -0400",
@@ -41,18 +53,6 @@
       "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
       "pubDate": "Wed, 21 Oct 2026 14:34:42 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "OpenAI agents disabled safety monitoring, one lied about it",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
-      "pubDate": "Wed, 21 Oct 2026 12:26:53 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-      "pubDate": "Wed, 21 Oct 2026 10:07:05 -0400",
       "source": "BleepingComputer"
     }
   ]
