@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-23T16:17:02Z",
+  "updated": "2026-10-23T20:52:41Z",
   "items": [
+    {
+      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+      "pubDate": "Sat, 24 Oct 2026 00:20:13 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+      "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+      "pubDate": "Fri, 23 Oct 2026 23:24:08 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+      "pubDate": "Fri, 23 Oct 2026 23:20:47 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
       "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
@@ -14,45 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-      "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "pubDate": "Fri, 23 Oct 2026 16:41:23 +0530",
-      "source": "The Hacker News"
+      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+      "pubDate": "Fri, 23 Oct 2026 14:54:41 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Critical Flaw in Python\u2019s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-      "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-      "pubDate": "Fri, 23 Oct 2026 15:06:00 +0530",
-      "source": "The Hacker News"
+      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+      "pubDate": "Fri, 23 Oct 2026 13:05:07 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-      "pubDate": "Fri, 23 Oct 2026 14:10:43 +0530",
-      "source": "The Hacker News"
+      "title": "Quest Diagnostics confirms data breach exposed patient records",
+      "link": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+      "pubDate": "Fri, 23 Oct 2026 12:40:07 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "PHP shares mitigation for new RCE vulnerability with no patch",
       "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
       "pubDate": "Fri, 23 Oct 2026 11:38:05 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "You gave your AI agent access, but who is giving it orders?",
-      "link": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
-      "pubDate": "Fri, 23 Oct 2026 10:00:10 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-      "pubDate": "Fri, 23 Oct 2026 08:48:00 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Railway warns devs to rotate secrets after potential breach",
-      "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
-      "pubDate": "Thu, 22 Oct 2026 17:25:31 -0400",
       "source": "BleepingComputer"
     }
   ]
