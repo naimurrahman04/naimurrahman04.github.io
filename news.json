@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T20:52:41Z",
+  "updated": "2026-10-24T02:55:21Z",
   "items": [
     {
       "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
@@ -32,6 +32,12 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+      "pubDate": "Fri, 23 Oct 2026 16:55:05 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
       "pubDate": "Fri, 23 Oct 2026 14:54:41 -0400",
@@ -47,12 +53,6 @@
       "title": "Quest Diagnostics confirms data breach exposed patient records",
       "link": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
       "pubDate": "Fri, 23 Oct 2026 12:40:07 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-      "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-      "pubDate": "Fri, 23 Oct 2026 11:38:05 -0400",
       "source": "BleepingComputer"
     }
   ]
