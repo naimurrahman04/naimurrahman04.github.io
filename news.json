@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T15:14:35Z",
+  "updated": "2026-10-24T20:04:32Z",
   "items": [
     {
       "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
