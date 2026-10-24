@@ -1,6 +1,12 @@
 {
-  "updated": "2026-10-24T02:55:21Z",
+  "updated": "2026-10-24T10:07:16Z",
   "items": [
+    {
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "pubDate": "Sat, 24 Oct 2026 11:55:57 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
       "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
@@ -23,12 +29,6 @@
       "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
       "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
       "pubDate": "Fri, 23 Oct 2026 19:20:56 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-      "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "pubDate": "Fri, 23 Oct 2026 16:55:43 +0530",
       "source": "The Hacker News"
     },
     {
