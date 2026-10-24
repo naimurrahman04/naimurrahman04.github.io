@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-24T10:07:16Z",
+  "updated": "2026-10-24T15:14:35Z",
   "items": [
+    {
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "pubDate": "Sat, 24 Oct 2026 16:39:29 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "pubDate": "Sat, 24 Oct 2026 16:33:33 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "pubDate": "Sat, 24 Oct 2026 16:06:33 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "pubDate": "Sat, 24 Oct 2026 14:34:24 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
       "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
@@ -8,28 +32,10 @@
       "source": "The Hacker News"
     },
     {
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-      "pubDate": "Sat, 24 Oct 2026 00:20:13 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-      "pubDate": "Fri, 23 Oct 2026 23:24:08 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "pubDate": "Fri, 23 Oct 2026 23:20:47 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-      "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-      "pubDate": "Fri, 23 Oct 2026 19:20:56 +0530",
-      "source": "The Hacker News"
+      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+      "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+      "pubDate": "Sat, 24 Oct 2026 10:17:32 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
@@ -47,12 +53,6 @@
       "title": "Microsoft: Windows Server 2016 reaches end of support in January",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
       "pubDate": "Fri, 23 Oct 2026 13:05:07 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Quest Diagnostics confirms data breach exposed patient records",
-      "link": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
-      "pubDate": "Fri, 23 Oct 2026 12:40:07 -0400",
       "source": "BleepingComputer"
     }
   ]
