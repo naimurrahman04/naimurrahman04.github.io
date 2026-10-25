@@ -1,11 +1,29 @@
 {
-  "updated": "2026-10-25T15:24:41Z",
+  "updated": "2026-10-25T20:17:02Z",
   "items": [
+    {
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "pubDate": "Sun, 25 Oct 2026 23:14:09 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "pubDate": "Sun, 25 Oct 2026 22:49:46 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
       "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
       "pubDate": "Sun, 25 Oct 2026 12:24:29 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "pubDate": "Sun, 25 Oct 2026 11:49:38 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
@@ -17,18 +35,6 @@
       "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
       "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
       "pubDate": "Sat, 24 Oct 2026 16:33:33 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-      "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-      "pubDate": "Sat, 24 Oct 2026 16:06:33 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-      "pubDate": "Sat, 24 Oct 2026 14:34:24 +0530",
       "source": "The Hacker News"
     },
     {
@@ -47,12 +53,6 @@
       "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
       "pubDate": "Fri, 23 Oct 2026 14:54:41 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
-      "pubDate": "Fri, 23 Oct 2026 13:05:07 -0400",
       "source": "BleepingComputer"
     }
   ]
