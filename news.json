@@ -1,23 +1,47 @@
 {
-  "updated": "2026-10-26T02:46:20Z",
+  "updated": "2026-10-26T12:05:44Z",
   "items": [
     {
-      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-      "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-      "pubDate": "Sun, 25 Oct 2026 23:14:09 +0530",
+      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+      "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+      "pubDate": "Mon, 26 Oct 2026 16:53:56 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
-      "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-      "pubDate": "Sun, 25 Oct 2026 22:49:46 +0530",
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "pubDate": "Mon, 26 Oct 2026 15:24:02 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-      "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-      "pubDate": "Sun, 25 Oct 2026 12:24:29 +0530",
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "pubDate": "Mon, 26 Oct 2026 14:05:51 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "pubDate": "Mon, 26 Oct 2026 13:19:46 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "pubDate": "Mon, 26 Oct 2026 11:33:48 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+      "pubDate": "Mon, 26 Oct 2026 06:26:52 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "pubDate": "Mon, 26 Oct 2026 05:19:57 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
@@ -26,33 +50,9 @@
       "source": "BleepingComputer"
     },
     {
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "pubDate": "Sat, 24 Oct 2026 16:39:29 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "pubDate": "Sat, 24 Oct 2026 16:33:33 +0530",
-      "source": "The Hacker News"
-    },
-    {
       "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
       "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
       "pubDate": "Sat, 24 Oct 2026 10:17:32 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-      "pubDate": "Fri, 23 Oct 2026 16:55:05 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-      "pubDate": "Fri, 23 Oct 2026 14:54:41 -0400",
       "source": "BleepingComputer"
     }
   ]
