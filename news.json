@@ -1,58 +1,58 @@
 {
-  "updated": "2026-10-26T12:05:44Z",
+  "updated": "2026-10-26T22:10:55Z",
   "items": [
     {
-      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-      "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-      "pubDate": "Mon, 26 Oct 2026 16:53:56 +0530",
+      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+      "pubDate": "Mon, 26 Oct 2026 23:42:22 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-      "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-      "pubDate": "Mon, 26 Oct 2026 15:24:02 +0530",
+      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+      "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+      "pubDate": "Mon, 26 Oct 2026 23:15:57 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-      "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-      "pubDate": "Mon, 26 Oct 2026 14:05:51 +0530",
+      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "pubDate": "Mon, 26 Oct 2026 21:22:40 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-      "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-      "pubDate": "Mon, 26 Oct 2026 13:19:46 +0530",
+      "title": "\u26a1 Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+      "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+      "pubDate": "Mon, 26 Oct 2026 19:36:13 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-      "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-      "pubDate": "Mon, 26 Oct 2026 11:33:48 +0530",
+      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "pubDate": "Mon, 26 Oct 2026 17:22:41 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-      "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-      "pubDate": "Mon, 26 Oct 2026 06:26:52 -0400",
+      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+      "link": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+      "pubDate": "Mon, 26 Oct 2026 17:08:28 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-      "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-      "pubDate": "Mon, 26 Oct 2026 05:19:57 -0400",
+      "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+      "pubDate": "Mon, 26 Oct 2026 16:46:49 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-      "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-      "pubDate": "Sun, 25 Oct 2026 11:49:38 -0400",
+      "title": "DreamHost forces password resets in ongoing \"incident\"",
+      "link": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "pubDate": "Mon, 26 Oct 2026 15:26:20 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-      "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-      "pubDate": "Sat, 24 Oct 2026 10:17:32 -0400",
+      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "pubDate": "Mon, 26 Oct 2026 12:27:57 -0400",
       "source": "BleepingComputer"
     }
   ]
