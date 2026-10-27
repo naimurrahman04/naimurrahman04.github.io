@@ -1,6 +1,48 @@
 {
-  "updated": "2026-10-27T03:20:28Z",
+  "updated": "2026-10-27T11:25:59Z",
   "items": [
+    {
+      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+      "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+      "pubDate": "Tue, 27 Oct 2026 15:03:06 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+      "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+      "pubDate": "Tue, 27 Oct 2026 13:52:43 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+      "pubDate": "Tue, 27 Oct 2026 12:04:47 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "pubDate": "Tue, 27 Oct 2026 10:07:59 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+      "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+      "pubDate": "Tue, 27 Oct 2026 06:36:12 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Energy giant ENGIE discloses data breach affecting customers",
+      "link": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+      "pubDate": "Tue, 27 Oct 2026 05:25:50 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+      "pubDate": "Tue, 27 Oct 2026 04:20:54 -0400",
+      "source": "BleepingComputer"
+    },
     {
       "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
       "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
@@ -8,51 +50,9 @@
       "source": "The Hacker News"
     },
     {
-      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-      "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-      "pubDate": "Mon, 26 Oct 2026 23:15:57 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-      "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-      "pubDate": "Mon, 26 Oct 2026 21:22:40 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "\u26a1 Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-      "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-      "pubDate": "Mon, 26 Oct 2026 19:36:13 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-      "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-      "pubDate": "Mon, 26 Oct 2026 17:22:41 +0530",
-      "source": "The Hacker News"
-    },
-    {
       "title": "University of Copenhagen data breach exposes data of 525,000 people",
       "link": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
       "pubDate": "Mon, 26 Oct 2026 18:20:36 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-      "link": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-      "pubDate": "Mon, 26 Oct 2026 17:08:28 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
-      "pubDate": "Mon, 26 Oct 2026 16:46:49 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "DreamHost forces password resets in ongoing \"incident\"",
-      "link": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-      "pubDate": "Mon, 26 Oct 2026 15:26:20 -0400",
       "source": "BleepingComputer"
     }
   ]
