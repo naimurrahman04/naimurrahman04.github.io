@@ -1,58 +1,58 @@
 {
-  "updated": "2026-10-27T11:25:59Z",
+  "updated": "2026-10-27T17:15:09Z",
   "items": [
     {
-      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
-      "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-      "pubDate": "Tue, 27 Oct 2026 15:03:06 +0530",
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "pubDate": "Tue, 27 Oct 2026 19:29:48 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-      "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-      "pubDate": "Tue, 27 Oct 2026 13:52:43 +0530",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "pubDate": "Tue, 27 Oct 2026 19:29:09 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-      "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
-      "pubDate": "Tue, 27 Oct 2026 12:04:47 +0530",
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "pubDate": "Tue, 27 Oct 2026 17:39:50 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-      "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-      "pubDate": "Tue, 27 Oct 2026 10:07:59 +0530",
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "pubDate": "Tue, 27 Oct 2026 17:16:00 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "pubDate": "Tue, 27 Oct 2026 17:02:46 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+      "link": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "pubDate": "Tue, 27 Oct 2026 12:15:39 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "link": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "pubDate": "Tue, 27 Oct 2026 10:09:46 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "link": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "pubDate": "Tue, 27 Oct 2026 10:01:11 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
       "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
       "pubDate": "Tue, 27 Oct 2026 06:36:12 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Energy giant ENGIE discloses data breach affecting customers",
-      "link": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
-      "pubDate": "Tue, 27 Oct 2026 05:25:50 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-      "pubDate": "Tue, 27 Oct 2026 04:20:54 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-      "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-      "pubDate": "Mon, 26 Oct 2026 23:42:22 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "University of Copenhagen data breach exposes data of 525,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-      "pubDate": "Mon, 26 Oct 2026 18:20:36 -0400",
       "source": "BleepingComputer"
     }
   ]
