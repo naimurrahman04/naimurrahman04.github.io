@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T22:10:55Z",
+  "updated": "2026-10-27T03:20:28Z",
   "items": [
     {
       "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
@@ -32,6 +32,12 @@
       "source": "The Hacker News"
     },
     {
+      "title": "University of Copenhagen data breach exposes data of 525,000 people",
+      "link": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+      "pubDate": "Mon, 26 Oct 2026 18:20:36 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
       "link": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
       "pubDate": "Mon, 26 Oct 2026 17:08:28 -0400",
@@ -47,12 +53,6 @@
       "title": "DreamHost forces password resets in ongoing \"incident\"",
       "link": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
       "pubDate": "Mon, 26 Oct 2026 15:26:20 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-      "pubDate": "Mon, 26 Oct 2026 12:27:57 -0400",
       "source": "BleepingComputer"
     }
   ]
