@@ -1,6 +1,12 @@
 {
-  "updated": "2026-10-28T18:00:21Z",
+  "updated": "2026-10-29T03:56:59Z",
   "items": [
+    {
+      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+      "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "pubDate": "Wed, 28 Oct 2026 23:38:33 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
       "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
@@ -26,10 +32,16 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
-      "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
-      "pubDate": "Wed, 28 Oct 2026 17:20:00 +0530",
-      "source": "The Hacker News"
+      "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+      "link": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+      "pubDate": "Wed, 28 Oct 2026 16:47:22 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Discord to let search engines index public server messages",
+      "link": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+      "pubDate": "Wed, 28 Oct 2026 14:44:16 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
@@ -41,18 +53,6 @@
       "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
       "link": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
       "pubDate": "Wed, 28 Oct 2026 12:00:00 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
-      "pubDate": "Wed, 28 Oct 2026 10:48:32 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-      "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
-      "pubDate": "Wed, 28 Oct 2026 10:00:00 -0400",
       "source": "BleepingComputer"
     }
   ]
