@@ -1,35 +1,47 @@
 {
-  "updated": "2026-10-29T03:56:59Z",
+  "updated": "2026-10-29T12:07:41Z",
   "items": [
     {
-      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-      "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-      "pubDate": "Wed, 28 Oct 2026 23:38:33 +0530",
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+      "pubDate": "Thu, 29 Oct 2026 16:14:46 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-      "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-      "pubDate": "Wed, 28 Oct 2026 22:38:09 +0530",
+      "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+      "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+      "pubDate": "Thu, 29 Oct 2026 15:56:33 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-      "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-      "pubDate": "Wed, 28 Oct 2026 21:53:34 +0530",
+      "title": "Attacker Tried to Exploit Alpine Linux\u2019s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+      "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+      "pubDate": "Thu, 29 Oct 2026 14:35:39 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-      "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-      "pubDate": "Wed, 28 Oct 2026 21:32:45 +0530",
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+      "pubDate": "Thu, 29 Oct 2026 13:54:22 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-      "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-      "pubDate": "Wed, 28 Oct 2026 18:18:03 +0530",
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "pubDate": "Thu, 29 Oct 2026 11:52:33 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+      "pubDate": "Thu, 29 Oct 2026 08:00:07 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+      "pubDate": "Thu, 29 Oct 2026 07:10:13 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
@@ -41,18 +53,6 @@
       "title": "Discord to let search engines index public server messages",
       "link": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
       "pubDate": "Wed, 28 Oct 2026 14:44:16 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
-      "link": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
-      "pubDate": "Wed, 28 Oct 2026 12:45:47 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
-      "link": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
-      "pubDate": "Wed, 28 Oct 2026 12:00:00 -0400",
       "source": "BleepingComputer"
     }
   ]
