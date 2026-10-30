@@ -1,6 +1,12 @@
 {
-  "updated": "2026-10-30T17:52:15Z",
+  "updated": "2026-10-30T21:52:37Z",
   "items": [
+    {
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "pubDate": "Fri, 30 Oct 2026 22:28:44 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
       "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
@@ -26,10 +32,10 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-      "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-      "pubDate": "Fri, 30 Oct 2026 16:10:45 +0530",
-      "source": "The Hacker News"
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "pubDate": "Fri, 30 Oct 2026 17:09:46 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
@@ -47,12 +53,6 @@
       "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
       "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
       "pubDate": "Fri, 30 Oct 2026 10:00:10 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "CISA says max severity GitLab flaw now exploited in the wild",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-      "pubDate": "Fri, 30 Oct 2026 09:00:32 -0400",
       "source": "BleepingComputer"
     }
   ]
