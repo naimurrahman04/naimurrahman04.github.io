@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T22:19:35Z",
+  "updated": "2026-10-30T03:58:22Z",
   "items": [
     {
       "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
@@ -32,6 +32,18 @@
       "source": "The Hacker News"
     },
     {
+      "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+      "pubDate": "Thu, 29 Oct 2026 19:35:52 -0400",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Binance probes potential $5.8 billion crypto-theft hack",
+      "link": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+      "pubDate": "Thu, 29 Oct 2026 18:45:23 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
       "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
       "pubDate": "Thu, 29 Oct 2026 18:09:24 -0400",
@@ -41,18 +53,6 @@
       "title": "Japan Airlines suffers third-party data breach exposing passenger info",
       "link": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
       "pubDate": "Thu, 29 Oct 2026 18:08:04 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-      "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-      "pubDate": "Thu, 29 Oct 2026 17:47:25 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-      "pubDate": "Thu, 29 Oct 2026 15:23:41 -0400",
       "source": "BleepingComputer"
     }
   ]
