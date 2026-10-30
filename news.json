@@ -1,58 +1,58 @@
 {
-  "updated": "2026-10-30T11:58:57Z",
+  "updated": "2026-10-30T17:52:15Z",
   "items": [
     {
-      "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
-      "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-      "pubDate": "Fri, 30 Oct 2026 14:25:47 +0530",
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "pubDate": "Fri, 30 Oct 2026 20:47:28 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-      "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-      "pubDate": "Fri, 30 Oct 2026 13:15:30 +0530",
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "pubDate": "Fri, 30 Oct 2026 19:38:14 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-      "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-      "pubDate": "Fri, 30 Oct 2026 12:57:05 +0530",
+      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+      "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+      "pubDate": "Fri, 30 Oct 2026 17:51:56 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-      "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-      "pubDate": "Fri, 30 Oct 2026 09:44:59 +0530",
+      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+      "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+      "pubDate": "Fri, 30 Oct 2026 17:28:53 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-      "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-      "pubDate": "Fri, 30 Oct 2026 00:41:58 +0530",
+      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+      "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+      "pubDate": "Fri, 30 Oct 2026 16:10:45 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Microsoft finally fixes VPN issues caused by September updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-      "pubDate": "Fri, 30 Oct 2026 07:20:26 -0400",
+      "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+      "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+      "pubDate": "Fri, 30 Oct 2026 11:58:20 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-      "pubDate": "Fri, 30 Oct 2026 06:16:07 -0400",
+      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "pubDate": "Fri, 30 Oct 2026 10:36:54 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-      "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-      "pubDate": "Fri, 30 Oct 2026 05:18:13 -0400",
+      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+      "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+      "pubDate": "Fri, 30 Oct 2026 10:00:10 -0400",
       "source": "BleepingComputer"
     },
     {
-      "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-      "pubDate": "Thu, 29 Oct 2026 19:35:52 -0400",
+      "title": "CISA says max severity GitLab flaw now exploited in the wild",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "pubDate": "Fri, 30 Oct 2026 09:00:32 -0400",
       "source": "BleepingComputer"
     }
   ]
