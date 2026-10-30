@@ -1,6 +1,30 @@
 {
-  "updated": "2026-10-30T03:58:22Z",
+  "updated": "2026-10-30T11:58:57Z",
   "items": [
+    {
+      "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+      "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "pubDate": "Fri, 30 Oct 2026 14:25:47 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "pubDate": "Fri, 30 Oct 2026 13:15:30 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "pubDate": "Fri, 30 Oct 2026 12:57:05 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+      "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "pubDate": "Fri, 30 Oct 2026 09:44:59 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
       "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
@@ -8,51 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-      "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "pubDate": "Thu, 29 Oct 2026 21:27:05 +0530",
-      "source": "The Hacker News"
+      "title": "Microsoft finally fixes VPN issues caused by September updates",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+      "pubDate": "Fri, 30 Oct 2026 07:20:26 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-      "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "pubDate": "Thu, 29 Oct 2026 20:50:29 +0530",
-      "source": "The Hacker News"
+      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+      "pubDate": "Fri, 30 Oct 2026 06:16:07 -0400",
+      "source": "BleepingComputer"
     },
     {
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "pubDate": "Thu, 29 Oct 2026 19:12:40 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-      "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-      "pubDate": "Thu, 29 Oct 2026 17:09:41 +0530",
-      "source": "The Hacker News"
+      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+      "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "pubDate": "Fri, 30 Oct 2026 05:18:13 -0400",
+      "source": "BleepingComputer"
     },
     {
       "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
       "pubDate": "Thu, 29 Oct 2026 19:35:52 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Binance probes potential $5.8 billion crypto-theft hack",
-      "link": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-      "pubDate": "Thu, 29 Oct 2026 18:45:23 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-      "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-      "pubDate": "Thu, 29 Oct 2026 18:09:24 -0400",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-      "link": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-      "pubDate": "Thu, 29 Oct 2026 18:08:04 -0400",
       "source": "BleepingComputer"
     }
   ]
