@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T16:40:41Z",
+  "updated": "2026-10-31T20:52:56Z",
   "items": [
     {
       "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
@@ -26,6 +26,12 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "pubDate": "Sat, 31 Oct 2026 14:01:12 -0400",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
       "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
       "pubDate": "Sat, 31 Oct 2026 11:35:11 -0400",
@@ -48,12 +54,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
       "pubDate": "Sat, 31 Oct 2026 08:50:09 -0400",
       "source": "BleepingComputer"
-    },
-    {
-      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-      "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-      "pubDate": "Fri, 30 Oct 2026 22:28:44 +0530",
-      "source": "The Hacker News"
     }
   ]
 }
