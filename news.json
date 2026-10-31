@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-31T03:42:49Z",
+  "updated": "2026-10-31T11:33:11Z",
   "items": [
+    {
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "pubDate": "Sat, 31 Oct 2026 13:57:43 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "pubDate": "Sat, 31 Oct 2026 11:03:41 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "pubDate": "Sat, 31 Oct 2026 10:26:12 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
       "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
@@ -11,24 +29,6 @@
       "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
       "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
       "pubDate": "Fri, 30 Oct 2026 20:47:28 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-      "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-      "pubDate": "Fri, 30 Oct 2026 19:38:14 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-      "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-      "pubDate": "Fri, 30 Oct 2026 17:51:56 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-      "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-      "pubDate": "Fri, 30 Oct 2026 17:28:53 +0530",
       "source": "The Hacker News"
     },
     {
