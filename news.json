@@ -1,35 +1,47 @@
 {
-  "updated": "2026-11-03T00:21:18Z",
+  "updated": "2026-11-03T13:28:11Z",
   "items": [
     {
-      "title": "\u26a1 Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-      "pubDate": "Mon, 02 Nov 2026 22:27:56 +0530",
+      "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+      "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+      "pubDate": "Tue, 03 Nov 2026 16:53:53 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-      "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-      "pubDate": "Mon, 02 Nov 2026 21:20:26 +0530",
+      "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+      "link": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+      "pubDate": "Tue, 03 Nov 2026 16:48:20 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-      "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "pubDate": "Mon, 02 Nov 2026 20:16:05 +0530",
+      "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+      "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+      "pubDate": "Tue, 03 Nov 2026 16:30:45 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-      "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-      "pubDate": "Mon, 02 Nov 2026 17:20:00 +0530",
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "pubDate": "Tue, 03 Nov 2026 14:01:48 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-      "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-      "pubDate": "Mon, 02 Nov 2026 17:00:00 +0530",
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "pubDate": "Tue, 03 Nov 2026 13:13:07 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
+      "link": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+      "pubDate": "Tue, 03 Nov 2026 07:05:52 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Harvard University data breach exposed info of 851,000 accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+      "pubDate": "Tue, 03 Nov 2026 05:53:25 -0500",
+      "source": "BleepingComputer"
     },
     {
       "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
@@ -41,18 +53,6 @@
       "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
       "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
       "pubDate": "Mon, 02 Nov 2026 14:00:45 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-      "link": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-      "pubDate": "Mon, 02 Nov 2026 13:16:34 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
-      "link": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-      "pubDate": "Mon, 02 Nov 2026 10:03:07 -0500",
       "source": "BleepingComputer"
     }
   ]
