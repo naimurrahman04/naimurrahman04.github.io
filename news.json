@@ -1,6 +1,30 @@
 {
-  "updated": "2026-11-04T13:38:51Z",
+  "updated": "2026-11-04T23:05:41Z",
   "items": [
+    {
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "pubDate": "Wed, 04 Nov 2026 22:30:46 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "pubDate": "Wed, 04 Nov 2026 22:30:38 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "pubDate": "Wed, 04 Nov 2026 21:36:43 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "pubDate": "Wed, 04 Nov 2026 19:57:52 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
       "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
@@ -8,51 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-      "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-      "pubDate": "Wed, 04 Nov 2026 17:16:27 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-      "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-      "pubDate": "Wed, 04 Nov 2026 17:04:20 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-      "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-      "pubDate": "Wed, 04 Nov 2026 16:54:31 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-      "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-      "pubDate": "Wed, 04 Nov 2026 13:47:11 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "US charges two Canadians accused of hacking US universities",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
-      "pubDate": "Wed, 04 Nov 2026 08:13:20 -0500",
+      "title": "Vercel rolls out new protection against stolen session cookie attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "pubDate": "Wed, 04 Nov 2026 16:31:18 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-      "pubDate": "Wed, 04 Nov 2026 07:11:05 -0500",
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "pubDate": "Wed, 04 Nov 2026 15:58:19 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-      "pubDate": "Wed, 04 Nov 2026 04:39:54 -0500",
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "pubDate": "Wed, 04 Nov 2026 14:05:19 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
-      "pubDate": "Tue, 03 Nov 2026 17:18:50 -0500",
+      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+      "link": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+      "pubDate": "Wed, 04 Nov 2026 13:02:56 -0500",
       "source": "BleepingComputer"
     }
   ]
