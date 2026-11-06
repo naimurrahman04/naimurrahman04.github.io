@@ -1,6 +1,24 @@
 {
-  "updated": "2026-11-06T13:37:13Z",
+  "updated": "2026-11-06T22:37:48Z",
   "items": [
+    {
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "pubDate": "Fri, 06 Nov 2026 21:38:38 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "pubDate": "Fri, 06 Nov 2026 20:51:49 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "pubDate": "Fri, 06 Nov 2026 20:28:32 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
       "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
@@ -14,45 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "The Flood is Coming And The Pipes Were Already Full",
-      "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-      "pubDate": "Fri, 06 Nov 2026 17:00:00 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-      "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "pubDate": "Fri, 06 Nov 2026 13:34:49 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-      "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-      "pubDate": "Fri, 06 Nov 2026 11:28:54 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-      "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-      "pubDate": "Fri, 06 Nov 2026 07:37:22 -0500",
+      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+      "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+      "pubDate": "Fri, 06 Nov 2026 17:27:25 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-      "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
-      "pubDate": "Fri, 06 Nov 2026 04:22:28 -0500",
+      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+      "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+      "pubDate": "Fri, 06 Nov 2026 15:24:19 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
-      "pubDate": "Thu, 05 Nov 2026 19:56:44 -0500",
+      "title": "Fake security tools on GitHub push backdoors and infostealers",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+      "pubDate": "Fri, 06 Nov 2026 13:46:52 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
-      "pubDate": "Thu, 05 Nov 2026 16:30:30 -0500",
+      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+      "pubDate": "Fri, 06 Nov 2026 12:04:23 -0500",
       "source": "BleepingComputer"
     }
   ]
