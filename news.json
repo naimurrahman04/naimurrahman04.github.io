@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T23:09:54Z",
+  "updated": "2026-11-06T04:43:32Z",
   "items": [
     {
       "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
@@ -32,6 +32,12 @@
       "source": "The Hacker News"
     },
     {
+      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+      "pubDate": "Thu, 05 Nov 2026 19:56:44 -0500",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
       "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
       "pubDate": "Thu, 05 Nov 2026 16:30:30 -0500",
@@ -47,12 +53,6 @@
       "title": "OpenAI\u2019s GPT-6 Astra silently obstructed safety research tasks",
       "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
       "pubDate": "Thu, 05 Nov 2026 14:24:26 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-      "pubDate": "Thu, 05 Nov 2026 12:45:29 -0500",
       "source": "BleepingComputer"
     }
   ]
