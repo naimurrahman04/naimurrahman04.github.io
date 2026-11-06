@@ -1,35 +1,47 @@
 {
-  "updated": "2026-11-06T04:43:32Z",
+  "updated": "2026-11-06T13:37:13Z",
   "items": [
     {
-      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-      "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-      "pubDate": "Thu, 05 Nov 2026 22:12:46 +0530",
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "pubDate": "Fri, 06 Nov 2026 17:36:43 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-      "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
-      "pubDate": "Thu, 05 Nov 2026 22:12:32 +0530",
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "pubDate": "Fri, 06 Nov 2026 17:36:35 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-      "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-      "pubDate": "Thu, 05 Nov 2026 20:11:10 +0530",
+      "title": "The Flood is Coming And The Pipes Were Already Full",
+      "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+      "pubDate": "Fri, 06 Nov 2026 17:00:00 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-      "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
-      "pubDate": "Thu, 05 Nov 2026 17:55:00 +0530",
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "pubDate": "Fri, 06 Nov 2026 13:34:49 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-      "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-      "pubDate": "Thu, 05 Nov 2026 17:38:54 +0530",
+      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+      "pubDate": "Fri, 06 Nov 2026 11:28:54 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+      "pubDate": "Fri, 06 Nov 2026 07:37:22 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+      "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+      "pubDate": "Fri, 06 Nov 2026 04:22:28 -0500",
+      "source": "BleepingComputer"
     },
     {
       "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
@@ -41,18 +53,6 @@
       "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
       "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
       "pubDate": "Thu, 05 Nov 2026 16:30:30 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
-      "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
-      "pubDate": "Thu, 05 Nov 2026 15:15:08 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "OpenAI\u2019s GPT-6 Astra silently obstructed safety research tasks",
-      "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-      "pubDate": "Thu, 05 Nov 2026 14:24:26 -0500",
       "source": "BleepingComputer"
     }
   ]
