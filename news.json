@@ -1,6 +1,12 @@
 {
-  "updated": "2026-11-07T04:11:41Z",
+  "updated": "2026-11-07T12:16:31Z",
   "items": [
+    {
+      "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "pubDate": "Sat, 07 Nov 2026 12:14:17 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
       "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
@@ -23,12 +29,6 @@
       "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
       "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
       "pubDate": "Fri, 06 Nov 2026 17:36:43 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-      "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-      "pubDate": "Fri, 06 Nov 2026 17:36:35 +0530",
       "source": "The Hacker News"
     },
     {
