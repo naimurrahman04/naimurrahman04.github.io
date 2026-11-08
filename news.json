@@ -1,6 +1,12 @@
 {
-  "updated": "2026-11-08T12:37:41Z",
+  "updated": "2026-11-08T21:34:31Z",
   "items": [
+    {
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "pubDate": "Sun, 08 Nov 2026 10:43:08 -0500",
+      "source": "BleepingComputer"
+    },
     {
       "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
       "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
@@ -47,12 +53,6 @@
       "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
       "pubDate": "Fri, 06 Nov 2026 19:00:55 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-      "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-      "pubDate": "Fri, 06 Nov 2026 17:27:25 -0500",
       "source": "BleepingComputer"
     }
   ]
