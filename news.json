@@ -1,58 +1,58 @@
 {
-  "updated": "2026-11-10T01:04:08Z",
+  "updated": "2026-11-10T14:08:37Z",
   "items": [
     {
-      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-      "pubDate": "Mon, 09 Nov 2026 23:21:21 +0530",
+      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+      "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+      "pubDate": "Tue, 10 Nov 2026 17:45:31 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-      "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-      "pubDate": "Mon, 09 Nov 2026 23:06:28 +0530",
+      "title": "Beyond the Alert: The Case for Rich Network Data",
+      "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
+      "pubDate": "Tue, 10 Nov 2026 17:08:13 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-      "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-      "pubDate": "Mon, 09 Nov 2026 20:01:29 +0530",
+      "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+      "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+      "pubDate": "Tue, 10 Nov 2026 15:46:51 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "\u26a1 Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
-      "pubDate": "Mon, 09 Nov 2026 18:58:25 +0530",
+      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+      "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+      "pubDate": "Tue, 10 Nov 2026 15:37:29 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-      "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
-      "pubDate": "Mon, 09 Nov 2026 16:57:53 +0530",
+      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+      "pubDate": "Tue, 10 Nov 2026 15:32:40 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-      "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-      "pubDate": "Mon, 09 Nov 2026 18:52:12 -0500",
+      "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+      "pubDate": "Tue, 10 Nov 2026 07:07:03 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-      "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-      "pubDate": "Mon, 09 Nov 2026 17:09:33 -0500",
+      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+      "pubDate": "Tue, 10 Nov 2026 05:10:20 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-      "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-      "pubDate": "Mon, 09 Nov 2026 16:26:25 -0500",
+      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+      "link": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+      "pubDate": "Tue, 10 Nov 2026 05:04:32 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "York University breach exposed personal information dating to 2007",
-      "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
-      "pubDate": "Mon, 09 Nov 2026 16:22:31 -0500",
+      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+      "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+      "pubDate": "Tue, 10 Nov 2026 03:51:25 -0500",
       "source": "BleepingComputer"
     }
   ]
