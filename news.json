@@ -1,6 +1,24 @@
 {
-  "updated": "2026-11-09T14:55:38Z",
+  "updated": "2026-11-10T01:04:08Z",
   "items": [
+    {
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "pubDate": "Mon, 09 Nov 2026 23:21:21 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+      "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+      "pubDate": "Mon, 09 Nov 2026 23:06:28 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+      "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+      "pubDate": "Mon, 09 Nov 2026 20:01:29 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "\u26a1 Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
       "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
@@ -14,45 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
-      "link": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
-      "pubDate": "Mon, 09 Nov 2026 16:26:25 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-      "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-      "pubDate": "Mon, 09 Nov 2026 15:31:21 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-      "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-      "pubDate": "Mon, 09 Nov 2026 14:31:50 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
-      "pubDate": "Mon, 09 Nov 2026 09:34:03 -0500",
+      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+      "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+      "pubDate": "Mon, 09 Nov 2026 18:52:12 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
-      "link": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
-      "pubDate": "Mon, 09 Nov 2026 08:28:56 -0500",
+      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+      "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+      "pubDate": "Mon, 09 Nov 2026 17:09:33 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Ukraine dismantles crypto scam network that stole \u20ac4.3 million",
-      "link": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
-      "pubDate": "Mon, 09 Nov 2026 07:16:13 -0500",
+      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+      "pubDate": "Mon, 09 Nov 2026 16:26:25 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-      "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-      "pubDate": "Sun, 08 Nov 2026 10:43:08 -0500",
+      "title": "York University breach exposed personal information dating to 2007",
+      "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+      "pubDate": "Mon, 09 Nov 2026 16:22:31 -0500",
       "source": "BleepingComputer"
     }
   ]
