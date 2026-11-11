@@ -1,6 +1,24 @@
 {
-  "updated": "2026-11-11T13:24:59Z",
+  "updated": "2026-11-11T23:56:32Z",
   "items": [
+    {
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "pubDate": "Wed, 11 Nov 2026 21:42:46 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "pubDate": "Wed, 11 Nov 2026 21:04:27 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "pubDate": "Wed, 11 Nov 2026 19:31:00 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
       "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
@@ -14,45 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-      "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-      "pubDate": "Wed, 11 Nov 2026 17:30:53 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-      "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-      "pubDate": "Wed, 11 Nov 2026 13:47:53 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-      "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-      "pubDate": "Wed, 11 Nov 2026 13:19:04 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-      "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-      "pubDate": "Wed, 11 Nov 2026 07:32:27 -0500",
+      "title": "Baker Tilly notifies clients of data breach at third-party provider",
+      "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "pubDate": "Wed, 11 Nov 2026 18:01:31 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft fixes audio issues caused by September security updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-      "pubDate": "Wed, 11 Nov 2026 06:18:36 -0500",
+      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+      "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+      "pubDate": "Wed, 11 Nov 2026 17:56:21 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-      "pubDate": "Wed, 11 Nov 2026 05:12:08 -0500",
+      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "pubDate": "Wed, 11 Nov 2026 16:27:40 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-      "pubDate": "Wed, 11 Nov 2026 04:07:27 -0500",
+      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+      "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "pubDate": "Wed, 11 Nov 2026 15:54:20 -0500",
       "source": "BleepingComputer"
     }
   ]
