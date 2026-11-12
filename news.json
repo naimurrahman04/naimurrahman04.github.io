@@ -1,58 +1,58 @@
 {
-  "updated": "2026-11-12T05:48:12Z",
+  "updated": "2026-11-12T14:29:13Z",
   "items": [
     {
-      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-      "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-      "pubDate": "Thu, 12 Nov 2026 10:42:26 +0530",
+      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+      "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+      "pubDate": "Thu, 12 Nov 2026 17:39:14 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-      "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-      "pubDate": "Thu, 12 Nov 2026 10:09:48 +0530",
+      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "pubDate": "Thu, 12 Nov 2026 17:32:51 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-      "pubDate": "Wed, 11 Nov 2026 21:42:46 +0530",
+      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "pubDate": "Thu, 12 Nov 2026 17:21:43 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-      "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-      "pubDate": "Wed, 11 Nov 2026 21:04:27 +0530",
+      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+      "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+      "pubDate": "Thu, 12 Nov 2026 17:21:31 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-      "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-      "pubDate": "Wed, 11 Nov 2026 19:31:00 +0530",
+      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+      "pubDate": "Thu, 12 Nov 2026 17:03:15 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+      "pubDate": "Thu, 12 Nov 2026 07:11:11 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Microsoft confirms Windows security updates installation issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+      "pubDate": "Thu, 12 Nov 2026 05:24:07 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Hackers plant GSocket on Linux servers for persistent access",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+      "pubDate": "Thu, 12 Nov 2026 04:38:00 -0500",
+      "source": "BleepingComputer"
     },
     {
       "title": "Baker Tilly notifies clients of data breach at third-party provider",
       "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
       "pubDate": "Wed, 11 Nov 2026 18:01:31 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-      "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-      "pubDate": "Wed, 11 Nov 2026 17:56:21 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-      "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-      "pubDate": "Wed, 11 Nov 2026 16:27:40 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-      "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-      "pubDate": "Wed, 11 Nov 2026 15:54:20 -0500",
       "source": "BleepingComputer"
     }
   ]
