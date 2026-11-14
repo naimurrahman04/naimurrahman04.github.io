@@ -1,6 +1,12 @@
 {
-  "updated": "2026-11-14T04:34:50Z",
+  "updated": "2026-11-14T12:51:12Z",
   "items": [
+    {
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "pubDate": "Sat, 14 Nov 2026 18:08:35 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
       "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
@@ -23,12 +29,6 @@
       "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
       "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
       "pubDate": "Fri, 13 Nov 2026 19:24:20 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-      "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-      "pubDate": "Fri, 13 Nov 2026 17:22:31 +0530",
       "source": "The Hacker News"
     },
     {
