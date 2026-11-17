@@ -1,58 +1,58 @@
 {
-  "updated": "2026-11-17T01:26:32Z",
+  "updated": "2026-11-17T15:22:32Z",
   "items": [
     {
-      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-      "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-      "pubDate": "Mon, 16 Nov 2026 19:30:00 +0530",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "pubDate": "Tue, 17 Nov 2026 17:55:06 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "\u26a1 Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-      "pubDate": "Mon, 16 Nov 2026 18:57:20 +0530",
+      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+      "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+      "pubDate": "Tue, 17 Nov 2026 17:44:36 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-      "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-      "pubDate": "Mon, 16 Nov 2026 18:04:21 +0530",
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "pubDate": "Tue, 17 Nov 2026 16:50:18 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-      "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-      "pubDate": "Mon, 16 Nov 2026 18:03:18 +0530",
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "pubDate": "Tue, 17 Nov 2026 16:37:31 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-      "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-      "pubDate": "Mon, 16 Nov 2026 15:02:57 +0530",
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "pubDate": "Tue, 17 Nov 2026 12:42:13 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-      "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-      "pubDate": "Mon, 16 Nov 2026 17:54:00 -0500",
+      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+      "pubDate": "Tue, 17 Nov 2026 10:01:11 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-      "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-      "pubDate": "Mon, 16 Nov 2026 16:31:44 -0500",
+      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+      "pubDate": "Tue, 17 Nov 2026 06:19:51 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-      "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-      "pubDate": "Mon, 16 Nov 2026 15:59:44 -0500",
+      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+      "link": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+      "pubDate": "Tue, 17 Nov 2026 04:44:22 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-      "pubDate": "Mon, 16 Nov 2026 14:57:13 -0500",
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+      "link": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+      "pubDate": "Tue, 17 Nov 2026 03:35:42 -0500",
       "source": "BleepingComputer"
     }
   ]
