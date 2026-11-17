@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-16T14:31:43Z",
+  "updated": "2026-11-17T01:26:32Z",
   "items": [
+    {
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "pubDate": "Mon, 16 Nov 2026 19:30:00 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "\u26a1 Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "pubDate": "Mon, 16 Nov 2026 18:57:20 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
       "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
@@ -20,39 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-      "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-      "pubDate": "Mon, 16 Nov 2026 13:04:21 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-      "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-      "pubDate": "Mon, 16 Nov 2026 12:23:34 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Google warns that fully-automated AI attacks are coming soon",
-      "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-      "pubDate": "Mon, 16 Nov 2026 09:00:00 -0500",
+      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+      "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+      "pubDate": "Mon, 16 Nov 2026 17:54:00 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-      "pubDate": "Mon, 16 Nov 2026 07:53:18 -0500",
+      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+      "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+      "pubDate": "Mon, 16 Nov 2026 16:31:44 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Australian retail giant Coles investigates cybersecurity incident",
-      "link": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-      "pubDate": "Mon, 16 Nov 2026 06:18:09 -0500",
+      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+      "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+      "pubDate": "Mon, 16 Nov 2026 15:59:44 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Anthropic\u2019s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-      "pubDate": "Mon, 16 Nov 2026 06:00:00 -0500",
+      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+      "pubDate": "Mon, 16 Nov 2026 14:57:13 -0500",
       "source": "BleepingComputer"
     }
   ]
