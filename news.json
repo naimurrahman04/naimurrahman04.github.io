@@ -1,6 +1,24 @@
 {
-  "updated": "2026-11-17T15:22:32Z",
+  "updated": "2026-11-18T00:23:19Z",
   "items": [
+    {
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram\u2019s New Android Defenses",
+      "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "pubDate": "Wed, 18 Nov 2026 01:04:20 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "pubDate": "Tue, 17 Nov 2026 20:47:36 +0530",
+      "source": "The Hacker News"
+    },
+    {
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "pubDate": "Tue, 17 Nov 2026 20:47:28 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
       "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
@@ -14,45 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-      "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-      "pubDate": "Tue, 17 Nov 2026 16:50:18 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-      "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-      "pubDate": "Tue, 17 Nov 2026 16:37:31 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-      "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-      "pubDate": "Tue, 17 Nov 2026 12:42:13 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
-      "pubDate": "Tue, 17 Nov 2026 10:01:11 -0500",
+      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+      "pubDate": "Tue, 17 Nov 2026 18:04:21 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-      "pubDate": "Tue, 17 Nov 2026 06:19:51 -0500",
+      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+      "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+      "pubDate": "Tue, 17 Nov 2026 16:27:17 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-      "link": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-      "pubDate": "Tue, 17 Nov 2026 04:44:22 -0500",
+      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+      "pubDate": "Tue, 17 Nov 2026 15:51:21 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-      "pubDate": "Tue, 17 Nov 2026 03:35:42 -0500",
+      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+      "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+      "pubDate": "Tue, 17 Nov 2026 14:24:07 -0500",
       "source": "BleepingComputer"
     }
   ]
