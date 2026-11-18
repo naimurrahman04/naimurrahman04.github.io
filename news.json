@@ -1,58 +1,58 @@
 {
-  "updated": "2026-11-18T00:23:19Z",
+  "updated": "2026-11-18T14:57:15Z",
   "items": [
     {
-      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram\u2019s New Android Defenses",
-      "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-      "pubDate": "Wed, 18 Nov 2026 01:04:20 +0530",
+      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+      "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+      "pubDate": "Wed, 18 Nov 2026 17:58:30 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-      "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-      "pubDate": "Tue, 17 Nov 2026 20:47:36 +0530",
+      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+      "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+      "pubDate": "Wed, 18 Nov 2026 17:45:00 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-      "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-      "pubDate": "Tue, 17 Nov 2026 20:47:28 +0530",
+      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "pubDate": "Wed, 18 Nov 2026 17:25:49 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-      "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-      "pubDate": "Tue, 17 Nov 2026 17:55:06 +0530",
+      "title": "Quality Isn\u2019t The Main Worry About AI Pentesting \u2014 Data Privacy and Production Safety Are",
+      "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+      "pubDate": "Wed, 18 Nov 2026 16:33:57 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-      "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-      "pubDate": "Tue, 17 Nov 2026 17:44:36 +0530",
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "pubDate": "Wed, 18 Nov 2026 13:54:31 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-      "pubDate": "Tue, 17 Nov 2026 18:04:21 -0500",
+      "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+      "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+      "pubDate": "Wed, 18 Nov 2026 06:50:25 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-      "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-      "pubDate": "Tue, 17 Nov 2026 16:27:17 -0500",
+      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+      "pubDate": "Wed, 18 Nov 2026 05:35:05 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-      "pubDate": "Tue, 17 Nov 2026 15:51:21 -0500",
+      "title": "Microsoft announces Windows Server 2028 with hardened security",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+      "pubDate": "Wed, 18 Nov 2026 04:24:31 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-      "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
-      "pubDate": "Tue, 17 Nov 2026 14:24:07 -0500",
+      "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+      "pubDate": "Wed, 18 Nov 2026 03:24:18 -0500",
       "source": "BleepingComputer"
     }
   ]
