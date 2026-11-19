@@ -1,6 +1,12 @@
 {
-  "updated": "2026-11-18T23:47:37Z",
+  "updated": "2026-11-19T05:33:06Z",
   "items": [
+    {
+      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+      "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+      "pubDate": "Thu, 19 Nov 2026 10:03:46 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
       "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
@@ -23,12 +29,6 @@
       "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
       "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
       "pubDate": "Wed, 18 Nov 2026 19:41:28 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-      "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-      "pubDate": "Wed, 18 Nov 2026 17:58:30 +0530",
       "source": "The Hacker News"
     },
     {
