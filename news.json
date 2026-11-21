@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-21T05:13:23Z",
+  "updated": "2026-11-21T14:01:22Z",
   "items": [
     {
-      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-      "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-      "pubDate": "Fri, 20 Nov 2026 23:27:20 +0530",
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "pubDate": "Sat, 21 Nov 2026 17:23:07 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-      "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "pubDate": "Fri, 20 Nov 2026 22:28:16 +0530",
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "pubDate": "Sat, 21 Nov 2026 16:35:53 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-      "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-      "pubDate": "Fri, 20 Nov 2026 17:50:00 +0530",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "pubDate": "Sat, 21 Nov 2026 16:33:17 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "The Path to AI Autonomy in the SOC",
-      "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
-      "pubDate": "Fri, 20 Nov 2026 17:30:00 +0530",
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "pubDate": "Sat, 21 Nov 2026 14:19:20 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-      "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-      "pubDate": "Fri, 20 Nov 2026 16:08:22 +0530",
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "pubDate": "Sat, 21 Nov 2026 14:19:13 +0530",
       "source": "The Hacker News"
     },
     {
