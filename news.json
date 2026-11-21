@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T14:01:22Z",
+  "updated": "2026-11-21T22:41:14Z",
   "items": [
     {
       "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
@@ -32,27 +32,27 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "pubDate": "Sat, 21 Nov 2026 13:01:58 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "pubDate": "Sat, 21 Nov 2026 10:17:27 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "pubDate": "Sat, 21 Nov 2026 09:26:04 -0500",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
       "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
       "pubDate": "Fri, 20 Nov 2026 13:51:43 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "pubDate": "Fri, 20 Nov 2026 12:30:00 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-      "pubDate": "Fri, 20 Nov 2026 10:58:06 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Still tracking company passwords in spreadsheets? You\u2019re flying blind.",
-      "link": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-      "pubDate": "Fri, 20 Nov 2026 10:00:10 -0500",
       "source": "BleepingComputer"
     }
   ]
