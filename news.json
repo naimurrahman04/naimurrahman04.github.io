@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T22:41:14Z",
+  "updated": "2026-11-22T04:39:48Z",
   "items": [
     {
       "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
@@ -32,6 +32,12 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "pubDate": "Sat, 21 Nov 2026 17:59:58 -0500",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
       "pubDate": "Sat, 21 Nov 2026 13:01:58 -0500",
@@ -47,12 +53,6 @@
       "title": "FBI reportedly hacked again, this time targeting nationwide police database",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
       "pubDate": "Sat, 21 Nov 2026 09:26:04 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-      "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-      "pubDate": "Fri, 20 Nov 2026 13:51:43 -0500",
       "source": "BleepingComputer"
     }
   ]
