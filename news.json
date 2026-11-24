@@ -1,58 +1,58 @@
 {
-  "updated": "2026-11-24T03:42:33Z",
+  "updated": "2026-11-24T16:51:15Z",
   "items": [
     {
-      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-      "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
-      "pubDate": "Mon, 23 Nov 2026 23:15:15 +0530",
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "pubDate": "Tue, 24 Nov 2026 18:58:26 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "\u26a1 Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
-      "pubDate": "Mon, 23 Nov 2026 20:40:48 +0530",
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "pubDate": "Tue, 24 Nov 2026 18:58:21 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
-      "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
-      "pubDate": "Mon, 23 Nov 2026 18:52:20 +0530",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "pubDate": "Tue, 24 Nov 2026 18:12:09 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-      "pubDate": "Mon, 23 Nov 2026 18:11:04 +0530",
+      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+      "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+      "pubDate": "Tue, 24 Nov 2026 17:32:00 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-      "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
-      "pubDate": "Mon, 23 Nov 2026 17:58:09 +0530",
+      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+      "pubDate": "Tue, 24 Nov 2026 17:31:54 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "South Korea\u2019s power giant KEPCO confirms data breach impacting 1.5 million",
-      "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-      "pubDate": "Mon, 23 Nov 2026 15:54:51 -0500",
+      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+      "pubDate": "Tue, 24 Nov 2026 11:30:19 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
-      "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
-      "pubDate": "Mon, 23 Nov 2026 15:00:20 -0500",
+      "title": "European Commission confirms data theft in EU Academy breach",
+      "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+      "pubDate": "Tue, 24 Nov 2026 11:22:44 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-      "pubDate": "Mon, 23 Nov 2026 14:42:20 -0500",
+      "title": "Hackers compromise Check Point Servers in 22 organizations",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+      "pubDate": "Tue, 24 Nov 2026 11:15:23 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Spanish LaLiga confirms hackers stole soccer fans\u2019 personal data",
-      "link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-      "pubDate": "Mon, 23 Nov 2026 13:38:40 -0500",
+      "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+      "link": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+      "pubDate": "Tue, 24 Nov 2026 10:10:10 -0500",
       "source": "BleepingComputer"
     }
   ]
