@@ -1,6 +1,12 @@
 {
-  "updated": "2026-11-23T17:07:23Z",
+  "updated": "2026-11-24T03:42:33Z",
   "items": [
+    {
+      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+      "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+      "pubDate": "Mon, 23 Nov 2026 23:15:15 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "\u26a1 Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
       "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
@@ -26,33 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-      "pubDate": "Mon, 23 Nov 2026 14:41:56 +0530",
-      "source": "The Hacker News"
-    },
-    {
-      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
-      "link": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
-      "pubDate": "Mon, 23 Nov 2026 11:50:01 -0500",
+      "title": "South Korea\u2019s power giant KEPCO confirms data breach impacting 1.5 million",
+      "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+      "pubDate": "Mon, 23 Nov 2026 15:54:51 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "AI Agents Are Creating a Shared Responsibility Gap",
-      "link": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
-      "pubDate": "Mon, 23 Nov 2026 10:00:10 -0500",
+      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+      "pubDate": "Mon, 23 Nov 2026 15:00:20 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
-      "pubDate": "Mon, 23 Nov 2026 08:28:45 -0500",
+      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+      "pubDate": "Mon, 23 Nov 2026 14:42:20 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
-      "link": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
-      "pubDate": "Mon, 23 Nov 2026 07:02:23 -0500",
+      "title": "Spanish LaLiga confirms hackers stole soccer fans\u2019 personal data",
+      "link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+      "pubDate": "Mon, 23 Nov 2026 13:38:40 -0500",
       "source": "BleepingComputer"
     }
   ]
