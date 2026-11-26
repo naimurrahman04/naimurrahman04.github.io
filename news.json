@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T16:39:30Z",
+  "updated": "2026-11-26T01:26:36Z",
   "items": [
     {
       "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
@@ -32,27 +32,27 @@
       "source": "The Hacker News"
     },
     {
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "pubDate": "Wed, 25 Nov 2026 17:05:09 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "1Password customer data stolen after employee GitHub account breach",
+      "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "pubDate": "Wed, 25 Nov 2026 16:33:33 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+      "pubDate": "Wed, 25 Nov 2026 14:39:31 -0500",
+      "source": "BleepingComputer"
+    },
+    {
       "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
       "pubDate": "Wed, 25 Nov 2026 11:13:40 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-      "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-      "pubDate": "Wed, 25 Nov 2026 10:00:10 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-      "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-      "pubDate": "Wed, 25 Nov 2026 10:00:00 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-      "pubDate": "Wed, 25 Nov 2026 06:16:32 -0500",
       "source": "BleepingComputer"
     }
   ]
