@@ -1,35 +1,47 @@
 {
-  "updated": "2026-11-26T01:26:36Z",
+  "updated": "2026-11-26T16:12:39Z",
   "items": [
     {
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-      "pubDate": "Wed, 25 Nov 2026 18:18:54 +0530",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "pubDate": "Thu, 26 Nov 2026 20:43:41 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-      "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
-      "pubDate": "Wed, 25 Nov 2026 18:00:08 +0530",
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "pubDate": "Thu, 26 Nov 2026 16:27:55 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Credential Remediation Is Slow When You Don\u2019t Know What Will Break",
-      "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
-      "pubDate": "Wed, 25 Nov 2026 17:21:48 +0530",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "pubDate": "Thu, 26 Nov 2026 16:27:25 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-      "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "pubDate": "Wed, 25 Nov 2026 16:53:26 +0530",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "pubDate": "Thu, 26 Nov 2026 12:32:34 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
-      "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
-      "pubDate": "Wed, 25 Nov 2026 16:13:07 +0530",
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "pubDate": "Thu, 26 Nov 2026 12:14:46 +0530",
       "source": "The Hacker News"
+    },
+    {
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "pubDate": "Thu, 26 Nov 2026 10:23:28 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "pubDate": "Thu, 26 Nov 2026 06:50:17 -0500",
+      "source": "BleepingComputer"
     },
     {
       "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
@@ -41,18 +53,6 @@
       "title": "1Password customer data stolen after employee GitHub account breach",
       "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
       "pubDate": "Wed, 25 Nov 2026 16:33:33 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-      "pubDate": "Wed, 25 Nov 2026 14:39:31 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-      "pubDate": "Wed, 25 Nov 2026 11:13:40 -0500",
       "source": "BleepingComputer"
     }
   ]
