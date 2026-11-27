@@ -1,58 +1,58 @@
 {
-  "updated": "2026-11-27T01:24:21Z",
+  "updated": "2026-11-27T15:58:20Z",
   "items": [
     {
-      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
-      "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
-      "pubDate": "Fri, 27 Nov 2026 01:09:57 +0530",
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "pubDate": "Fri, 27 Nov 2026 17:19:34 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-      "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
-      "pubDate": "Thu, 26 Nov 2026 20:43:41 +0530",
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "pubDate": "Fri, 27 Nov 2026 16:02:18 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
-      "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
-      "pubDate": "Thu, 26 Nov 2026 16:27:55 +0530",
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "pubDate": "Fri, 27 Nov 2026 14:59:30 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-      "pubDate": "Thu, 26 Nov 2026 16:27:25 +0530",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "pubDate": "Fri, 27 Nov 2026 11:34:20 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-      "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-      "pubDate": "Thu, 26 Nov 2026 12:32:34 +0530",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "pubDate": "Fri, 27 Nov 2026 11:18:20 +0530",
       "source": "The Hacker News"
     },
     {
-      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
-      "pubDate": "Thu, 26 Nov 2026 16:06:22 -0500",
+      "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "pubDate": "Fri, 27 Nov 2026 10:09:40 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
-      "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
-      "pubDate": "Thu, 26 Nov 2026 12:58:42 -0500",
+      "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+      "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+      "pubDate": "Fri, 27 Nov 2026 10:00:10 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
-      "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
-      "pubDate": "Thu, 26 Nov 2026 12:15:27 -0500",
+      "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+      "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+      "pubDate": "Fri, 27 Nov 2026 09:22:06 -0500",
       "source": "BleepingComputer"
     },
     {
-      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-      "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-      "pubDate": "Thu, 26 Nov 2026 10:23:28 -0500",
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "pubDate": "Fri, 27 Nov 2026 06:18:36 -0500",
       "source": "BleepingComputer"
     }
   ]
