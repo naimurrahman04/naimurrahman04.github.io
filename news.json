@@ -1,6 +1,12 @@
 {
-  "updated": "2026-11-27T15:58:20Z",
+  "updated": "2026-11-28T00:57:24Z",
   "items": [
+    {
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "pubDate": "Fri, 27 Nov 2026 22:06:11 +0530",
+      "source": "The Hacker News"
+    },
     {
       "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
       "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
@@ -26,33 +32,27 @@
       "source": "The Hacker News"
     },
     {
-      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
-      "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
-      "pubDate": "Fri, 27 Nov 2026 11:18:20 +0530",
-      "source": "The Hacker News"
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "pubDate": "Fri, 27 Nov 2026 14:26:04 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "New Boston Scientific data breach exposes personal, medical info",
+      "link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "pubDate": "Fri, 27 Nov 2026 13:57:42 -0500",
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "pubDate": "Fri, 27 Nov 2026 12:06:13 -0500",
+      "source": "BleepingComputer"
     },
     {
       "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
       "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
       "pubDate": "Fri, 27 Nov 2026 10:09:40 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
-      "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
-      "pubDate": "Fri, 27 Nov 2026 10:00:10 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
-      "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
-      "pubDate": "Fri, 27 Nov 2026 09:22:06 -0500",
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft removes WSUS server role in Windows Server 2028",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
-      "pubDate": "Fri, 27 Nov 2026 06:18:36 -0500",
       "source": "BleepingComputer"
     }
   ]
